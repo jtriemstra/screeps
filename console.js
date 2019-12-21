@@ -1,2 +1,2 @@
-Game.creeps['Harvester1'].memory.role = 'harvester';
-Game.creeps['Upgrader1'].memory.role = 'upgrader';
+Game.spawns['Spawn1'].spawnCreep( [WORK, CARRY, MOVE], 'Builder1',
+    { memory: { role: 'builder' } } );
