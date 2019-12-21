@@ -3,6 +3,13 @@ var roleUpgrader = require('role.upgrader');
 
 module.exports.loop = function () {
 
+    for(var name in Memory.creeps) {
+        if(!Game.creeps[name]) {
+            delete Memory.creeps[name];
+            console.log('Clearing non-existing creep memory:', name);
+        }
+    }
+
     var harvesters = _.filter(Game.creeps, (creep) => creep.memory.role == 'harvester');
     console.log('Harvesters: ' + harvesters.length);
 
@@ -10,7 +17,7 @@ module.exports.loop = function () {
         var newName = 'Harvester' + Game.time;
         console.log('Spawning new harvester: ' + newName);
         Game.spawns['Spawn1'].spawnCreep([WORK,CARRY,MOVE], newName, 
-            {memory: {role: 'harvester'}});        
+            {memory: {role: 'harvester'}});
     }
     
     if(Game.spawns['Spawn1'].spawning) { 
