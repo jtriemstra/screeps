@@ -3,6 +3,9 @@ var roleUpgrader = require('role.upgrader');
 var roleBuilder = require('role.builder');
 var spawner = require('spawner');
 var constants = require('constants');
+var sitecreator = require('sitecreator');
+
+Memory.currentStage = constants.UPGRADING;
 
 module.exports.loop = function () {
 
@@ -21,19 +24,34 @@ module.exports.loop = function () {
         }
     }*/
 	
-	spawner.run();
 	
+	var room;
+	var creepCount=0;
+	var upgraderCount=0;
 	for(var name in Game.creeps) {
         var creep = Game.creeps[name];
-        
+        room = creep.room;
 		if(creep.memory.role == constants.HARVESTER) {
             roleHarvester.run(creep);
         }
         if(creep.memory.role == constants.UPGRADER) {
-            roleUpgrader.run(creep);
+			upgraderCount++;
+			if (upgraderCount > 1 && Memory.currentStage == constants.BUILDING) {
+				creep.memory.role = constants.BUILDER;
+			}
+			else {
+				roleUpgrader.run(creep);
+			}
         }
         if(creep.memory.role == constants.BUILDER) {
             roleBuilder.run(creep);
         }
+        
+        creepCount++;
+		
+		
     }
+    spawner.run(creepCount);
+	
+	if (room) sitecreator.run(room);
 }

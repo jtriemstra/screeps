@@ -25,7 +25,7 @@ var roleHarvester = {
                 }
             }
 			else {
-				creep.memory.role = constants.UPGRADER;
+				//creep.memory.role = constants.UPGRADER;
 			}
         }
 	}

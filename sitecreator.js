@@ -4,11 +4,16 @@ var sitecreator = {
     run: function(room) {
 		var spawnX = Game.spawns['Spawn1'].pos.x;
 		var spawnY = Game.spawns['Spawn1'].pos.y;
-		room.createConstructionSite(spawnX - 1, spawnY, STRUCTURE_EXTENSION);
-		room.createConstructionSite(spawnX - 1, spawnY - 1, STRUCTURE_EXTENSION);
-		room.createConstructionSite(spawnX - 1, spawnY + 1, STRUCTURE_EXTENSION);
-		room.createConstructionSite(spawnX + 1, spawnY, STRUCTURE_EXTENSION);
-		room.createConstructionSite(spawnX + 1, spawnY + 1, STRUCTURE_EXTENSION);
+		var result = room.createConstructionSite(spawnX - 1, spawnY, STRUCTURE_EXTENSION);
+		
+		if (result == OK) {
+			room.createConstructionSite(spawnX - 1, spawnY - 1, STRUCTURE_EXTENSION);
+			room.createConstructionSite(spawnX - 1, spawnY + 1, STRUCTURE_EXTENSION);
+			room.createConstructionSite(spawnX + 1, spawnY, STRUCTURE_EXTENSION);
+			room.createConstructionSite(spawnX + 1, spawnY + 1, STRUCTURE_EXTENSION);
+			
+			memory.currentStage = constants.BUILDING;
+		}
 	}
 };
 

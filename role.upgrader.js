@@ -21,9 +21,9 @@ var roleUpgrader = {
                 creep.moveTo(creep.room.controller);
             }
 			else if (result == OK) {
-				if (creep.room.controller.level > originalLevel) {
-					siteCreator.run();
-				}	
+				//if (creep.room.controller.level > originalLevel) {
+				//	siteCreator.run(creep.room);
+				//}	
 			}
         }
         else {
@@ -34,7 +34,7 @@ var roleUpgrader = {
         }
 		
 	    if (creep.room.energyAvailable < creep.room.energyCapacityAvailable) {
-			creep.memory.role = constants.HARVESTER;
+			//creep.memory.role = constants.HARVESTER;
 		}
 	}
 };
