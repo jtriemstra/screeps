@@ -4,8 +4,11 @@ var roleBuilder = require('role.builder');
 var spawner = require('spawner');
 var constants = require('constants');
 var sitecreator = require('sitecreator');
+var roleMiner = require('role.miner');
+var roleCourier = require('role.courier');
 
-Memory.currentStage = constants.UPGRADING;
+//Memory.currentStage = constants.UPGRADING;
+console.log("reloading app");
 
 module.exports.loop = function () {
 
@@ -37,21 +40,33 @@ module.exports.loop = function () {
         if(creep.memory.role == constants.UPGRADER) {
 			upgraderCount++;
 			if (upgraderCount > 1 && Memory.currentStage == constants.BUILDING) {
+			    console.log("in building stage and converting upgrader " + upgraderCount);
 				creep.memory.role = constants.BUILDER;
 			}
 			else {
+			    if (Memory.currentStage == constants.BUILDING) {
+			        //console.log("in building stage but keeping upgrader " + upgraderCount);
+			    }
+			    else {
+			        console.log("upgrader " + upgraderCount + " with stage " + Memory.currentStage);
+			    }
 				roleUpgrader.run(creep);
 			}
         }
         if(creep.memory.role == constants.BUILDER) {
             roleBuilder.run(creep);
         }
-        
+        if(creep.memory.role == constants.MINER) {
+            roleMiner.run(creep);
+        }
+        if(creep.memory.role == constants.COURIER) {
+            roleCourier.run(creep);
+        }
         creepCount++;
 		
 		
     }
-    spawner.run(creepCount);
+    //spawner.run(creepCount);
 	
 	if (room) sitecreator.run(room);
 }
