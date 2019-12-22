@@ -1,3 +1,5 @@
+var constants = require('constants');
+
 var roleHarvester = {
 
     /** @param {Creep} creep **/
@@ -22,6 +24,9 @@ var roleHarvester = {
                     creep.moveTo(targets[0], {visualizePathStyle: {stroke: '#ffffff'}});
                 }
             }
+			else {
+				creep.memory.role = constants.UPGRADER;
+			}
         }
 	}
 };

@@ -2,6 +2,7 @@ var roleHarvester = require('role.harvester');
 var roleUpgrader = require('role.upgrader');
 var roleBuilder = require('role.builder');
 var spawner = require('spawner');
+var constants = require('constants');
 
 module.exports.loop = function () {
 
@@ -24,13 +25,14 @@ module.exports.loop = function () {
 	
 	for(var name in Game.creeps) {
         var creep = Game.creeps[name];
-        if(creep.memory.role == 'harvester') {
+        
+		if(creep.memory.role == constants.HARVESTER) {
             roleHarvester.run(creep);
         }
-        if(creep.memory.role == 'upgrader') {
+        if(creep.memory.role == constants.UPGRADER) {
             roleUpgrader.run(creep);
         }
-        if(creep.memory.role == 'builder') {
+        if(creep.memory.role == constants.BUILDER) {
             roleBuilder.run(creep);
         }
     }
