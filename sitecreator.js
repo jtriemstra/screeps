@@ -11,8 +11,8 @@ var sitecreator = {
 			room.createConstructionSite(spawnX - 1, spawnY + 1, STRUCTURE_EXTENSION);
 			room.createConstructionSite(spawnX + 1, spawnY, STRUCTURE_EXTENSION);
 			room.createConstructionSite(spawnX + 1, spawnY + 1, STRUCTURE_EXTENSION);
-			
-			memory.currentStage = constants.BUILDING;
+			console.log("setting stage to building at " + Game.time);
+			Memory.currentStage = constants.BUILDING;
 		}
 	}
 };

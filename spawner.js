@@ -7,8 +7,10 @@ var spawner = {
 		if(creepCount < 2) {
 			var newName = 'MoveHarvester' + Game.time;
 			//console.log('Spawning new harvester: ' + newName);
-			console.log(Game.spawns['Spawn1'].spawnCreep([WORK,CARRY,MOVE,MOVE], newName, 
-				{memory: {role: constants.HARVESTER}}));        
+			if(OK == Game.spawns['Spawn1'].spawnCreep([WORK,CARRY,MOVE,MOVE], newName, 
+				{memory: {role: constants.HARVESTER}})){
+				    console.log("created harvester at " + Game.time);
+				}        
 		}
 		/*else if(creepCount == 1) {
 			var newName = 'FastUpgrader';
@@ -20,8 +22,10 @@ var spawner = {
 		    
 			var newName = 'WorkUpgrader' + Game.time;
 			//console.log('Spawning new harvester: ' + newName);
-			console.log(Game.spawns['Spawn1'].spawnCreep([WORK,WORK,CARRY,MOVE], newName, 
-				{memory: {role: constants.UPGRADER}}));        
+			if (OK == Game.spawns['Spawn1'].spawnCreep([WORK,WORK,CARRY,MOVE], newName, 
+				{memory: {role: constants.UPGRADER}})){
+				    console.log("created upgrader/builder  " + Game.time);
+				}       
 		}
 	}
 };

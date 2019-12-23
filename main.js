@@ -8,7 +8,7 @@ var roleMiner = require('role.miner');
 var roleCourier = require('role.courier');
 
 //Memory.currentStage = constants.UPGRADING;
-console.log("reloading app");
+//console.log("reloading app");
 
 module.exports.loop = function () {
 
@@ -48,7 +48,7 @@ module.exports.loop = function () {
 			        //console.log("in building stage but keeping upgrader " + upgraderCount);
 			    }
 			    else {
-			        console.log("upgrader " + upgraderCount + " with stage " + Memory.currentStage);
+			        //console.log("upgrader " + upgraderCount + " with stage " + Memory.currentStage);
 			    }
 				roleUpgrader.run(creep);
 			}
@@ -66,7 +66,7 @@ module.exports.loop = function () {
 		
 		
     }
-    //spawner.run(creepCount);
+    spawner.run(creepCount);
 	
 	if (room) sitecreator.run(room);
 }
