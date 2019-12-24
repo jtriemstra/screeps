@@ -7,7 +7,7 @@ var roleHarvester = {
 	    if(creep.store.getFreeCapacity() > 0) {
             var sources = creep.room.find(FIND_MY_CREEPS, {
                     filter: (minerCreep) => {
-                        return minerCreep.memory.role == constants.MINER;
+                        return minerCreep.memory.role == constants.MINER && minerCreep.store.getFreeCapacity() == 0;
                     }
             });
             
