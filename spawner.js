@@ -40,14 +40,14 @@ var spawner = {
 				    console.log("created miner  " + Game.time);
 				}
 		}
-		else if (room.energyAvailable >= 300 && room.energyAvailable <= 400 ) {
+		/*else if (room.energyAvailable >= 300 && room.energyAvailable <= 400 ) {
 			var newName = 'WorkUpgrader' + Game.time;
 			//console.log('Spawning new harvester: ' + newName);
 			if (OK == Game.spawns['Spawn1'].spawnCreep([WORK,WORK,CARRY,MOVE], newName, 
 				{memory: {role: constants.BUILDER, origRole: -1}})){
 				    console.log("created upgrader/builder  " + Game.time);
 				}
-		}
+		}*/
 		else if (room.energyAvailable == 400 && (roleCounts[constants.MINER] <= 1 && roleCounts[constants.BUILDER] > roleCounts[constants.MINER] + 2)) {
 			var newName = 'WorkMiner' + Game.time;
 			//console.log('Spawning new harvester: ' + newName);
