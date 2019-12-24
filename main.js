@@ -71,6 +71,8 @@ module.exports.loop = function () {
     }
     //console.log(roleCounts);
     spawner.run(creepCount, roleCounts, room);
-	
+	if (room && room.energyCapacityAvailable > 300) {
+	    console.log("capacity upgraded at " + Game.time);
+	}
 	if (room) sitecreator.run(room);
 }
