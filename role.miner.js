@@ -1,7 +1,10 @@
+var constants = require('constants');
+
 var roleMiner = {
 
     /** @param {Creep} creep **/
     run: function(creep) {
+        
 		if(creep.store.getFreeCapacity() > 0) {
             var sources = creep.room.find(FIND_SOURCES);
             if(creep.harvest(sources[0]) == ERR_NOT_IN_RANGE) {
@@ -9,9 +12,10 @@ var roleMiner = {
             }
         }
 		else {
-			var targets = creep.room.find(FIND_MY_CREEPS, {
+		    var targets = creep.room.find(FIND_MY_CREEPS, {
                     filter: (targetCreep) => {
                         return creep.pos.inRangeTo(targetCreep.pos, 1) && 
+                                targetCreep.memory.role != constants.MINER &&
                                 targetCreep.store.getFreeCapacity(RESOURCE_ENERGY) > 0;
                     }
             });

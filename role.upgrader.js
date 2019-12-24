@@ -1,5 +1,5 @@
-var siteCreator = require('sitecreator');
 var constants = require('constants');
+
 
 var roleUpgrader = {
 

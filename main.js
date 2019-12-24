@@ -5,7 +5,7 @@ var spawner = require('spawner');
 var constants = require('constants');
 var sitecreator = require('sitecreator');
 var roleMiner = require('role.miner');
-var roleCourier = require('role.courier');
+var roleBase = require('role.base');
 
 //Memory.currentStage = constants.UPGRADING;
 //console.log("reloading app");
@@ -30,25 +30,28 @@ module.exports.loop = function () {
 	
 	var room;
 	var creepCount=0;
-	var upgraderCount=0;
+	var roleCounts = [0,0,0,0,0];
+	
 	for(var name in Game.creeps) {
         var creep = Game.creeps[name];
         room = creep.room;
 		if(creep.memory.role == constants.HARVESTER) {
-            roleHarvester.run(creep);
+            var result = roleHarvester.run(creep);
+            if (result == -1) {
+                roleBase.setTempRole(creep, constants.BUILDER);
+            }
         }
         if(creep.memory.role == constants.UPGRADER) {
-			upgraderCount++;
-			if (upgraderCount > 1 && Memory.currentStage == constants.BUILDING) {
-			    console.log("in building stage and converting upgrader " + upgraderCount);
+			if (Memory.currentStage == constants.BUILDING) {
+			    console.log("in building stage and converting upgrader " + roleCounts[constants.UPGRADER]);
 				creep.memory.role = constants.BUILDER;
 			}
 			else {
 			    if (Memory.currentStage == constants.BUILDING) {
-			        //console.log("in building stage but keeping upgrader " + upgraderCount);
+			        //console.log("in building stage but keeping upgrader " + roleCounts[constants.UPGRADER]t);
 			    }
 			    else {
-			        //console.log("upgrader " + upgraderCount + " with stage " + Memory.currentStage);
+			        //console.log("upgrader " + roleCounts[constants.UPGRADER] + " with stage " + Memory.currentStage);
 			    }
 				roleUpgrader.run(creep);
 			}
@@ -63,10 +66,11 @@ module.exports.loop = function () {
             roleCourier.run(creep);
         }
         creepCount++;
-		
+		roleCounts[roleBase.getOrigRole(creep)]++;
 		
     }
-    spawner.run(creepCount);
+    //console.log(roleCounts);
+    spawner.run(creepCount, roleCounts, room);
 	
 	if (room) sitecreator.run(room);
 }
