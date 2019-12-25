@@ -407,27 +407,170 @@ Memory.initialCapacity;
 created harvester at 1512
 [9:36:39 AM]
 capacity upgraded at 1568
-[9:36:39 AM]
-creating road sites
-[9:36:39 AM]
-source1.findPathTo is not a function
-[9:36:40 AM]
-creating road sites
-[9:36:40 AM]
-source1.findPathTo is not a function
-[9:36:42 AM]
-creating road sites
-[9:36:42 AM]
-source1.findPathTo is not a function
-[9:36:43 AM]
-creating road sites
-[9:36:43 AM]
-source1.findPathTo is not a function
-[9:36:45 AM]
-creating road sites
-[9:36:45 AM]
-source1.findPathTo is not a function
+
 [9:37:33 AM]
 creating road sites
 [9:38:47 AM]
 created harvester at 1617 
+[9:41:48 AM]
+created miner  1722
+[9:50:34 AM]
+capacity upgraded at 2087
+[9:51:11 AM]
+created big upgrader/builder  2110
+[9:54:15 AM]
+created big upgrader/builder  2227
+[9:57:39 AM]
+created big upgrader/builder  2361
+[10:00:37 AM]
+created big upgrader/builder  2485 
+
+
+
+
+
+
+actual road building
+[10:02:30 AM]
+created harvester at 1
+[10:02:31 AM]
+capacity upgraded at 2
+[10:02:52 AM]
+minHarvesters is not defined
+[10:02:53 AM]
+minHarvesters is not defined
+[10:02:54 AM]
+minHarvesters is not defined
+[10:02:55 AM]
+minHarvesters is not defined
+Game.time;
+46
+[10:04:41 AM]
+created harvester at 106
+[10:06:26 AM]
+created upgrader/builder  211
+[10:08:07 AM]
+created upgrader/builder  311
+[10:09:47 AM]
+created upgrader/builder  411
+[10:10:55 AM]
+setting stage to building at 479
+[10:10:56 AM]
+in building stage and converting upgrader 0
+[10:10:56 AM]
+in building stage and converting upgrader 0
+[10:10:56 AM]
+in building stage and converting upgrader 0
+[10:11:27 AM]
+created upgrader/builder  511
+[10:11:28 AM]
+converting upgrader to miner
+[10:12:34 AM]
+created miner  578
+[10:14:00 AM]
+created builder  664
+[10:15:06 AM]
+created miner  728
+[10:16:03 AM]
+created builder  785
+[10:21:26 AM]
+capacity upgraded at 1102
+Game.creeps.MoveHarvester1.room.find(FIND_MY_SPAWNS)[0].pos.getRangeTo(Game.creeps.MoveHarvester1.room.find(FIND_SOURCES)[3]);
+24
+Game.creeps.MoveHarvester1.room.find(FIND_MY_SPAWNS)[0].pos.findPathTo(Game.creeps.MoveHarvester1.room.find(FIND_SOURCES)[3]).length;
+25
+[10:27:44 AM]
+created harvester at 1474
+[10:27:44 AM]
+capacity upgraded at 1474
+[10:27:44 AM]
+creating road sites
+[10:29:01 AM]
+created harvester at 1512
+[10:29:27 AM]
+3,0,5,3,0,0
+[10:29:29 AM]
+3,0,5,3,0,0
+[10:31:21 AM]
+created harvester at 1617
+[10:33:27 AM]
+created miner  1722
+[10:38:15 AM]
+capacity upgraded at 1953
+[10:38:33 AM]
+created big upgrader/builder  1967
+[10:40:16 AM]
+created big upgrader/builder  2049
+[10:42:09 AM]
+created big upgrader/builder  2138
+[10:44:34 AM]
+created miner  2252
+[10:47:07 AM]
+created big upgrader/builder  2368
+[10:49:18 AM]
+created big upgrader/builder  2467
+[10:51:10 AM]
+created miner  2553
+[10:53:12 AM]
+capacity upgraded at 2645
+[10:53:30 AM]
+created remote upgrader/builder  2658
+[10:53:31 AM]
+assignment to undeclared variable sources
+[10:53:33 AM]
+assignment to undeclared variable sources
+[10:53:34 AM]
+assignment to undeclared variable sources
+[10:53:36 AM]
+assignment to undeclared variable sources
+[10:53:37 AM]
+assignment to undeclared variable sources
+[10:53:39 AM]
+assignment to undeclared variable sources
+[10:53:40 AM]
+assignment to undeclared variable sources
+[10:53:42 AM]
+assignment to undeclared variable sources
+[10:53:44 AM]
+assignment to undeclared variable sources
+[10:53:45 AM]
+assignment to undeclared variable sources
+[10:53:47 AM]
+assignment to undeclared variable sources
+[10:53:49 AM]
+assignment to undeclared variable sources
+[10:53:50 AM]
+assignment to undeclared variable sources
+[10:53:51 AM]
+assignment to undeclared variable sources
+[10:53:53 AM]
+assignment to undeclared variable sources
+[10:53:54 AM]
+assignment to undeclared variable sources
+[10:53:56 AM]
+assignment to undeclared variable sources
+[10:53:57 AM]
+assignment to undeclared variable sources
+[10:56:32 AM]
+created remote upgrader/builder  2755
+Game.creeps.WorkRemote2658.memory.building;
+Game.creeps.WorkRemote2658.memory.building;
+true
+[10:59:17 AM]
+created remote upgrader/builder  2828
+[11:00:57 AM]
+created remote upgrader/builder  2907
+[11:02:51 AM]
+created harvester at 2985
+[11:04:31 AM]
+created harvester at 3056
+[11:06:16 AM]
+created harvester at 3128
+[11:07:19 AM]
+capacity upgraded at 3171
+[11:08:10 AM]
+created remote upgrader/builder  3207
+[11:10:02 AM]
+created miner  3286
+[11:11:39 AM]
+created remote upgrader/builder  3356 

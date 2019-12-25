@@ -1,11 +1,14 @@
 var constants = require('constants');
 
 var spawner = {
+	minHarvesters: function(room) {
+		return room.energyCapacityAvailable > 350 ? 3 : 2;
+	},
     run: function(creepCount, roleCounts, room) {
         //console.log(roleCounts);
         
 		//var creeps = _.filter(Game.creeps, (creep) => creep.memory.role >= constants.HARVESTER);
-		if(roleCounts[constants.HARVESTER] < 2) {
+		if(roleCounts[constants.HARVESTER] < this.minHarvesters(room)) {
 			var newName = 'MoveHarvester' + Game.time;
 			//console.log('Spawning new harvester: ' + newName);
 			if(OK == Game.spawns['Spawn1'].spawnCreep([WORK,CARRY,MOVE,MOVE], newName, 

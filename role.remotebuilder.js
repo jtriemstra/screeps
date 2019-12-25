@@ -18,7 +18,7 @@ var roleRemoteBuilder = {
 
 	    if(creep.memory.building) {
 	        var targets = creep.room.find(FIND_MY_CONSTRUCTION_SITES, {filter: (thisSite) => {
-                        return thisSite.STRUCTURE_TYPE == STRUCTURE_ROAD;
+                        return thisSite.structureType == STRUCTURE_ROAD;
                     }});
 	        
             if(targets.length) {
@@ -29,7 +29,7 @@ var roleRemoteBuilder = {
 	    }
 	    else {
 	        
-			sources = creep.room.find(FIND_SOURCES);
+			var sources = creep.room.find(FIND_SOURCES);
 			//TODO: calculate/find the source we want
 			if(creep.harvest(sources[1]) == ERR_NOT_IN_RANGE) {
 				creep.moveTo(sources[1], {visualizePathStyle: {stroke: '#ffaa00'}});
