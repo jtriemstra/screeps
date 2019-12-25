@@ -6,6 +6,7 @@ var constants = require('constants');
 var sitecreator = require('sitecreator');
 var roleMiner = require('role.miner');
 var roleBase = require('role.base');
+var roleRemoteBuilder = require('role.remotebuilder');
 
 //Memory.currentStage = constants.UPGRADING;
 //console.log("reloading app");
@@ -30,7 +31,7 @@ module.exports.loop = function () {
 	
 	var room;
 	var creepCount=0;
-	var roleCounts = [0,0,0,0,0];
+	var roleCounts = [0,0,0,0,0,0];
 	
 	for(var name in Game.creeps) {
         var creep = Game.creeps[name];
@@ -65,14 +66,18 @@ module.exports.loop = function () {
         if(creep.memory.role == constants.COURIER) {
             roleCourier.run(creep);
         }
+		if(creep.memory.role == constants.REMOTE_BUILDER) {
+            roleRemoteBuilder.run(creep);
+        }
         creepCount++;
 		roleCounts[roleBase.getOrigRole(creep)]++;
 		
     }
     //console.log(roleCounts);
     spawner.run(creepCount, roleCounts, room);
-	if (room && room.energyCapacityAvailable > 300) {
+	if (room && room.energyCapacityAvailable > (Memory.initialCapacity == undefined ? 0 : Memory.initialCapacity)) {
 	    console.log("capacity upgraded at " + Game.time);
+	    Memory.initialCapacity = room.energyCapacityAvailable;
 	}
 	if (room) sitecreator.run(room);
 }

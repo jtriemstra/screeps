@@ -1,7 +1,7 @@
 var roleBase = require('role.base');
 var constants = require('constants');
 
-var roleBuilder = {
+var roleRemoteBuilder = {
 
     /** @param {Creep} creep **/
     run: function(creep) {
@@ -18,7 +18,7 @@ var roleBuilder = {
 
 	    if(creep.memory.building) {
 	        var targets = creep.room.find(FIND_MY_CONSTRUCTION_SITES, {filter: (thisSite) => {
-                        return thisSite.STRUCTURE_TYPE == STRUCTURE_EXTENSION;
+                        return thisSite.STRUCTURE_TYPE == STRUCTURE_ROAD;
                     }});
 	        
             if(targets.length) {
@@ -28,24 +28,15 @@ var roleBuilder = {
             }
 	    }
 	    else {
-	        var sources = creep.room.find(FIND_MY_CREEPS, {
-                    filter: (minerCreep) => {
-                        return minerCreep.memory.role == constants.MINER;
-                    }
-            });
+	        
+			sources = creep.room.find(FIND_SOURCES);
+			//TODO: calculate/find the source we want
+			if(creep.harvest(sources[1]) == ERR_NOT_IN_RANGE) {
+				creep.moveTo(sources[1], {visualizePathStyle: {stroke: '#ffaa00'}});
+			}
             
-            if (sources.length > 0) {
-                creep.moveTo(sources[0], {visualizePathStyle: {stroke: '#ffaa00'}});
-            }
-            else {
-                sources = creep.room.find(FIND_SOURCES);
-                
-                if(creep.harvest(sources[0]) == ERR_NOT_IN_RANGE) {
-                    creep.moveTo(sources[0], {visualizePathStyle: {stroke: '#ffaa00'}});
-                }
-            }
 	    }
 	}
 };
 
-module.exports = roleBuilder;
+module.exports = roleRemoteBuilder;

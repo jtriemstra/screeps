@@ -1,0 +1,433 @@
+~11 travel distance:
+
+[8:18:19 PM]
+created harvester at 1
+[8:20:07 PM]
+created harvester at 106
+[8:21:52 PM]
+created upgrader/builder  211
+[8:23:34 PM]
+created upgrader/builder  311
+[8:25:15 PM]
+created upgrader/builder  411
+[8:26:25 PM]
+setting stage to building at 479
+[8:26:26 PM]
+in building stage and converting upgrader 0
+[8:26:26 PM]
+in building stage and converting upgrader 0
+[8:26:26 PM]
+in building stage and converting upgrader 0
+[8:26:58 PM]
+created upgrader/builder  511
+[8:27:00 PM]
+converting upgrader to miner
+[8:30:16 PM]
+created upgrader/builder  701
+[8:31:40 PM]
+created upgrader/builder  783
+[8:39:06 PM]
+created miner  835
+[8:40:02 PM]
+created miner  891 
+
+
+~11 travel distance, max 6 creeps
+
+[8:07:17 AM]
+created harvester at 1
+[8:09:02 AM]
+created harvester at 106
+[8:10:47 AM]
+created upgrader/builder  211
+[8:12:29 AM]
+created upgrader/builder  311
+[8:14:09 AM]
+created upgrader/builder  411
+[8:15:17 AM]
+setting stage to building at 479
+[8:15:18 AM]
+in building stage and converting upgrader 0
+[8:15:18 AM]
+in building stage and converting upgrader 0
+[8:15:18 AM]
+in building stage and converting upgrader 0
+[8:15:49 AM]
+created upgrader/builder  511
+[8:15:50 AM]
+converting upgrader to miner
+[8:18:25 AM]
+created miner  584
+[8:27:05 AM]
+capacity upgraded at 1101
+[8:27:07 AM]
+capacity upgraded at 1102
+[8:27:08 AM]
+capacity upgraded at 1103
+[8:27:09 AM]
+capacity upgraded at 1104
+[8:27:10 AM]
+capacity upgraded at 1105
+[8:27:11 AM]
+capacity upgraded at 1106
+[8:27:12 AM]
+capacity upgraded at 1107
+[8:27:13 AM]
+capacity upgraded at 1108
+[8:27:14 AM]
+capacity upgraded at 1109
+Game.time;
+1391
+[8:33:57 AM]
+2,0,3,2,0
+[8:33:58 AM]
+2,0,3,2,0
+[8:34:00 AM]
+2,0,3,2,0
+[8:34:01 AM]
+2,0,3,2,0
+[8:34:02 AM]
+2,0,3,2,0
+[8:34:03 AM]
+created harvester at 1512
+[8:35:51 AM]
+created harvester at 1617
+[8:36:01 AM]
+capacity upgraded at 1627
+
+
+
+~11 max distance, max 9 creeps
+similar until second upgrade ~100 ticks earlier
+
+
+
+~6 max distance, max 7 creeps
+
+[9:59:48 AM]
+capacity upgraded at 84
+[10:00:05 AM]
+created harvester at 101
+[10:01:45 AM]
+created upgrader/builder  201
+[10:03:44 AM]
+created upgrader/builder  320
+[10:05:51 AM]
+created upgrader/builder  447
+[10:06:03 AM]
+setting stage to building at 459
+[10:06:04 AM]
+in building stage and converting upgrader 0
+[10:06:04 AM]
+in building stage and converting upgrader 0
+[10:06:04 AM]
+in building stage and converting upgrader 0
+[10:07:32 AM]
+created upgrader/builder  547
+[10:07:33 AM]
+converting upgrader to miner
+[10:08:32 AM]
+created miner  607
+[10:14:48 AM]
+capacity upgraded at 979
+[10:21:04 AM]
+capacity upgraded at 1355
+[10:23:41 AM]
+created harvester at 1512
+[10:25:21 AM]
+created harvester at 1612
+[10:27:02 AM]
+created miner  1712
+[10:30:12 AM]
+capacity upgraded at 1882
+[10:30:25 AM]
+created upgrader/builder  1895
+[10:32:15 AM]
+created upgrader/builder  1999
+[10:34:14 AM]
+created upgrader/builder  2109
+[10:35:58 AM]
+created miner  2206 
+
+
+
+
+max 9 creeps, run longer
+
+[11:48:22 AM]
+created harvester at 116
+[11:52:20 AM]
+created upgrader/builder  221
+[11:55:30 AM]
+created upgrader/builder  321
+[11:57:22 AM]
+created upgrader/builder  421
+[11:58:44 AM]
+setting stage to building at 490
+[11:58:45 AM]
+in building stage and converting upgrader 0
+[11:58:45 AM]
+in building stage and converting upgrader 0
+[11:58:45 AM]
+in building stage and converting upgrader 0
+[11:59:18 AM]
+created upgrader/builder  521
+[11:59:19 AM]
+converting upgrader to miner
+[12:11:40 PM]
+created miner  594
+[12:12:48 PM]
+created builder  656
+[12:14:10 PM]
+created miner  725
+[12:15:45 PM]
+created builder  807
+[12:21:20 PM]
+capacity upgraded at 1112
+[12:41:49 PM]
+capacity upgraded at 1489
+[12:42:15 PM]
+created harvester at 1512
+[12:44:42 PM]
+created harvester at 1627
+[12:52:02 PM]
+capacity upgraded at 1987
+[12:52:49 PM]
+created upgrader/builder  2024
+[12:54:07 PM]
+created builder  2088
+[12:55:44 PM]
+created miner  2165 
+
+
+
+
+
+[9:24:46 PM]
+created harvester at 1
+[9:24:47 PM]
+capacity upgraded at 2
+[9:26:31 PM]
+created harvester at 106
+[9:28:16 PM]
+created upgrader/builder  211
+[9:29:56 PM]
+created upgrader/builder  311
+[9:37:38 PM]
+created upgrader/builder  411
+[9:41:01 PM]
+setting stage to building at 479
+[9:41:02 PM]
+in building stage and converting upgrader 0
+[9:41:02 PM]
+in building stage and converting upgrader 0
+[9:41:02 PM]
+in building stage and converting upgrader 0
+[9:41:32 PM]
+created upgrader/builder  511
+[9:41:33 PM]
+converting upgrader to miner
+[9:42:45 PM]
+created miner  584
+[9:44:06 PM]
+created builder  664
+[9:45:20 PM]
+created miner  738
+[9:46:33 PM]
+created builder  811
+[9:51:30 PM]
+capacity upgraded at 1106
+[9:58:01 PM]
+capacity upgraded at 1483
+[9:58:32 PM]
+created harvester at 1512
+[10:00:32 PM]
+created harvester at 1617
+[10:07:58 PM]
+capacity upgraded at 1947
+[10:08:20 PM]
+created upgrader/builder  1969
+[10:08:41 PM]
+2,0,4,2,0
+[10:11:28 PM]
+created builder  2037
+[10:13:06 PM]
+created miner  2126
+[10:14:06 PM]
+2,0,3,2,0
+[10:14:17 PM]
+created builder  2189
+[10:16:19 PM]
+created miner  2289
+[10:17:52 PM]
+created builder  2363
+[10:19:18 PM]
+created miner  2430
+[10:20:55 PM]
+created builder  2504
+[10:23:11 PM]
+created upgrader/builder  2614
+[10:24:12 PM]
+capacity upgraded at 2668
+[10:26:30 PM]
+created upgrader/builder  2774
+[10:29:13 PM]
+created upgrader/builder  2901
+[10:31:33 PM]
+created harvester at 3023
+[10:32:57 PM]
+capacity upgraded at 3088
+[10:33:51 PM]
+created harvester at 3128 
+
+
+
+
+more work less move, 10 creeps. fail.
+
+[8:08:39 AM]
+created harvester at 1
+[8:08:41 AM]
+capacity upgraded at 2
+Game.creeps.MoveHarvester1;
+[creep MoveHarvester1]
+Game.time;
+161
+[8:14:16 AM]
+created harvester at 200
+[8:16:37 AM]
+created upgrader/builder  337
+Game.creeps.MoveHarvester1.room.find(FIND_MY_SPAWNS)[0].pos.getRangeTo(Game.creeps.MoveHarvester1.room.find(FIND_SOURCES)[0]);
+12
+Game.creeps.MoveHarvester1.room.find(FIND_MY_SPAWNS)[0].pos.getRangeTo(Game.creeps.MoveHarvester1.room.find(FIND_SOURCES)[1]);
+20
+Game.creeps.MoveHarvester1.room.find(FIND_MY_SPAWNS)[0].pos.getRangeTo(Game.creeps.MoveHarvester1.room.find(FIND_SOURCES)[2]);
+18
+Game.creeps.MoveHarvester1.room.find(FIND_SOURCES)[1].pos;
+[room sim pos 43,44]
+Game.creeps.MoveHarvester1.room.find(FIND_MY_SPAWNS)[0].pos.findPathTo(Game.creeps.MoveHarvester1.room.find(FIND_SOURCES)[1]);
+[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+Game.creeps.MoveHarvester1.room.find(FIND_MY_SPAWNS)[0].pos.findPathTo(Game.creeps.MoveHarvester1.room.find(FIND_SOURCES)[1]).length;
+20
+Game.creeps.MoveHarvester1.room.find(FIND_MY_SPAWNS)[0].pos.findPathTo(Game.creeps.MoveHarvester1.room.find(FIND_SOURCES)[2]).length;
+27
+[8:20:52 AM]
+created upgrader/builder  461
+[8:23:31 AM]
+created upgrader/builder  588
+[8:23:56 AM]
+setting stage to building at 608
+[8:23:57 AM]
+in building stage and converting upgrader 0
+[8:23:57 AM]
+in building stage and converting upgrader 0
+[8:23:57 AM]
+in building stage and converting upgrader 0
+[8:26:16 AM]
+created upgrader/builder  714
+[8:26:17 AM]
+converting upgrader to miner
+[8:28:47 AM]
+created miner  838
+[8:31:36 AM]
+created builder  969
+[8:34:32 AM]
+created miner  1087
+[8:37:53 AM]
+created builder  1213
+[8:42:44 AM]
+capacity upgraded at 1398
+[8:44:59 AM]
+created harvester at 1512
+[8:48:51 AM]
+created harvester at 1711
+[8:52:51 AM]
+capacity upgraded at 1897
+[8:53:42 AM]
+created miner  1936
+[8:55:49 AM]
+created builder  2036
+[8:57:53 AM]
+created builder  2136
+[8:59:51 AM]
+created builder  2236 
+
+
+
+
+
+first road builder, couple snags post upgrade and capacity upgrade
+
+[9:03:49 AM]
+created harvester at 1
+[9:03:50 AM]
+roleBase.getOrigRole is not a function
+[9:03:51 AM]
+roleBase.getOrigRole is not a function
+[9:07:53 AM]
+created harvester at 106
+[9:09:38 AM]
+created upgrader/builder  211
+[9:11:19 AM]
+created upgrader/builder  311
+[9:12:59 AM]
+created upgrader/builder  411
+[9:14:07 AM]
+setting stage to building at 479
+[9:14:07 AM]
+in building stage and converting upgrader 0
+[9:14:07 AM]
+in building stage and converting upgrader 0
+[9:14:07 AM]
+in building stage and converting upgrader 0
+[9:14:39 AM]
+created upgrader/builder  511
+[9:14:40 AM]
+converting upgrader to miner
+[9:15:48 AM]
+created miner  578
+[9:16:47 AM]
+created builder  637
+Game.creeps.WorkUpgrader511.effects.room.find(FIND_MY_CONSTRUCTION_SITES, {filter: (thisSite) => {                         return thisSite.STRUCTURE_TYPE == STRUCTURE_EXTENSION;                     }});
+[9:17:16 AM]
+Game.creeps.WorkUpgrader511.effects is undefined
+Game.creeps.WorkUpgrader511.room.find(FIND_MY_CONSTRUCTION_SITES, {filter: (thisSite) => {                         return thisSite.STRUCTURE_TYPE == STRUCTURE_EXTENSION;                     }});
+Game.creeps.WorkUpgrader511.room.find(FIND_MY_CONSTRUCTION_SITES);
+[construction site (extension) #f5d842d51f920ef62d29862f],[construction site (extension) #88e7031fe4eca8b18b6efc06],[construction site (extension) #3d5732b02e0c9b69c5e9255b],[construction site (extension) #73f4e91768cb397cbd3a7cfb],[construction site (extension) #1c9781bb3f866c38dac7c9ab]
+[9:18:27 AM]
+created miner  737
+[9:20:21 AM]
+created builder  832
+[9:26:12 AM]
+capacity upgraded at 1177
+
+Memory.initialCapacity;
+350
+[9:35:22 AM]
+created harvester at 1512
+[9:36:39 AM]
+capacity upgraded at 1568
+[9:36:39 AM]
+creating road sites
+[9:36:39 AM]
+source1.findPathTo is not a function
+[9:36:40 AM]
+creating road sites
+[9:36:40 AM]
+source1.findPathTo is not a function
+[9:36:42 AM]
+creating road sites
+[9:36:42 AM]
+source1.findPathTo is not a function
+[9:36:43 AM]
+creating road sites
+[9:36:43 AM]
+source1.findPathTo is not a function
+[9:36:45 AM]
+creating road sites
+[9:36:45 AM]
+source1.findPathTo is not a function
+[9:37:33 AM]
+creating road sites
+[9:38:47 AM]
+created harvester at 1617 

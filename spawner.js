@@ -13,7 +13,7 @@ var spawner = {
 				    console.log("created harvester at " + Game.time);
 				}        
 		}
-		else if (creepCount < 6) {
+		else if (creepCount < 6 && room.energyCapacityAvailable == 300) {
 		    var newRole = Memory.currentStage == constants.BUILDING ? constants.BUILDER : constants.UPGRADER;
 			var newName = 'WorkUpgrader' + Game.time;
 			//console.log('Spawning new harvester: ' + newName);
@@ -32,7 +32,7 @@ var spawner = {
                 }
 		    }
 		}
-		else if (room.energyAvailable == 300 && roleCounts[constants.MINER] < 2) {
+		else if (room.energyAvailable == 300 && room.energyCapacityAvailable == 300 && roleCounts[constants.MINER] < 2) {
 			var newName = 'WorkMiner' + Game.time;
 			//console.log('Spawning new harvester: ' + newName);
 			if (OK == Game.spawns['Spawn1'].spawnCreep([WORK,WORK,CARRY,MOVE], newName, 
@@ -40,7 +40,7 @@ var spawner = {
 				    console.log("created miner  " + Game.time);
 				}
 		}
-		else if (room.energyAvailable == 300 && roleCounts[constants.BUILDER] < roleCounts[constants.MINER] + 2) {
+		else if (room.energyAvailable == 300 && room.energyCapacityAvailable == 300 && roleCounts[constants.BUILDER] < roleCounts[constants.MINER] + 2) {
 			var newName = 'WorkUpgrader' + Game.time;
 			//console.log('Spawning new harvester: ' + newName);
 			if (OK == Game.spawns['Spawn1'].spawnCreep([WORK,WORK,CARRY,MOVE], newName, 
@@ -48,7 +48,7 @@ var spawner = {
 				    console.log("created builder  " + Game.time);
 				}
 		}
-		else if (room.energyAvailable == 300 && roleCounts[constants.MINER] < 3) {
+		else if (room.energyAvailable == 300 && room.energyCapacityAvailable == 300 && roleCounts[constants.MINER] < 3) {
 			var newName = 'WorkMiner' + Game.time;
 			//console.log('Spawning new harvester: ' + newName);
 			if (OK == Game.spawns['Spawn1'].spawnCreep([WORK,WORK,CARRY,MOVE], newName, 
@@ -64,7 +64,7 @@ var spawner = {
 				    console.log("created upgrader/builder  " + Game.time);
 				}
 		}*/
-		else if (room.energyAvailable == 400 && (roleCounts[constants.MINER] <= 1 && roleCounts[constants.BUILDER] > roleCounts[constants.MINER] + 2)) {
+		else if (room.energyAvailable == 400 && (roleCounts[constants.MINER] < 3 && roleCounts[constants.BUILDER] > roleCounts[constants.MINER] + 2)) {
 			var newName = 'WorkMiner' + Game.time;
 			//console.log('Spawning new harvester: ' + newName);
 			if (OK == Game.spawns['Spawn1'].spawnCreep([WORK,WORK,WORK,CARRY,MOVE], newName, 
@@ -72,12 +72,20 @@ var spawner = {
 				    console.log("created miner  " + Game.time);
 				}
 		}
-		else if (room.energyAvailable == 450) {
+		else if (room.energyAvailable == 450 && (roleCounts[constants.MINER] + roleCounts[constants.BUILDER] < 7)) {
 			var newName = 'WorkUpgrader' + Game.time;
 			//console.log('Spawning new harvester: ' + newName);
 			if (OK == Game.spawns['Spawn1'].spawnCreep([WORK,WORK,WORK,CARRY,MOVE,MOVE], newName, 
 				{memory: {role: constants.BUILDER, origRole: -1}})){
-				    console.log("created upgrader/builder  " + Game.time);
+				    console.log("created big upgrader/builder  " + Game.time);
+				}
+		}
+		else if (room.energyAvailable == 450 ) {
+			var newName = 'WorkRemote' + Game.time;
+			//console.log('Spawning new harvester: ' + newName);
+			if (OK == Game.spawns['Spawn1'].spawnCreep([WORK,WORK,WORK,CARRY,MOVE,MOVE], newName, 
+				{memory: {role: constants.REMOTE_BUILDER, origRole: -1}})){
+				    console.log("created remote upgrader/builder  " + Game.time);
 				}
 		}
 		else {
