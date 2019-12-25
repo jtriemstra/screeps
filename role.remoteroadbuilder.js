@@ -1,7 +1,7 @@
 var roleBase = require('role.base');
 var constants = require('constants');
 
-var roleRemoteBuilder = {
+var roleRemoteRoadBuilder = {
 
     /** @param {Creep} creep **/
     run: function(creep) {
@@ -18,7 +18,7 @@ var roleRemoteBuilder = {
 
 	    if(creep.memory.building) {
 	        var targets = creep.room.find(FIND_MY_CONSTRUCTION_SITES, {filter: (thisSite) => {
-                        return thisSite.structureType == STRUCTURE_EXTENSION && thisSite.pos.getRangeTo(creep.pos) < 5;
+                        return thisSite.structureType == STRUCTURE_ROAD;
                     }});
 	        
             if(targets.length) {
@@ -39,4 +39,4 @@ var roleRemoteBuilder = {
 	}
 };
 
-module.exports = roleRemoteBuilder;
+module.exports = roleRemoteRoadBuilder;

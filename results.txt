@@ -475,10 +475,6 @@ created miner  728
 created builder  785
 [10:21:26 AM]
 capacity upgraded at 1102
-Game.creeps.MoveHarvester1.room.find(FIND_MY_SPAWNS)[0].pos.getRangeTo(Game.creeps.MoveHarvester1.room.find(FIND_SOURCES)[3]);
-24
-Game.creeps.MoveHarvester1.room.find(FIND_MY_SPAWNS)[0].pos.findPathTo(Game.creeps.MoveHarvester1.room.find(FIND_SOURCES)[3]).length;
-25
 [10:27:44 AM]
 created harvester at 1474
 [10:27:44 AM]
@@ -515,47 +511,8 @@ created miner  2553
 capacity upgraded at 2645
 [10:53:30 AM]
 created remote upgrader/builder  2658
-[10:53:31 AM]
-assignment to undeclared variable sources
-[10:53:33 AM]
-assignment to undeclared variable sources
-[10:53:34 AM]
-assignment to undeclared variable sources
-[10:53:36 AM]
-assignment to undeclared variable sources
-[10:53:37 AM]
-assignment to undeclared variable sources
-[10:53:39 AM]
-assignment to undeclared variable sources
-[10:53:40 AM]
-assignment to undeclared variable sources
-[10:53:42 AM]
-assignment to undeclared variable sources
-[10:53:44 AM]
-assignment to undeclared variable sources
-[10:53:45 AM]
-assignment to undeclared variable sources
-[10:53:47 AM]
-assignment to undeclared variable sources
-[10:53:49 AM]
-assignment to undeclared variable sources
-[10:53:50 AM]
-assignment to undeclared variable sources
-[10:53:51 AM]
-assignment to undeclared variable sources
-[10:53:53 AM]
-assignment to undeclared variable sources
-[10:53:54 AM]
-assignment to undeclared variable sources
-[10:53:56 AM]
-assignment to undeclared variable sources
-[10:53:57 AM]
-assignment to undeclared variable sources
 [10:56:32 AM]
 created remote upgrader/builder  2755
-Game.creeps.WorkRemote2658.memory.building;
-Game.creeps.WorkRemote2658.memory.building;
-true
 [10:59:17 AM]
 created remote upgrader/builder  2828
 [11:00:57 AM]

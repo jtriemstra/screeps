@@ -6,6 +6,7 @@ var constants = require('constants');
 var sitecreator = require('sitecreator');
 var roleMiner = require('role.miner');
 var roleBase = require('role.base');
+var roleRemoteRoadBuilder = require('role.remoteroadbuilder');
 var roleRemoteBuilder = require('role.remotebuilder');
 
 //Memory.currentStage = constants.UPGRADING;
@@ -31,7 +32,7 @@ module.exports.loop = function () {
 	
 	var room;
 	var creepCount=0;
-	var roleCounts = [0,0,0,0,0,0];
+	var roleCounts = [0,0,0,0,0,0,0];
 	
 	for(var name in Game.creeps) {
         var creep = Game.creeps[name];
@@ -65,6 +66,9 @@ module.exports.loop = function () {
         }
         if(creep.memory.role == constants.COURIER) {
             roleCourier.run(creep);
+        }
+		if(creep.memory.role == constants.REMOTE_ROAD_BUILDER) {
+            roleRemoteRoadBuilder.run(creep);
         }
 		if(creep.memory.role == constants.REMOTE_BUILDER) {
             roleRemoteBuilder.run(creep);

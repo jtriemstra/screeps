@@ -9,8 +9,13 @@ var sitecreator = {
 		if (result == OK) {
 			room.createConstructionSite(spawnX - 1, spawnY - 1, STRUCTURE_EXTENSION);
 			room.createConstructionSite(spawnX - 1, spawnY + 1, STRUCTURE_EXTENSION);
-			room.createConstructionSite(spawnX + 1, spawnY, STRUCTURE_EXTENSION);
-			room.createConstructionSite(spawnX + 1, spawnY + 1, STRUCTURE_EXTENSION);
+			//room.createConstructionSite(spawnX + 1, spawnY, STRUCTURE_EXTENSION);
+			//room.createConstructionSite(spawnX + 1, spawnY + 1, STRUCTURE_EXTENSION);
+			
+			room.createConstructionSite(40,44, STRUCTURE_EXTENSION);
+			room.createConstructionSite(45,42, STRUCTURE_EXTENSION);
+			
+			
 			console.log("setting stage to building at " + Game.time);
 			Memory.currentStage = constants.BUILDING;
 		}
