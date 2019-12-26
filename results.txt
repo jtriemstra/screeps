@@ -705,4 +705,81 @@ created miner  2350
 first stab at putting extensions closer to source resulted in high congestion
 
 
+second try had some congestion but results net out better
 
+[9:11:08 AM]
+created harvester at 106
+[9:12:55 AM]
+created upgrader/builder  211
+[9:14:30 AM]
+created upgrader/builder  311
+[9:15:30 AM]
+created upgrader/builder  411
+[9:16:09 AM]
+setting stage to building at 479
+[9:16:10 AM]
+in building stage and converting upgrader 0
+[9:16:10 AM]
+in building stage and converting upgrader 0
+[9:16:10 AM]
+in building stage and converting upgrader 0
+[9:16:15 AM]
+converting upgrader to miner
+[9:16:16 AM]
+converting upgrader to miner
+[9:16:30 AM]
+created builder  511
+[9:17:25 AM]
+created builder  596
+[9:18:00 AM]
+converting upgrader to miner
+[9:18:13 AM]
+created builder  665
+[9:19:18 AM]
+created builder  759
+[9:20:03 AM]
+created builder  823
+[9:21:46 AM]
+capacity upgraded at 994
+[9:21:52 AM]
+created remote upgrader/builder 1004
+[9:22:56 AM]
+created remote upgrader/builder 1093
+[9:24:40 AM]
+created remote upgrader/builder 1213
+[9:28:09 AM]
+created harvester at 1415
+[9:28:09 AM]
+capacity upgraded at 1415
+[9:28:09 AM]
+creating road sites
+[9:30:00 AM]
+created harvester at 1512
+[9:32:00 AM]
+created harvester at 1617
+[9:33:33 AM]
+capacity upgraded at 1695
+[9:34:04 AM]
+converting upgrader to miner
+[9:35:43 AM]
+capacity upgraded at 1807
+[9:35:59 AM]
+converting upgrader to miner
+[9:36:01 AM]
+created big upgrader/builder  1824
+[9:37:03 AM]
+capacity upgraded at 1878
+[9:37:15 AM]
+created remote road builder  1889
+[9:37:55 AM]
+converting upgrader to miner
+[9:38:28 AM]
+created big upgrader/builder  1946
+[9:40:06 AM]
+converting upgrader to miner
+[9:40:23 AM]
+created big upgrader/builder  2035
+[9:41:56 AM]
+converting upgrader to miner
+[9:42:41 AM]
+created big upgrader/builder  2144 

@@ -14,7 +14,7 @@ var sitecreator = {
 			//room.createConstructionSite(spawnX + 1, spawnY + 1, STRUCTURE_EXTENSION);
 			
 			room.createConstructionSite(29,26, STRUCTURE_EXTENSION);
-			room.createConstructionSite(29,25, STRUCTURE_EXTENSION);
+			room.createConstructionSite(29,27, STRUCTURE_EXTENSION);
 			room.createConstructionSite(40,44, STRUCTURE_EXTENSION);
 			room.createConstructionSite(45,42, STRUCTURE_EXTENSION);
 			

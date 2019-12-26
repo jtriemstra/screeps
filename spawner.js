@@ -2,7 +2,7 @@ var constants = require('constants');
 
 var spawner = {
 	minHarvesters: function(room) {
-		return room && room.energyCapacityAvailable > 350 ? 3 : 2;
+		return room && room.energyCapacityAvailable > 750 ? 3 : 2;
 	},
     run: function(creepCount, roleCounts, room) {
         //console.log(roleCounts);
@@ -46,7 +46,7 @@ var spawner = {
 				    console.log("created miner  " + Game.time);
 				}
 		}
-		else if (room.energyAvailable == 300 && room.energyCapacityAvailable == 300 && roleCounts[constants.BUILDER] < roleCounts[constants.MINER] + 2) {
+		else if (room.energyAvailable == 300 && room.energyCapacityAvailable == 300 && roleCounts[constants.BUILDER] < roleCounts[constants.MINER] + 1) {
 			var newName = 'WorkUpgrader' + Game.time;
 			//console.log('Spawning new harvester: ' + newName);
 			if (OK == Game.spawns['Spawn1'].spawnCreep([WORK,WORK,CARRY,MOVE], newName, 
