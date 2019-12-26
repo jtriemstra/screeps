@@ -857,7 +857,7 @@ created remote road builder  1820
 
 
 
-basic sanity check for harvester paths. just a touch better.
+basic sanity check for harvester paths. just a touch better. a lot of dead time with 400 energy available to spawn
 
 [12:39:55 PM]
 created harvester at 1
