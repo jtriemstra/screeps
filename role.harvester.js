@@ -1,7 +1,10 @@
 var constants = require('constants');
 
 var roleHarvester = {
-
+	isSanePath: function(path) {
+		return path.length < 16;
+	}
+	
     /** @param {Creep} creep **/
     run: function(creep) {
 	    if(creep.store.getFreeCapacity() > 0) {
@@ -12,7 +15,11 @@ var roleHarvester = {
             });
             
             if (sources.length > 0) {
-                creep.moveTo(sources[0], {visualizePathStyle: {stroke: '#ffaa00'}});
+				var path = creep.pos.findPathTo(sources[0], {visualizePathStyle: {stroke: '#ffaa00'}});
+				if (isSanePath(path)) {
+					creep.moveByPath(path);
+				}
+                //creep.moveTo(sources[0], {visualizePathStyle: {stroke: '#ffaa00'}});
             }
             else {
                 sources = creep.room.find(FIND_SOURCES);
