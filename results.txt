@@ -531,3 +531,168 @@ created remote upgrader/builder  3207
 created miner  3286
 [11:11:39 AM]
 created remote upgrader/builder  3356 
+
+
+
+
+
+
+
+work the second source
+
+
+[6:54:11 PM]
+created harvester at 8
+[6:54:12 PM]
+capacity upgraded at 9
+[6:56:05 PM]
+created harvester at 113
+[6:57:56 PM]
+created upgrader/builder  218
+[6:59:37 PM]
+created upgrader/builder  318
+[7:01:18 PM]
+created upgrader/builder  418
+[7:02:26 PM]
+setting stage to building at 486
+[7:02:27 PM]
+in building stage and converting upgrader 0
+[7:02:27 PM]
+in building stage and converting upgrader 0
+[7:02:27 PM]
+in building stage and converting upgrader 0
+[7:02:58 PM]
+created upgrader/builder  518
+[7:04:09 PM]
+converting upgrader to miner
+[7:04:39 PM]
+created miner  618
+[7:06:03 PM]
+created builder  702
+[7:07:06 PM]
+created miner  765
+[7:08:32 PM]
+created builder  851
+[7:13:05 PM]
+capacity upgraded at 1116
+[7:13:23 PM]
+created remote upgrader/builder 1133
+[7:14:50 PM]
+created remote upgrader/builder 1211
+[7:16:28 PM]
+created remote upgrader/builder 1298
+[7:20:39 PM]
+created harvester at 1519
+[7:22:31 PM]
+created harvester at 1610
+[7:22:31 PM]
+capacity upgraded at 1610
+[7:22:31 PM]
+creating road sites
+[7:23:30 PM]
+created harvester at 1660
+[7:24:57 PM]
+created miner  1729
+[7:26:27 PM]
+capacity upgraded at 1806
+[7:27:43 PM]
+created remote road builder  1873
+[7:30:36 PM]
+created big upgrader/builder  2001
+[7:30:41 PM]
+capacity upgraded at 2004
+[7:32:14 PM]
+created big upgrader/builder  2070
+[7:34:33 PM]
+created big upgrader/builder  2168
+[7:36:36 PM]
+created big upgrader/builder  2268
+[7:37:08 PM]
+capacity upgraded at 2294
+[7:38:31 PM]
+created miner  2363
+[7:40:44 PM]
+created big upgrader/builder  2473
+[7:42:07 PM]
+created miner  2552
+[7:44:10 PM]
+created remote road builder  2656 
+
+
+
+
+more efficient remote behavior
+
+9:16:41 PM]
+created harvester at 1
+[9:16:42 PM]
+capacity upgraded at 2
+[9:18:31 PM]
+created harvester at 106
+[9:20:18 PM]
+created upgrader/builder  211
+[9:21:59 PM]
+created upgrader/builder  311
+[9:23:40 PM]
+created upgrader/builder  411
+[9:24:36 PM]
+setting stage to building at 479
+[9:24:37 PM]
+in building stage and converting upgrader 0
+[9:24:37 PM]
+in building stage and converting upgrader 0
+[9:24:37 PM]
+in building stage and converting upgrader 0
+[9:25:02 PM]
+created upgrader/builder  511
+[9:25:55 PM]
+converting upgrader to miner
+[9:26:18 PM]
+created miner  611
+[9:27:44 PM]
+created builder  695
+[9:28:40 PM]
+created miner  758
+[9:29:58 PM]
+created builder  844
+[9:33:56 PM]
+capacity upgraded at 1109
+[9:34:11 PM]
+created remote upgrader/builder 1126
+[9:35:27 PM]
+created remote upgrader/builder 1204
+[9:36:58 PM]
+created remote upgrader/builder 1291
+[9:41:06 PM]
+created harvester at 1512
+[9:43:17 PM]
+created harvester at 1603
+[9:43:17 PM]
+capacity upgraded at 1603
+[9:43:17 PM]
+creating road sites
+[9:44:12 PM]
+created harvester at 1653
+[9:45:28 PM]
+created miner  1722
+[9:46:59 PM]
+capacity upgraded at 1799
+[9:51:28 PM]
+capacity upgraded at 1997
+[9:51:34 PM]
+created big upgrader/builder  2001
+[9:53:13 PM]
+created big upgrader/builder  2075
+[9:53:26 PM]
+capacity upgraded at 2085
+[9:54:26 PM]
+created big upgrader/builder  2131
+[9:55:33 PM]
+created miner  2179
+[9:57:31 PM]
+created remote road builder  2252
+[9:58:53 PM]
+created big upgrader/builder  2305
+[9:59:59 PM]
+created miner  2350
+

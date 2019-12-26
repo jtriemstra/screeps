@@ -28,6 +28,7 @@ var roleHarvester = {
                         return (structure.structureType == STRUCTURE_EXTENSION ||
                                 structure.structureType == STRUCTURE_SPAWN ||
                                 structure.structureType == STRUCTURE_TOWER) && 
+								structure.pos.getRangeTo(creep.pos) < 20 && 
                                 structure.store.getFreeCapacity(RESOURCE_ENERGY) > 0;
                     }
             });
