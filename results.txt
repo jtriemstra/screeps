@@ -696,3 +696,13 @@ created big upgrader/builder  2305
 [9:59:59 PM]
 created miner  2350
 
+
+
+
+
+
+
+first stab at putting extensions closer to source resulted in high congestion
+
+
+

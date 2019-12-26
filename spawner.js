@@ -18,7 +18,7 @@ var spawner = {
 				    console.log("created harvester at " + Game.time);
 				}        
 		}
-		else if (creepCount < 6 && room.energyCapacityAvailable == 300) {
+		else if (creepCount < 5 && room.energyCapacityAvailable == 300) {
 		    var newRole = Memory.currentStage == constants.BUILDING ? constants.BUILDER : constants.UPGRADER;
 			var newName = 'WorkUpgrader' + Game.time;
 			//console.log('Spawning new harvester: ' + newName);
@@ -27,10 +27,11 @@ var spawner = {
 				    console.log("created upgrader/builder  " + Game.time);
 				}       
 		}
-		else if (roleCounts[constants.MINER] == 0 && (roleCounts[constants.UPGRADER] + roleCounts[constants.BUILDER]) > 0){
+		else if (roleCounts[constants.MINER] < 3 && (roleCounts[constants.UPGRADER] + roleCounts[constants.BUILDER]) > roleCounts[constants.MINER]){
 		    console.log("converting upgrader to miner");
 		    for(var name in Game.creeps) {
                 var creep = Game.creeps[name];
+				//creep.name = creep.name + "Miner";
                 if (creep.memory.role == constants.UPGRADER || creep.memory.role == constants.BUILDER)  {
                     creep.memory.role = constants.MINER;
                     break;
