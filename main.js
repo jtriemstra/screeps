@@ -37,40 +37,40 @@ module.exports.loop = function () {
 	for(var name in Game.creeps) {
         var creep = Game.creeps[name];
         room = creep.room;
-		if(creep.memory.role == constants.HARVESTER) {
+		if(creep.memory.role == constants.ROLE_HARVESTER) {
             var result = roleHarvester.run(creep);
             if (result == -1) {
-                roleBase.setTempRole(creep, constants.BUILDER);
+                roleBase.setTempRole(creep, constants.ROLE_BUILDER);
             }
         }
-        if(creep.memory.role == constants.UPGRADER) {
+        if(creep.memory.role == constants.ROLE_UPGRADER) {
 			if (Memory.currentStage == constants.BUILDING) {
-			    console.log("in building stage and converting upgrader " + roleCounts[constants.UPGRADER]);
-				creep.memory.role = constants.BUILDER;
+			    console.log("in building stage and converting upgrader " + roleCounts[constants.ROLE_UPGRADER]);
+				creep.memory.role = constants.ROLE_BUILDER;
 			}
 			else {
 			    if (Memory.currentStage == constants.BUILDING) {
-			        //console.log("in building stage but keeping upgrader " + roleCounts[constants.UPGRADER]t);
+			        //console.log("in building stage but keeping upgrader " + roleCounts[constants.ROLE_UPGRADER]t);
 			    }
 			    else {
-			        //console.log("upgrader " + roleCounts[constants.UPGRADER] + " with stage " + Memory.currentStage);
+			        //console.log("upgrader " + roleCounts[constants.ROLE_UPGRADER] + " with stage " + Memory.currentStage);
 			    }
 				roleUpgrader.run(creep);
 			}
         }
-        if(creep.memory.role == constants.BUILDER) {
+        if(creep.memory.role == constants.ROLE_BUILDER) {
             roleBuilder.run(creep);
         }
-        if(creep.memory.role == constants.MINER) {
+        if(creep.memory.role == constants.ROLE_MINER) {
             roleMiner.run(creep);
         }
-        if(creep.memory.role == constants.COURIER) {
+        if(creep.memory.role == constants.ROLE_COURIER) {
             roleCourier.run(creep);
         }
-		if(creep.memory.role == constants.REMOTE_ROAD_BUILDER) {
+		if(creep.memory.role == constants.ROLE_REMOTE_ROAD_BUILDER) {
             roleRemoteRoadBuilder.run(creep);
         }
-		if(creep.memory.role == constants.REMOTE_BUILDER) {
+		if(creep.memory.role == constants.ROLE_REMOTE_BUILDER) {
             roleRemoteBuilder.run(creep);
         }
         creepCount++;

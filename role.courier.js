@@ -7,7 +7,7 @@ var roleCourier = {
 		if(creep.store.getFreeCapacity() > 0) {
             var targets = creep.room.find(FIND_MY_CREEPS, {
                     filter: (targetCreep) => {
-                        return (targetCreep.memory.role == constants.MINER && targetCreep.store.getUsedCapacity() > 0);
+                        return (targetCreep.memory.role == constants.ROLE_MINER && targetCreep.store.getUsedCapacity() > 0);
                     }
             });
 			

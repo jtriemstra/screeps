@@ -15,7 +15,7 @@ var roleMiner = {
 		    var targets = creep.room.find(FIND_MY_CREEPS, {
                     filter: (targetCreep) => {
                         return creep.pos.inRangeTo(targetCreep.pos, 1) && 
-                                targetCreep.memory.role != constants.MINER &&
+                                targetCreep.memory.role != constants.ROLE_MINER &&
                                 targetCreep.store.getFreeCapacity(RESOURCE_ENERGY) > 0;
                     }
             });

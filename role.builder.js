@@ -18,7 +18,7 @@ var roleBuilder = {
 
 	    if(creep.memory.building) {
 	        var targets = creep.room.find(FIND_MY_CONSTRUCTION_SITES, {filter: (thisSite) => {
-                        return thisSite.STRUCTURE_TYPE == STRUCTURE_EXTENSION;
+                        return thisSite.structureType == STRUCTURE_EXTENSION;
                     }});
 	        
             if(targets.length) {
@@ -30,7 +30,7 @@ var roleBuilder = {
 	    else {
 	        var sources = creep.room.find(FIND_MY_CREEPS, {
                     filter: (minerCreep) => {
-                        return minerCreep.memory.role == constants.MINER;
+                        return minerCreep.memory.role == constants.ROLE_MINER;
                     }
             });
             
