@@ -15,22 +15,25 @@ var roleUpgrader = {
 	    }
 
 	    if(creep.memory.upgrading) {
-            var originalLevel = creep.room.controller.level;
-			var result = creep.upgradeController(creep.room.controller);
+			//TODO: possibly pull this from somewhere else - for now, upgrader always has the same target
+            var result = creep.upgradeController(creep.room.controller);
             if(result == ERR_NOT_IN_RANGE) {
                 creep.moveTo(creep.room.controller);
             }
 			else if (result == OK) {
-				//if (creep.room.controller.level > originalLevel) {
-				//	siteCreator.run(creep.room);
-				//}	
+				
 			}
         }
         else {
-            var sources = creep.room.find(FIND_SOURCES);
-            if(creep.harvest(sources[0]) == ERR_NOT_IN_RANGE) {
-                creep.moveTo(sources[0], {visualizePathStyle: {stroke: '#ffaa00'}});
-            }
+			var source = constants.sourceFinders[creep.memory.sourceFinderId](creep);
+			
+			if (source) {
+				if(source.name || creep.harvest(source) == ERR_NOT_IN_RANGE) {
+                    var path = creep.pos.findPathTo(source, {visualizePathStyle: {stroke: '#ffaa00'}});
+					creep.moveByPath(path);
+					//TODO: sanity check on path
+                }
+			}  
         }
 		
 	    if (creep.room.energyAvailable < creep.room.energyCapacityAvailable) {

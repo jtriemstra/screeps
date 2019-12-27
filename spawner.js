@@ -26,16 +26,17 @@ var spawner = {
 			var newName = 'MoveHarvester' + Game.time;
 			//console.log('Spawning new harvester: ' + newName);
 			if(OK == Game.spawns['Spawn1'].spawnCreep([WORK,CARRY,MOVE,MOVE], newName, 
-				{memory: {role: constants.ROLE_HARVESTER, origRole: -1}})){
+				{memory: {role: constants.ROLE_HARVESTER, origRole: -1, sourceFinderId: constants.SOURCE_S0_M, targetFinderId: constants.TARGET_SPAWN_EXT}})){
 				    console.log("created harvester at " + Game.time);
 				}        
 		}
 		else if (creepCount < 5 && room.energyCapacityAvailable == 300) {
 		    var newRole = Memory.currentStage == constants.BUILDING ? constants.ROLE_BUILDER : constants.ROLE_UPGRADER;
+			var newTargetFinderId = Memory.currentStage == constants.BUILDING ? constants.TARGET_CORE_EXT : constants.TARGET_CONTROLLER;
 			var newName = 'WorkUpgrader' + Game.time;
 			//console.log('Spawning new harvester: ' + newName);
 			if (OK == Game.spawns['Spawn1'].spawnCreep([WORK,WORK,CARRY,MOVE], newName, 
-				{memory: {role: newRole, origRole: -1}})){
+				{memory: {role: newRole, origRole: -1, sourceFinderId: constants.SOURCE_S0_M, targetFinderId: newTargetFinderId}})){
 				    console.log("created upgrader/builder  " + Game.time);
 				}       
 		}
@@ -46,6 +47,8 @@ var spawner = {
 				//creep.name = creep.name + "Miner";
                 if (creep.memory.role == constants.ROLE_UPGRADER || creep.memory.role == constants.ROLE_BUILDER)  {
                     creep.memory.role = constants.ROLE_MINER;
+					creep.memory.sourceFinderId = constants.SOURCE_S0;
+					creep.memory.targetFinderId = constants.TARGET_CREEP;
                     break;
                 }
 		    }
@@ -54,7 +57,7 @@ var spawner = {
 			var newName = 'WorkMiner' + Game.time;
 			//console.log('Spawning new harvester: ' + newName);
 			if (OK == Game.spawns['Spawn1'].spawnCreep([WORK,WORK,CARRY,MOVE], newName, 
-				{memory: {role: constants.ROLE_MINER, origRole: -1}})){
+				{memory: {role: constants.ROLE_MINER, origRole: -1, sourceFinderId: constants.SOURCE_S0, targetFinderId: constants.TARGET_CREEP}})){
 				    console.log("created miner  " + Game.time);
 				}
 		}
@@ -62,7 +65,7 @@ var spawner = {
 			var newName = 'WorkUpgrader' + Game.time;
 			//console.log('Spawning new harvester: ' + newName);
 			if (OK == Game.spawns['Spawn1'].spawnCreep([WORK,WORK,CARRY,MOVE], newName, 
-				{memory: {role: constants.ROLE_BUILDER, origRole: -1}})){
+				{memory: {role: constants.ROLE_BUILDER, origRole: -1, sourceFinderId: constants.SOURCE_S0_M, targetFinderId: constants.TARGET_CORE_EXT}})){
 				    console.log("created builder  " + Game.time);
 				}
 		}
@@ -70,7 +73,7 @@ var spawner = {
 			var newName = 'WorkMiner' + Game.time;
 			//console.log('Spawning new harvester: ' + newName);
 			if (OK == Game.spawns['Spawn1'].spawnCreep([WORK,WORK,CARRY,MOVE], newName, 
-				{memory: {role: constants.ROLE_MINER, origRole: -1}})){
+				{memory: {role: constants.ROLE_MINER, origRole: -1, sourceFinderId: constants.SOURCE_S0, targetFinderId: constants.TARGET_CREEP}})){
 				    console.log("created miner  " + Game.time);
 				}
 		}
@@ -86,7 +89,7 @@ var spawner = {
 			var newName = 'WorkRemote' + Game.time;
 			//console.log('Spawning new harvester: ' + newName);
 			if (OK == Game.spawns['Spawn1'].spawnCreep([WORK,WORK,CARRY,MOVE,MOVE], newName, 
-				{memory: {role: constants.ROLE_REMOTE_BUILDER, origRole: -1}})){
+				{memory: {role: constants.ROLE_BUILDER, origRole: -1, sourceFinderId: constants.SOURCE_S1, targetFinderId: constants.TARGET_REMOTE_EXT}})){
 				    console.log("created remote upgrader/builder " + Game.time);
 				}
 		}
@@ -94,7 +97,7 @@ var spawner = {
 			var newName = 'WorkMiner' + Game.time;
 			//console.log('Spawning new harvester: ' + newName);
 			if (OK == Game.spawns['Spawn1'].spawnCreep([WORK,WORK,WORK,CARRY,MOVE], newName, 
-				{memory: {role: constants.ROLE_MINER, origRole: -1}})){
+				{memory: {role: constants.ROLE_MINER, origRole: -1, sourceFinderId: constants.SOURCE_S0, targetFinderId: constants.TARGET_CREEP}})){
 				    console.log("created miner  " + Game.time);
 				}
 		}

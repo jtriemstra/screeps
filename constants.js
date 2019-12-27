@@ -41,12 +41,90 @@ var constants = {
 	},
 	
 	sourceS0: function(creep) {
+		var sources = creep.room.find(FIND_SOURCES);
+		
+		if (sources.length > 0) {
+			return sources[0];			
+		}
+		else {
+			return null;
+		}
 	},
 	
 	sourceS1: function(creep) {
+		var sources = creep.room.find(FIND_SOURCES);
+		
+		if (sources.length > 1) {
+			return sources[1];
+		}
+		else {
+			return null;
+		}
 	},
 	
-	sourceFinders: [sourceS0_M, sourceS0, sourceS1];
+	sourceFinders: [],
+	
+	targetSpawnExt: function(creep) {
+		 var targets = creep.room.find(FIND_STRUCTURES, {
+				filter: (structure) => {
+					return (structure.structureType == STRUCTURE_EXTENSION ||
+							structure.structureType == STRUCTURE_SPAWN ||
+							structure.structureType == STRUCTURE_TOWER) && 
+							structure.pos.getRangeTo(creep.pos) < 20 && 
+							structure.store.getFreeCapacity(RESOURCE_ENERGY) > 0;
+				}
+		});
+		
+		if (targets.length > 0) return targets[0];
+		
+		return null;
+	},
+	
+	targetController: function(creep){
+		return null;
+	},
+	
+	targetCoreExt: function(creep){
+		var targets = creep.room.find(FIND_MY_CONSTRUCTION_SITES, {filter: (thisSite) => {
+			return thisSite.structureType == STRUCTURE_EXTENSION;
+		}});
+		
+		if (targets.length > 0) return targets[0];
+		
+		return null;
+	},
+	
+	targetCreep: function(creep){
+		var targets = creep.room.find(FIND_MY_CREEPS, {
+				filter: (targetCreep) => {
+					return creep.pos.inRangeTo(targetCreep.pos, 1) && 
+							targetCreep.memory.role != constants.ROLE_MINER &&
+							targetCreep.store.getFreeCapacity(RESOURCE_ENERGY) > 0;
+				}
+		});
+		
+		if (targets.length > 0) return targets[0];
+		
+		return null;
+	},
+	
+	targetRemoteExt: function(creep) {
+		var targets = creep.room.find(FIND_MY_CONSTRUCTION_SITES, {filter: (thisSite) => {
+			return thisSite.structureType == STRUCTURE_EXTENSION && thisSite.pos.getRangeTo(creep.pos) < 5;
+		}});
+	},
+	
+	targetFinders: [],
 };
+
+constants.sourceFinders.push(constants.sourceS0_M);
+constants.sourceFinders.push(constants.sourceS0);
+constants.sourceFinders.push(constants.sourceS1);
+
+constants.targetFinders.push(constants.targetSpawnExt);
+constants.targetFinders.push(constants.targetController);
+constants.targetFinders.push(constants.targetCoreExt);
+constants.targetFinders.push(constants.targetCreep);
+constants.targetFinders.push(constants.targetRemoteExt);
 
 module.exports = constants;

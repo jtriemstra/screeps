@@ -6,21 +6,16 @@ var roleMiner = {
     run: function(creep) {
         
 		if(creep.store.getFreeCapacity() > 0) {
-            var sources = creep.room.find(FIND_SOURCES);
-            if(creep.harvest(sources[0]) == ERR_NOT_IN_RANGE) {
-                creep.moveTo(sources[0], {visualizePathStyle: {stroke: '#ffaa00'}});
+            var source = constants.sourceFinders[creep.memory.sourceFinderId](creep);
+			
+            if(creep.harvest(source) == ERR_NOT_IN_RANGE) {
+                creep.moveTo(source, {visualizePathStyle: {stroke: '#ffaa00'}});
             }
         }
 		else {
-		    var targets = creep.room.find(FIND_MY_CREEPS, {
-                    filter: (targetCreep) => {
-                        return creep.pos.inRangeTo(targetCreep.pos, 1) && 
-                                targetCreep.memory.role != constants.ROLE_MINER &&
-                                targetCreep.store.getFreeCapacity(RESOURCE_ENERGY) > 0;
-                    }
-            });
-            if(targets.length > 0) {
-                creep.transfer(targets[0], RESOURCE_ENERGY);
+		    var target = constants.targetFinders[creep.memory.targetFinderId](creep);
+            if(target) {
+                creep.transfer(target, RESOURCE_ENERGY);
             }
 		}	    
 	}

@@ -28,8 +28,7 @@ module.exports.loop = function () {
             tower.attack(closestHostile);
         }
     }*/
-	
-	
+		
 	var room;
 	var creepCount=0;
 	var roleCounts = [0,0,0,0,0,0,0];
@@ -40,13 +39,15 @@ module.exports.loop = function () {
 		if(creep.memory.role == constants.ROLE_HARVESTER) {
             var result = roleHarvester.run(creep);
             if (result == -1) {
-                roleBase.setTempRole(creep, constants.ROLE_BUILDER);
+				//TODO: this is narrowly applicable
+                roleBase.setTempRole(creep, constants.ROLE_BUILDER, constants.TARGET_CORE_EXT);
             }
         }
         if(creep.memory.role == constants.ROLE_UPGRADER) {
 			if (Memory.currentStage == constants.BUILDING) {
 			    console.log("in building stage and converting upgrader " + roleCounts[constants.ROLE_UPGRADER]);
 				creep.memory.role = constants.ROLE_BUILDER;
+				creep.memory.targetFinderId = constants.TARGET_CORE_EXT;
 			}
 			else {
 			    if (Memory.currentStage == constants.BUILDING) {

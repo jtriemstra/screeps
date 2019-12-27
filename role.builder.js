@@ -17,33 +17,24 @@ var roleBuilder = {
 	    }
 
 	    if(creep.memory.building) {
-	        var targets = creep.room.find(FIND_MY_CONSTRUCTION_SITES, {filter: (thisSite) => {
-                        return thisSite.structureType == STRUCTURE_EXTENSION;
-                    }});
+	        var target = constants.targetFinders[creep.memory.targetFinderId](creep);
 	        
-            if(targets.length) {
-                if(creep.build(targets[0]) == ERR_NOT_IN_RANGE) {
-                    creep.moveTo(targets[0], {visualizePathStyle: {stroke: '#ffffff'}});
+            if(target) {
+                if(creep.build(target) == ERR_NOT_IN_RANGE) {
+                    creep.moveTo(target, {visualizePathStyle: {stroke: '#ffffff'}});
                 }
             }
 	    }
 	    else {
-	        var sources = creep.room.find(FIND_MY_CREEPS, {
-                    filter: (minerCreep) => {
-                        return minerCreep.memory.role == constants.ROLE_MINER;
-                    }
-            });
-            
-            if (sources.length > 0) {
-                creep.moveTo(sources[0], {visualizePathStyle: {stroke: '#ffaa00'}});
-            }
-            else {
-                sources = creep.room.find(FIND_SOURCES);
-                
-                if(creep.harvest(sources[0]) == ERR_NOT_IN_RANGE) {
-                    creep.moveTo(sources[0], {visualizePathStyle: {stroke: '#ffaa00'}});
+	        var source = constants.sourceFinders[creep.memory.sourceFinderId](creep);
+			
+			if (source) {
+				if(source.name || creep.harvest(source) == ERR_NOT_IN_RANGE) {
+                    var path = creep.pos.findPathTo(source, {visualizePathStyle: {stroke: '#ffaa00'}});
+					creep.moveByPath(path);
+					//TODO: sanity check on path
                 }
-            }
+			} 
 	    }
 	}
 };
