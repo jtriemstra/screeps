@@ -125,8 +125,12 @@ var goals = {
 			return extensions.length >= 2;
 		},
 		spawnRule: function(room, roleCounts, creepCount){
-			//TODO: how to limit this now that all builders use the same role?
-			if (room.energyAvailable == 350 && room.energyCapacityAvailable == 350 && roleCounts[constants.ROLE_REMOTE_BUILDER] < 3) {
+			//TODO: how to limit this now that all builders use the same role? this should be moved elsewhere
+			var remoteCount = 0;
+			for (var name in Game.creeps) {
+				if (Game.creeps[name].memory.goal == 3) remoteCount++;
+			}
+			if (room.energyAvailable == 350 && room.energyCapacityAvailable == 350 && remoteCount < 4) {
 				var newName = 'WorkRemote' + Game.time;
 				
 				if (OK == Game.spawns['Spawn1'].spawnCreep([WORK,WORK,CARRY,MOVE,MOVE], newName, 
