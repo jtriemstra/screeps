@@ -112,6 +112,10 @@ var constants = {
 		var targets = creep.room.find(FIND_MY_CONSTRUCTION_SITES, {filter: (thisSite) => {
 			return thisSite.structureType == STRUCTURE_EXTENSION && thisSite.pos.getRangeTo(creep.pos) < 5;
 		}});
+		
+		if (targets.length > 0) return targets[0];
+		
+		return null;
 	},
 	
 	targetFinders: [],

@@ -6,8 +6,6 @@ var constants = require('constants');
 var sitecreator = require('sitecreator');
 var roleMiner = require('role.miner');
 var roleBase = require('role.base');
-var roleRemoteRoadBuilder = require('role.remoteroadbuilder');
-var roleRemoteBuilder = require('role.remotebuilder');
 
 //Memory.currentStage = constants.UPGRADING;
 //console.log("reloading app");
@@ -64,15 +62,6 @@ module.exports.loop = function () {
         }
         if(creep.memory.role == constants.ROLE_MINER) {
             roleMiner.run(creep);
-        }
-        if(creep.memory.role == constants.ROLE_COURIER) {
-            roleCourier.run(creep);
-        }
-		if(creep.memory.role == constants.ROLE_REMOTE_ROAD_BUILDER) {
-            roleRemoteRoadBuilder.run(creep);
-        }
-		if(creep.memory.role == constants.ROLE_REMOTE_BUILDER) {
-            roleRemoteBuilder.run(creep);
         }
         creepCount++;
 		roleCounts[roleBase.getOrigRole(creep)]++;
