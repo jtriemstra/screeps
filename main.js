@@ -59,7 +59,7 @@ module.exports.loop = function () {
         }
         if(creep.memory.role == constants.ROLE_BUILDER) {
             var result = roleBuilder.run(creep);
-			if (result == -1 && creep.memory.goal == 4) {
+			if (result == -1 && creep.memory.goal == 3) {
 				//TODO: this is narrowly applicable
 				roleBase.setTempRole(creep, constants.ROLE_HARVESTER, creep.memory.targetFinderId);
 			}
