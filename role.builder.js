@@ -24,6 +24,9 @@ var roleBuilder = {
                     creep.moveTo(target, {visualizePathStyle: {stroke: '#ffffff'}});
                 }
             }
+			else {
+				return -1;
+			}
 	    }
 	    else {
 	        var source = constants.sourceFinders[creep.memory.sourceFinderId](creep);

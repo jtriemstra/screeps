@@ -12,7 +12,7 @@ var goals = {
 				var newName = 'MoveHarvester' + Game.time;
 				
 				if(OK == Game.spawns['Spawn1'].spawnCreep([WORK,CARRY,MOVE,MOVE], newName, 
-					{memory: {role: constants.ROLE_HARVESTER, origRole: -1, sourceFinderId: constants.SOURCE_S0_M, targetFinderId: constants.TARGET_SPAWN_EXT}})){
+					{memory: {goal: 0, role: constants.ROLE_HARVESTER, origRole: -1, sourceFinderId: constants.SOURCE_S0_M, targetFinderId: constants.TARGET_SPAWN_EXT}})){
 						console.log("created harvester at " + Game.time);
 					}
 				return true;
@@ -29,7 +29,7 @@ var goals = {
 				var newName = 'WorkUpgrader' + Game.time;
 				
 				if (OK == Game.spawns['Spawn1'].spawnCreep([WORK,WORK,CARRY,MOVE], newName, 
-					{memory: {role: constants.ROLE_UPGRADER, origRole: -1, sourceFinderId: constants.SOURCE_S0_M, targetFinderId: constants.TARGET_CONTROLLER}})){
+					{memory: {goal: 1, role: constants.ROLE_UPGRADER, origRole: -1, sourceFinderId: constants.SOURCE_S0_M, targetFinderId: constants.TARGET_CONTROLLER}})){
 						console.log("created upgrader/builder  " + Game.time);
 					}
 			
@@ -54,7 +54,7 @@ var goals = {
 				var newName = 'WorkBuilder' + Game.time;
 				
 				if (OK == Game.spawns['Spawn1'].spawnCreep([WORK,WORK,CARRY,MOVE], newName, 
-					{memory: {role: constants.ROLE_BUILDER, origRole: -1, sourceFinderId: constants.SOURCE_S0_M, targetFinderId: constants.TARGET_CORE_EXT}})){
+					{memory: {goal: 2, role: constants.ROLE_BUILDER, origRole: -1, sourceFinderId: constants.SOURCE_S0_M, targetFinderId: constants.TARGET_CORE_EXT}})){
 						console.log("created upgrader/builder  " + Game.time);
 					}
 			
@@ -70,6 +70,7 @@ var goals = {
 						creep.memory.role = constants.ROLE_MINER;
 						creep.memory.sourceFinderId = constants.SOURCE_S0;
 						creep.memory.targetFinderId = constants.TARGET_CREEP;
+						creep.memory.goal = 2;
 						break;
 					}
 				}
@@ -77,49 +78,38 @@ var goals = {
 				return true;
 
 			}
-			else if (room.energyAvailable == 300 && room.energyCapacityAvailable == 300 && roleCounts[constants.ROLE_MINER] < 2) {
+			else if (roleCounts[constants.ROLE_MINER] < 3) {
 				var newName = 'WorkMiner' + Game.time;
-				
-				if (OK == Game.spawns['Spawn1'].spawnCreep([WORK,WORK,CARRY,MOVE], newName, 
-					{memory: {role: constants.ROLE_MINER, origRole: -1, sourceFinderId: constants.SOURCE_S0, targetFinderId: constants.TARGET_CREEP}})){
+				var bodyParts;
+				if ( room.energyCapacityAvailable < 400) {
+					bodyParts = [WORK,WORK,CARRY,MOVE];
+				}
+				else {
+					bodyParts = [WORK,WORK,WORK,CARRY,MOVE];
+				}
+				if (OK == Game.spawns['Spawn1'].spawnCreep(bodyParts, newName, 
+					{memory: {goal: 2, role: constants.ROLE_MINER, origRole: -1, sourceFinderId: constants.SOURCE_S0, targetFinderId: constants.TARGET_CREEP}})){
 						console.log("created miner  " + Game.time);
 					}
 				
 				return true;
 			}
-			else if (room.energyAvailable == 300 && room.energyCapacityAvailable == 300 && roleCounts[constants.ROLE_BUILDER] < roleCounts[constants.ROLE_MINER] + 1) {
-				var newName = 'WorkUpgrader' + Game.time;
-				
+			else if (roleCounts[constants.ROLE_BUILDER] < roleCounts[constants.ROLE_MINER] + 2) {
+				var newName = 'WorkBuilder' + Game.time;
+				var bodyParts, isBig;
+				if ( room.energyCapacityAvailable < 450) {
+					bodyParts = [WORK,WORK,CARRY,MOVE];
+					isBig = "";
+				}
+				else {
+					bodyParts = [WORK,WORK,WORK,CARRY,MOVE,MOVE];
+					isBig = "big";
+				}
 				if (OK == Game.spawns['Spawn1'].spawnCreep([WORK,WORK,CARRY,MOVE], newName, 
-					{memory: {role: constants.ROLE_BUILDER, origRole: -1, sourceFinderId: constants.SOURCE_S0_M, targetFinderId: constants.TARGET_CORE_EXT}})){
-						console.log("created builder  " + Game.time);
+					{memory: {goal: 2, role: constants.ROLE_BUILDER, origRole: -1, sourceFinderId: constants.SOURCE_S0_M, targetFinderId: constants.TARGET_CORE_EXT}})){
+						console.log("created " + isBig + " builder  " + Game.time);
 					}
 				return true;
-			}
-			else if (room.energyAvailable == 300 && room.energyCapacityAvailable == 300 && roleCounts[constants.ROLE_MINER] < 3) {
-				var newName = 'WorkMiner' + Game.time;
-				
-				if (OK == Game.spawns['Spawn1'].spawnCreep([WORK,WORK,CARRY,MOVE], newName, 
-					{memory: {role: constants.ROLE_MINER, origRole: -1, sourceFinderId: constants.SOURCE_S0, targetFinderId: constants.TARGET_CREEP}})){
-						console.log("created miner  " + Game.time);
-					}
-				return true;
-			}
-			else if (room.energyAvailable == 400 && (roleCounts[constants.ROLE_MINER] < 3 && roleCounts[constants.ROLE_BUILDER] > roleCounts[constants.ROLE_MINER] + 2)) {
-				var newName = 'WorkMiner' + Game.time;
-				
-				if (OK == Game.spawns['Spawn1'].spawnCreep([WORK,WORK,WORK,CARRY,MOVE], newName, 
-					{memory: {role: constants.ROLE_MINER, origRole: -1, sourceFinderId: constants.SOURCE_S0, targetFinderId: constants.TARGET_CREEP}})){
-						console.log("created miner  " + Game.time);
-					}
-			}
-			else if (room.energyAvailable == 450 && (roleCounts[constants.ROLE_MINER] + roleCounts[constants.ROLE_BUILDER] < 7)) {
-				var newName = 'WorkUpgrader' + Game.time;
-				
-				if (OK == Game.spawns['Spawn1'].spawnCreep([WORK,WORK,WORK,CARRY,MOVE,MOVE], newName, 
-					{memory: {role: constants.ROLE_BUILDER, origRole: -1}})){
-						console.log("created big upgrader/builder  " + Game.time);
-					}
 			}
 			else {
 				return false;
@@ -140,13 +130,34 @@ var goals = {
 				var newName = 'WorkRemote' + Game.time;
 				
 				if (OK == Game.spawns['Spawn1'].spawnCreep([WORK,WORK,CARRY,MOVE,MOVE], newName, 
-					{memory: {role: constants.ROLE_BUILDER, origRole: -1, sourceFinderId: constants.SOURCE_S1, targetFinderId: constants.TARGET_REMOTE_EXT}})){
+					{memory: {goal: 3, role: constants.ROLE_BUILDER, origRole: -1, sourceFinderId: constants.SOURCE_S1, targetFinderId: constants.TARGET_REMOTE_EXT}})){
 						console.log("created remote upgrader/builder " + Game.time);
-					}
+					}		
+				return true;
+			}
+			else {
+				return false;
 			}
 		}
 	},
-	
+	energizeRemoteExtensions: {
+		isComplete: function(room){	return false; },
+		spawnRule: function(room, roleCounts, creepCount){
+			//TODO: how to limit this now that all builders use the same role?
+			if (room.energyAvailable == 350 && room.energyCapacityAvailable == 350 && roleCounts[constants.ROLE_REMOTE_BUILDER] < 3) {
+				var newName = 'WorkRemote' + Game.time;
+				
+				if (OK == Game.spawns['Spawn1'].spawnCreep([WORK,WORK,CARRY,MOVE,MOVE], newName, 
+					{memory: {goal:4, role: constants.ROLE_HARVESTER, origRole: -1, sourceFinderId: constants.SOURCE_S1, targetFinderId: constants.TARGET_REMOTE_EXT}})){
+						console.log("created remote harvester " + Game.time);
+					}		
+				return true;
+			}
+			else {
+				return false;
+			}
+		}
+	},
 };
 
 var spawner = {
@@ -163,6 +174,7 @@ var spawner = {
 		else if (goals.upgrade2.spawnRule(room, roleCounts, creepCount)){}
 		else if (goals.buildCoreExtensions.spawnRule(room, roleCounts, creepCount)){}
 		else if (goals.buildRemoteExtensions.spawnRule(room, roleCounts, creepCount)){}
+		else if (goals.energizeRemoteExtensions.spawnRule(room, roleCounts, creepCount)){}
 		else {}
 	}
 };

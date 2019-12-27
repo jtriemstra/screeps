@@ -1073,3 +1073,84 @@ converting upgrader to miner
 capacity upgraded at 1800
 [9:36:29 AM]
 capacity upgraded at 1806 
+
+
+
+
+
+refactor spawner around goals
+
+[10:03:20 AM]
+created harvester at 10
+[10:03:22 AM]
+capacity upgraded at 11
+[10:05:32 AM]
+created harvester at 115
+[10:07:38 AM]
+created upgrader/builder  220
+[10:09:30 AM]
+created upgrader/builder  320
+[10:11:18 AM]
+created upgrader/builder  420
+[10:11:19 AM]
+converting upgrader to miner
+[10:11:20 AM]
+converting upgrader to miner
+[10:12:27 AM]
+created builder  482
+[10:12:48 AM]
+setting stage to building at 503
+[10:12:49 AM]
+in building stage and converting upgrader 0
+[10:13:29 AM]
+created builder  544
+[10:13:30 AM]
+converting upgrader to miner
+[10:13:31 AM]
+converting upgrader to miner
+[10:15:13 AM]
+created builder  644
+[10:17:20 AM]
+created builder  763
+[10:20:23 AM]
+capacity upgraded at 940
+[10:20:34 AM]
+created remote upgrader/builder 951
+[10:22:25 AM]
+created remote upgrader/builder 1059
+[10:24:47 AM]
+created remote upgrader/builder 1193
+[10:27:44 AM]
+created remote upgrader/builder 1348
+[10:27:51 AM]
+capacity upgraded at 1355
+[10:27:51 AM]
+creating road sites
+[10:28:51 AM]
+0
+[10:28:53 AM]
+0
+[10:28:54 AM]
+0
+[10:28:55 AM]
+1
+Game.creeps.MoveHarvester10.memory.role;
+3
+[10:31:26 AM]
+2,0,8,3,0,0,0
+[10:31:27 AM]
+2,0,8,3,0,0,0
+[10:32:12 AM]
+created harvester at 1521
+[10:33:48 AM]
+capacity upgraded at 1606
+[10:34:10 AM]
+created harvester at 1626
+[10:36:01 AM]
+converting upgrader to miner
+[10:36:41 AM]
+capacity upgraded at 1768
+[10:37:48 AM]
+converting upgrader to miner
+[10:37:49 AM]
+capacity upgraded at 1832 
