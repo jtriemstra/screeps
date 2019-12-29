@@ -1154,3 +1154,160 @@ capacity upgraded at 1768
 converting upgrader to miner
 [10:37:49 AM]
 capacity upgraded at 1832 
+
+
+
+
+
+fixed a few issues
+
+[1:46:17 PM]
+created harvester at 1
+[1:46:18 PM]
+capacity upgraded at 2
+[1:48:21 PM]
+created harvester at 104
+[1:50:01 PM]
+created upgrader/builder  209
+[1:51:30 PM]
+created upgrader/builder  309
+[1:52:59 PM]
+created upgrader/builder  409
+[1:53:00 PM]
+converting upgrader to miner
+[1:53:00 PM]
+converting upgrader to miner
+[1:53:57 PM]
+created miner  471
+[1:54:15 PM]
+setting stage to building at 492
+[1:54:16 PM]
+in building stage and converting upgrader 0
+[1:54:56 PM]
+created  builder  534
+[1:56:12 PM]
+created  builder  610
+[1:57:18 PM]
+created  builder  680
+[1:58:54 PM]
+created  builder  765
+[2:02:13 PM]
+capacity upgraded at 913
+[2:02:48 PM]
+created remote upgrader/builder 941
+[2:04:39 PM]
+created remote upgrader/builder 1026
+[2:06:17 PM]
+created remote upgrader/builder 1106
+[2:07:31 PM]
+created remote upgrader/builder 1198
+[2:09:02 PM]
+created remote harvester 1309
+[2:10:13 PM]
+capacity upgraded at 1369
+[2:10:13 PM]
+creating road sites
+[2:13:32 PM]
+created harvester at 1512
+[2:13:56 PM]
+capacity upgraded at 1532
+[2:15:33 PM]
+created harvester at 1615
+[2:17:36 PM]
+converting upgrader to miner
+[2:18:08 PM]
+capacity upgraded at 1750
+[2:18:41 PM]
+capacity upgraded at 1783
+[2:19:18 PM]
+converting upgrader to miner 
+
+
+
+
+goals working ok, but problems with harvester/builder conversion
+
+[12:09:12 PM]
+goalList.isComplete is not a function
+[12:09:14 PM]
+goalList.isComplete is not a function
+[12:09:47 PM]
+created harvester at 23
+[12:09:48 PM]
+capacity upgraded at 24
+[12:11:40 PM]
+created harvester at 128
+[12:13:27 PM]
+created upgrader/builder  233
+[12:15:06 PM]
+created upgrader/builder  333
+[12:16:47 PM]
+created upgrader/builder  433
+[12:16:48 PM]
+converting upgrader to miner
+[12:16:49 PM]
+converting upgrader to miner
+[12:17:50 PM]
+created miner  495
+[12:18:11 PM]
+setting stage to building at 516
+[12:18:12 PM]
+in building stage and converting upgrader 0
+[12:18:54 PM]
+created  builder  558
+[12:20:10 PM]
+created  builder  634
+[12:21:22 PM]
+created  builder  704
+[12:22:49 PM]
+created  builder  789
+[12:25:19 PM]
+capacity upgraded at 937
+[12:25:37 PM]
+created remote upgrader/builder 954
+[12:27:02 PM]
+created remote upgrader/builder 1027
+[12:28:29 PM]
+created remote upgrader/builder 1111
+[12:29:49 PM]
+created remote upgrader/builder 1187
+[12:33:17 PM]
+capacity upgraded at 1378
+[12:33:17 PM]
+creating road sites
+[12:36:09 PM]
+created harvester at 1534
+[12:36:14 PM]
+capacity upgraded at 1538
+[12:38:03 PM]
+created harvester at 1639
+[12:39:55 PM]
+moving WorkUpgrader333 from goal 2 to goal 5
+[12:39:55 PM]
+moving WorkMiner495 from goal 2 to goal 5
+[12:39:55 PM]
+moving WorkBuilder558 from goal 2 to goal 5
+[12:39:55 PM]
+moving WorkBuilder634 from goal 2 to goal 5
+[12:39:55 PM]
+moving WorkBuilder704 from goal 2 to goal 5
+[12:39:55 PM]
+moving WorkBuilder789 from goal 2 to goal 5
+[12:39:56 PM]
+capacity upgraded at 1745
+[12:40:44 PM]
+capacity upgraded at 1789
+[12:41:22 PM]
+created miner  1818
+Game.creeps.WorkUpgrader433.memory.role;
+2
+Game.creeps.WorkUpgrader433.memory.goal;
+1
+Game.creeps.WorkUpgrader433.memory.targetFinderId;
+2
+Game.creeps.MoveHarvester1639.memory.role;
+2
+Game.creeps.MoveHarvester1639.memory.goal;
+0
+Game.creeps.MoveHarvester1639.memory.targetFinderId;
+2 

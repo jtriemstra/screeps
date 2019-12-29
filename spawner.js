@@ -8,7 +8,13 @@ var goals = {
 		spawnRule: function(room, roleCounts, creepCount){
 			//TODO: restore this
 			//if(roleCounts[constants.ROLE_HARVESTER] < this.minHarvesters(room)) {
-			if(roleCounts[constants.ROLE_HARVESTER] < 2) {
+			var harvesterCount = 0;
+			
+			if (room) {
+				harvesterCount = room.find(FIND_MY_CREEPS, {filter: (thisCreep) => {return (thisCreep.memory.origRole == constants.ROLE_HARVESTER || thisCreep.memory.role == constants.ROLE_HARVESTER) && thisCreep.memory.goal == 0;}}).length;
+			}
+			
+			if(harvesterCount < 2) {
 				var newName = 'MoveHarvester' + Game.time;
 				
 				if(OK == Game.spawns['Spawn1'].spawnCreep([WORK,CARRY,MOVE,MOVE], newName, 
@@ -42,11 +48,27 @@ var goals = {
 	},
 	buildCoreExtensions: {
 		isComplete: function(room){
-			//TODO: there might be a way to do this to trade off CPU for memory/code
+			//TODO: there might be a way to do this to trade off CPU for memory/code. memoize?
+			//TODO: this is pretty narrowly defined with the range of 10
 			var extensions = room.find(FIND_MY_STRUCTURES, {	filter: (thisStructure) => {
 					return thisStructure.structureType == STRUCTURE_EXTENSION && thisStructure.pos.getRangeTo(Game.spawns['Spawn1']) < 10;
 			}});
-			return extensions.length >= 3;
+			
+			if (extensions.length >= 3){
+				for(var name in Game.creeps) {
+					var creep = Game.creeps[name];
+					if (creep.memory.goal == 2 && creep.memory.role != constants.ROLE_MINER) {
+						creep.memory.goal = 5;
+						creep.memory.role = constants.ROLE_UPGRADER;
+						creep.memory.targetFinderId = constants.TARGET_CONTROLLER;
+						console.log("moving " + creep.name + " from goal 2 to goal 5");
+					}
+				}
+				return true;
+			}
+			else{
+				return false;
+			}
 		},
 		spawnRule: function(room, roleCounts, creepCount){
 			//TODO: some dynamic measure of congestion
@@ -66,7 +88,7 @@ var goals = {
 				for(var name in Game.creeps) {
 					var creep = Game.creeps[name];
 					
-					if (creep.memory.role == constants.ROLE_UPGRADER || creep.memory.role == constants.ROLE_BUILDER)  {
+					if (creep.memory.goal == 1 && creep.memory.role == constants.ROLE_UPGRADER || creep.memory.role == constants.ROLE_BUILDER)  {
 						creep.memory.role = constants.ROLE_MINER;
 						creep.memory.sourceFinderId = constants.SOURCE_S0;
 						creep.memory.targetFinderId = constants.TARGET_CREEP;
@@ -105,7 +127,7 @@ var goals = {
 					bodyParts = [WORK,WORK,WORK,CARRY,MOVE,MOVE];
 					isBig = "big";
 				}
-				if (OK == Game.spawns['Spawn1'].spawnCreep([WORK,WORK,CARRY,MOVE], newName, 
+				if (OK == Game.spawns['Spawn1'].spawnCreep(bodyParts, newName, 
 					{memory: {goal: 2, role: constants.ROLE_BUILDER, origRole: -1, sourceFinderId: constants.SOURCE_S0_M, targetFinderId: constants.TARGET_CORE_EXT}})){
 						console.log("created " + isBig + " builder  " + Game.time);
 					}
@@ -131,10 +153,10 @@ var goals = {
 				if (Game.creeps[name].memory.goal == 3) remoteCount++;
 			}
 			if (room.energyAvailable == 350 && room.energyCapacityAvailable == 350 && remoteCount < 4) {
-				var newName = 'WorkRemote' + Game.time;
+				var newName = 'HarvestRemote' + Game.time;
 				
 				if (OK == Game.spawns['Spawn1'].spawnCreep([WORK,WORK,CARRY,MOVE,MOVE], newName, 
-					{memory: {goal: 3, role: constants.ROLE_BUILDER, origRole: -1, sourceFinderId: constants.SOURCE_S1, targetFinderId: constants.TARGET_REMOTE_EXT}})){
+					{memory: {goal: 3, role: constants.ROLE_HARVESTER, origRole: -1, sourceFinderId: constants.SOURCE_S1, targetFinderId: constants.TARGET_REMOTE_EXT}})){
 						console.log("created remote upgrader/builder " + Game.time);
 					}		
 				return true;
@@ -147,8 +169,12 @@ var goals = {
 	energizeRemoteExtensions: {
 		isComplete: function(room){	return false; },
 		spawnRule: function(room, roleCounts, creepCount){
-			//TODO: how to limit this now that all builders use the same role?
-			if (room.energyAvailable == 350 && room.energyCapacityAvailable == 350 && roleCounts[constants.ROLE_REMOTE_BUILDER] < 3) {
+			//TODO: how to limit this now that all builders use the same role? this should be moved elsewhere
+			var remoteCount = 0;
+			for (var name in Game.creeps) {
+				if (Game.creeps[name].memory.goal == 3) remoteCount++;
+			}
+			if (room.energyAvailable == 350 && room.energyCapacityAvailable == 350 && remoteCount < 4) {
 				var newName = 'WorkRemote' + Game.time;
 				
 				if (OK == Game.spawns['Spawn1'].spawnCreep([WORK,WORK,CARRY,MOVE,MOVE], newName, 
@@ -162,7 +188,55 @@ var goals = {
 			}
 		}
 	},
+	upgrade3:{
+		isComplete: function(room){return room.controller.level >= 3;},
+		spawnRule: function(room, roleCounts, creepCount){
+			//TODO: very duplicative of code in previous build spawnRule
+			//TODO: role converter probably should go somewhere else
+			
+			if (roleCounts[constants.ROLE_MINER] < 3) {
+				var newName = 'WorkMiner' + Game.time;
+				//TODO: possible this starts executing before I actually have 550 available
+				var bodyParts = [WORK,WORK,WORK,CARRY,CARRY,MOVE,MOVE,MOVE];
+				
+				if (OK == Game.spawns['Spawn1'].spawnCreep(bodyParts, newName, 
+					{memory: {goal: 5, role: constants.ROLE_MINER, origRole: -1, sourceFinderId: constants.SOURCE_S0, targetFinderId: constants.TARGET_CONTROLLER}})){
+						console.log("created miner  " + Game.time);
+					}
+				
+				return true;
+			}
+			else if (roleCounts[constants.ROLE_UPGRADER] + roleCounts[constants.ROLE_BUILDER] < roleCounts[constants.ROLE_MINER] + 2) {
+				var newName = 'WorkBuilder' + Game.time;
+				var bodyParts = [WORK,WORK,WORK,CARRY,CARRY,MOVE,MOVE,MOVE];
+					
+				if (OK == Game.spawns['Spawn1'].spawnCreep(bodyParts, newName, 
+					{memory: {goal: 5, role: constants.ROLE_UPGRADER, origRole: -1, sourceFinderId: constants.SOURCE_S0_M, targetFinderId: constants.TARGET_CONTROLLER}})){
+						console.log("created " + isBig + " builder  " + Game.time);
+					}
+				return true;
+			}
+			else {
+				return false;
+			}
+		},
+		
+	},
+	mineRemote: {
+		isComplete: function(room){ return false;},
+		spawnRule: function(room, roleCounts, creepCount){
+			
+		}
+	},
 };
+
+var goalList = [];
+goalList.push(goals.energizeCore);
+goalList.push(goals.upgrade2);
+goalList.push(goals.buildCoreExtensions);
+goalList.push(goals.buildRemoteExtensions);
+goalList.push(goals.energizeRemoteExtensions);
+goalList.push(goals.upgrade3);
 
 var spawner = {
 	minHarvesters: function(room) {
@@ -173,13 +247,14 @@ var spawner = {
 		
 		//TODO: this could save CPU cycles but will delay the conversion from upgraders to builders.
 		//if (room && room.energyAvailable <= 250) return;
-        
-		if (goals.energizeCore.spawnRule(room, roleCounts, creepCount)){}
-		else if (goals.upgrade2.spawnRule(room, roleCounts, creepCount)){}
-		else if (goals.buildCoreExtensions.spawnRule(room, roleCounts, creepCount)){}
-		else if (goals.buildRemoteExtensions.spawnRule(room, roleCounts, creepCount)){}
-		else if (goals.energizeRemoteExtensions.spawnRule(room, roleCounts, creepCount)){}
-		else {}
+		
+        for (var i=0; i<goalList.length; i++){
+			if (!goalList[i].isComplete(room)){
+				if(goalList[i].spawnRule(room, roleCounts, creepCount)){
+					break;
+				}
+			}
+		}
 	}
 };
 

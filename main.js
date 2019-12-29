@@ -36,13 +36,17 @@ module.exports.loop = function () {
         room = creep.room;
 		if(creep.memory.role == constants.ROLE_HARVESTER) {
             var result = roleHarvester.run(creep);
+			
             if (result == -1) {
 				//TODO: this is narrowly applicable
-                roleBase.setTempRole(creep, constants.ROLE_BUILDER, constants.TARGET_CORE_EXT);
+				var newTarget = creep.memory.goal == 3 ? constants.TARGET_REMOTE_EXT : constants.TARGET_CORE_EXT;
+				
+                roleBase.setTempRole(creep, constants.ROLE_BUILDER, newTarget);
             }
         }
         if(creep.memory.role == constants.ROLE_UPGRADER) {
-			if (Memory.currentStage == constants.BUILDING) {
+			//TODO: the legacy part of this condition should move to a goal
+			if (Memory.currentStage == constants.BUILDING && creep.memory.goal == 1) {
 			    console.log("in building stage and converting upgrader " + roleCounts[constants.ROLE_UPGRADER]);
 				creep.memory.role = constants.ROLE_BUILDER;
 				creep.memory.targetFinderId = constants.TARGET_CORE_EXT;
@@ -61,7 +65,7 @@ module.exports.loop = function () {
             var result = roleBuilder.run(creep);
 			if (result == -1 && creep.memory.goal == 3) {
 				//TODO: this is narrowly applicable
-				roleBase.setTempRole(creep, constants.ROLE_HARVESTER, creep.memory.targetFinderId);
+				roleBase.resetTempRole(creep);
 			}
         }
         if(creep.memory.role == constants.ROLE_MINER) {

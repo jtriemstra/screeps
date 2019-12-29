@@ -65,12 +65,13 @@ var constants = {
 	sourceFinders: [],
 	
 	targetSpawnExt: function(creep) {
+		//TODO: make this range more dynamic
 		 var targets = creep.room.find(FIND_STRUCTURES, {
 				filter: (structure) => {
 					return (structure.structureType == STRUCTURE_EXTENSION ||
 							structure.structureType == STRUCTURE_SPAWN ||
 							structure.structureType == STRUCTURE_TOWER) && 
-							structure.pos.getRangeTo(creep.pos) < 20 && 
+							structure.pos.getRangeTo(creep.pos) < 16 && 
 							structure.store.getFreeCapacity(RESOURCE_ENERGY) > 0;
 				}
 		});
@@ -111,6 +112,12 @@ var constants = {
 	targetRemoteExt: function(creep) {
 		var targets = creep.room.find(FIND_MY_CONSTRUCTION_SITES, {filter: (thisSite) => {
 			return thisSite.structureType == STRUCTURE_EXTENSION && thisSite.pos.getRangeTo(creep.pos) < 5;
+		}});
+		
+		if (targets.length > 0) return targets[0];
+		
+		targets = creep.room.find(FIND_STRUCTURES, {filter: (thisStruct) => {
+			return thisStruct.structureType == STRUCTURE_EXTENSION && thisStruct.pos.getRangeTo(creep.pos) < 5 && thisStruct.store.getFreeCapacity(RESOURCE_ENERGY);
 		}});
 		
 		if (targets.length > 0) return targets[0];

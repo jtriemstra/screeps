@@ -2,8 +2,9 @@ var constants = require('constants');
 var roleBase = require('role.base');
 
 var roleHarvester = {
-	isSanePath: function(path) {
-		return path.length < 16;
+	isSanePath: function(path, creep) {
+		//TODO: this is a little clunky
+		return creep.memory.goal == 3 || creep.memory.goal == 4 ? true : path.length < 16;
 	},
 	
     /** @param {Creep} creep **/
@@ -14,7 +15,7 @@ var roleHarvester = {
 			if (source) {
 				if(source.name || creep.harvest(source) == ERR_NOT_IN_RANGE) {
                     var path = creep.pos.findPathTo(source, {visualizePathStyle: {stroke: '#ffaa00'}});
-					if (this.isSanePath(path)) {
+					if (this.isSanePath(path, creep)) {
 						creep.moveByPath(path);
 					}
                 }
@@ -26,13 +27,16 @@ var roleHarvester = {
             if(target) {
 				var result = creep.transfer(target, RESOURCE_ENERGY);
                 if(result == ERR_NOT_IN_RANGE) {
-					var path = creep.pos.findPathTo(source, {visualizePathStyle: {stroke: '#ffffff'}});
-                    if (this.isSanePath(path)) {
+					var path = creep.pos.findPathTo(target, {visualizePathStyle: {stroke: '#ffffff'}});
+                    if (this.isSanePath(path, creep)) {
 						creep.moveByPath(path);
 					}
                 }
 				else if (result == OK){
 					roleBase.resetTempRole(creep);
+				}
+				else {
+					return -1;
 				}
             }
 			else {
