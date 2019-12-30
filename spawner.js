@@ -1,20 +1,24 @@
-var constants = require('constants');
+var constants = require('./constants');
+var roleBase = require('./role.base');
 
 var goals = {
 	list: function() {
 	},	
 	energizeCore: {
+		id:0,
 		isComplete: function(room){return false;},
 		spawnRule: function(room, roleCounts, creepCount){
-			//TODO: restore this
-			//if(roleCounts[constants.ROLE_HARVESTER] < this.minHarvesters(room)) {
 			var harvesterCount = 0;
+			var tempCapacityAvailable = 300;
 			
 			if (room) {
 				harvesterCount = room.find(FIND_MY_CREEPS, {filter: (thisCreep) => {return (thisCreep.memory.origRole == constants.ROLE_HARVESTER || thisCreep.memory.role == constants.ROLE_HARVESTER) && thisCreep.memory.goal == 0;}}).length;
+				tempCapacityAvailable = room.energyCapacityAvailable;
 			}
 			
-			if(harvesterCount < 2) {
+			//TODO: max this dynamic somehow
+			//TODO: possibly allow for bigger creations here, but probably need to solve energy source issues first
+			if(harvesterCount < (tempCapacityAvailable > 400 ? 3 : 2)) {
 				var newName = 'MoveHarvester' + Game.time;
 				
 				if(OK == Game.spawns['Spawn1'].spawnCreep([WORK,CARRY,MOVE,MOVE], newName, 
@@ -29,8 +33,24 @@ var goals = {
 		},
 	},
 	upgrade2: {
-		isComplete: function(room){return room.controller.level >= 2;},
+		id:1,
+		isComplete: function(room){
+			if (room.controller.level >= 2){
+				for (var name in Game.creeps) {
+				    var creep = Game.creeps[name];
+					if (creep.memory.goal == 1) {
+						console.log("in building stage and converting upgrader " + roleBase.log(creep));
+						creep.memory.role = constants.ROLE_BUILDER;
+						creep.memory.targetFinderId = constants.TARGET_CORE_EXT;
+						creep.memory.goal = 2;
+					}
+				}
+				
+				return true;
+			}
+		},
 		spawnRule: function(room, roleCounts, creepCount){
+			//TODO: make dynamic check of congestion?
 			if (creepCount < 5 ) {
 				var newName = 'WorkUpgrader' + Game.time;
 				
@@ -47,6 +67,7 @@ var goals = {
 		},
 	},
 	buildCoreExtensions: {
+		id:2,
 		isComplete: function(room){
 			//TODO: there might be a way to do this to trade off CPU for memory/code. memoize?
 			//TODO: this is pretty narrowly defined with the range of 10
@@ -58,10 +79,11 @@ var goals = {
 				for(var name in Game.creeps) {
 					var creep = Game.creeps[name];
 					if (creep.memory.goal == 2 && creep.memory.role != constants.ROLE_MINER) {
+						console.log("moving " + roleBase.log(creep) + " from goal 2 to goal 5");
 						creep.memory.goal = 5;
 						creep.memory.role = constants.ROLE_UPGRADER;
 						creep.memory.targetFinderId = constants.TARGET_CONTROLLER;
-						console.log("moving " + creep.name + " from goal 2 to goal 5");
+						
 					}
 				}
 				return true;
@@ -84,16 +106,20 @@ var goals = {
 			}
 			//TODO: try changing this. if there is 1 more upgrader/builder than miners, this will convert to have more miners than builders. not sure that's good.
 			else if (roleCounts[constants.ROLE_MINER] < 3 && (roleCounts[constants.ROLE_UPGRADER] + roleCounts[constants.ROLE_BUILDER]) > roleCounts[constants.ROLE_MINER]){
-				console.log("converting upgrader to miner");
+				
 				for(var name in Game.creeps) {
 					var creep = Game.creeps[name];
 					
 					if (creep.memory.goal == 1 && creep.memory.role == constants.ROLE_UPGRADER || creep.memory.role == constants.ROLE_BUILDER)  {
+						console.log("converting one upgrader to miner " + roleBase.log(creep));
 						creep.memory.role = constants.ROLE_MINER;
 						creep.memory.sourceFinderId = constants.SOURCE_S0;
 						creep.memory.targetFinderId = constants.TARGET_CREEP;
 						creep.memory.goal = 2;
 						break;
+					}
+					else {
+						console.log("not converting this to miner " + roleBase.log(creep));
 					}
 				}
 				
@@ -139,19 +165,37 @@ var goals = {
 		},
 	},
 	buildRemoteExtensions: {
+		id:3,
 		isComplete: function(room){
 			//TODO: there might be a way to do this to trade off CPU for memory/code
 			var extensions = room.find(FIND_MY_STRUCTURES, {	filter: (thisStructure) => {
 					return thisStructure.structureType == STRUCTURE_EXTENSION && thisStructure.pos.getRangeTo(Game.spawns['Spawn1']) > 10;
 			}});
-			return extensions.length >= 2;
+			if (extensions.length >= 2) {
+				var countRemote = 0;
+				for (var name in Game.creeps) {
+					var creep = Game.creeps[name];
+					if (creep.memory.goal == 3 || creep.memory.goal == 4) {
+						countRemote++;
+						if (countRemote > 2) {
+							console.log("sending remote back to core " + roleBase.log(creep));
+							//TODO: setting this to zero invokes the sanePath check, so the creep just sits. but setting to 4 means i need a different if() clause.
+							creep.memory.goal = 0;
+							creep.memory.sourceFinderId = constants.SOURCE_S0_M;
+							creep.memory.targetFinderId = constants.TARGET_CORE_EXT;
+						}
+					}
+				}
+				return true;
+			}
 		},
 		spawnRule: function(room, roleCounts, creepCount){
-			//TODO: how to limit this now that all builders use the same role? this should be moved elsewhere
+			//TODO: how to limit this now that all builders use the same role? this should be moved elsewhere. maybe build an array of lists out in main, when i populate roleCounts[]
 			var remoteCount = 0;
 			for (var name in Game.creeps) {
 				if (Game.creeps[name].memory.goal == 3) remoteCount++;
 			}
+			//TODO: 4 is narrowly applicable
 			if (room.energyAvailable == 350 && room.energyCapacityAvailable == 350 && remoteCount < 4) {
 				var newName = 'HarvestRemote' + Game.time;
 				
@@ -167,14 +211,16 @@ var goals = {
 		}
 	},
 	energizeRemoteExtensions: {
+		id:4,
 		isComplete: function(room){	return false; },
 		spawnRule: function(room, roleCounts, creepCount){
 			//TODO: how to limit this now that all builders use the same role? this should be moved elsewhere
 			var remoteCount = 0;
 			for (var name in Game.creeps) {
-				if (Game.creeps[name].memory.goal == 3) remoteCount++;
+				var creep = Game.creeps[name];
+				if (creep.memory.goal == 3 || creep.memory.goal == 4) remoteCount++;
 			}
-			if (room.energyAvailable == 350 && room.energyCapacityAvailable == 350 && remoteCount < 4) {
+			if (room.energyAvailable >= 350 && room.energyCapacityAvailable >= 350 && remoteCount < 2) {
 				var newName = 'WorkRemote' + Game.time;
 				
 				if (OK == Game.spawns['Spawn1'].spawnCreep([WORK,WORK,CARRY,MOVE,MOVE], newName, 
@@ -189,6 +235,7 @@ var goals = {
 		}
 	},
 	upgrade3:{
+		id:5,
 		isComplete: function(room){return room.controller.level >= 3;},
 		spawnRule: function(room, roleCounts, creepCount){
 			//TODO: very duplicative of code in previous build spawnRule
@@ -200,7 +247,7 @@ var goals = {
 				var bodyParts = [WORK,WORK,WORK,CARRY,CARRY,MOVE,MOVE,MOVE];
 				
 				if (OK == Game.spawns['Spawn1'].spawnCreep(bodyParts, newName, 
-					{memory: {goal: 5, role: constants.ROLE_MINER, origRole: -1, sourceFinderId: constants.SOURCE_S0, targetFinderId: constants.TARGET_CONTROLLER}})){
+					{memory: {goal: 5, role: constants.ROLE_MINER, origRole: -1, sourceFinderId: constants.SOURCE_S0, targetFinderId: constants.TARGET_CREEP}})){
 						console.log("created miner  " + Game.time);
 					}
 				
@@ -212,7 +259,7 @@ var goals = {
 					
 				if (OK == Game.spawns['Spawn1'].spawnCreep(bodyParts, newName, 
 					{memory: {goal: 5, role: constants.ROLE_UPGRADER, origRole: -1, sourceFinderId: constants.SOURCE_S0_M, targetFinderId: constants.TARGET_CONTROLLER}})){
-						console.log("created " + isBig + " builder  " + Game.time);
+						console.log("created bigger builder  " + Game.time);
 					}
 				return true;
 			}
@@ -223,6 +270,7 @@ var goals = {
 		
 	},
 	mineRemote: {
+		id: 6,
 		isComplete: function(room){ return false;},
 		spawnRule: function(room, roleCounts, creepCount){
 			
@@ -239,9 +287,7 @@ goalList.push(goals.energizeRemoteExtensions);
 goalList.push(goals.upgrade3);
 
 var spawner = {
-	minHarvesters: function(room) {
-		return room && room.energyCapacityAvailable > 750 ? 3 : 2;
-	},
+	
     run: function(creepCount, roleCounts, room) {
         //console.log(roleCounts);
 		

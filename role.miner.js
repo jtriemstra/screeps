@@ -1,4 +1,5 @@
 var constants = require('constants');
+var roleBase = require('role.base');
 
 var roleMiner = {
 
@@ -15,7 +16,11 @@ var roleMiner = {
 		else {
 		    var target = constants.targetFinders[creep.memory.targetFinderId](creep);
             if(target) {
-                creep.transfer(target, RESOURCE_ENERGY);
+                var result = creep.transfer(target, RESOURCE_ENERGY);
+                //console.log("miner transfer result " + result + " for " + roleBase.log(creep));
+            }
+            else {
+                //console.log("no target for miner " + roleBase.log(creep));
             }
 		}	    
 	}

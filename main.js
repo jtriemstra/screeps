@@ -7,26 +7,9 @@ var sitecreator = require('sitecreator');
 var roleMiner = require('role.miner');
 var roleBase = require('role.base');
 
-//Memory.currentStage = constants.UPGRADING;
-//console.log("reloading app");
 
 module.exports.loop = function () {
 
-    /*var tower = Game.getObjectById('5bd3543109dcc8e3a0a8e9e0');
-    if(tower) {
-        var closestDamagedStructure = tower.pos.findClosestByRange(FIND_STRUCTURES, {
-            filter: (structure) => structure.hits < structure.hitsMax
-        });
-        if(closestDamagedStructure) {
-            tower.repair(closestDamagedStructure);
-        }
-
-        var closestHostile = tower.pos.findClosestByRange(FIND_HOSTILE_CREEPS);
-        if(closestHostile) {
-            tower.attack(closestHostile);
-        }
-    }*/
-		
 	var room;
 	var creepCount=0;
 	var roleCounts = [0,0,0,0,0,0,0];
@@ -45,22 +28,7 @@ module.exports.loop = function () {
             }
         }
         if(creep.memory.role == constants.ROLE_UPGRADER) {
-			//TODO: the legacy part of this condition should move to a goal
-			if (Memory.currentStage == constants.BUILDING && creep.memory.goal == 1) {
-			    console.log("in building stage and converting upgrader " + roleBase.log(creep));
-				creep.memory.role = constants.ROLE_BUILDER;
-				creep.memory.targetFinderId = constants.TARGET_CORE_EXT;
-				creep.memory.goal = 2;
-			}
-			else {
-			    if (Memory.currentStage == constants.BUILDING) {
-			        //console.log("in building stage but keeping upgrader " + roleCounts[constants.ROLE_UPGRADER]t);
-			    }
-			    else {
-			        //console.log("upgrader " + roleCounts[constants.ROLE_UPGRADER] + " with stage " + Memory.currentStage);
-			    }
-				roleUpgrader.run(creep);
-			}
+			roleUpgrader.run(creep);			
         }
         if(creep.memory.role == constants.ROLE_BUILDER) {
             var result = roleBuilder.run(creep);
@@ -76,7 +44,7 @@ module.exports.loop = function () {
 		roleCounts[roleBase.getOrigRole(creep)]++;
 		
     }
-    //console.log(roleCounts);
+    
     spawner.run(creepCount, roleCounts, room);
 	if (room && room.energyCapacityAvailable > (Memory.initialCapacity == undefined ? 0 : Memory.initialCapacity)) {
 	    console.log("capacity upgraded at " + Game.time);

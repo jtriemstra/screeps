@@ -1,4 +1,4 @@
-var constants = require('constants');
+var constants = require('./constants');
 
 var roleBase = {
 
@@ -19,6 +19,9 @@ var roleBase = {
 	},
 	getOrigRole: function(creep) {
 	    return creep.memory.origRole == -1 ? creep.memory.role : creep.memory.origRole;
+	},
+	log: function(creep) { 
+		return "creep " + creep.name + " role: " + creep.memory.role + " goal " + creep.memory.goal + " source " + creep.memory.sourceFinderId + " target " + creep.memory.targetFinderId;
 	}
 };
 

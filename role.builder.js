@@ -1,5 +1,5 @@
-var roleBase = require('role.base');
-var constants = require('constants');
+var roleBase = require('./role.base');
+var constants = require('./constants');
 
 var roleBuilder = {
 
@@ -20,25 +20,46 @@ var roleBuilder = {
 	        var target = constants.targetFinders[creep.memory.targetFinderId](creep);
 	        
             if(target) {
-                if(creep.build(target) == ERR_NOT_IN_RANGE) {
+				var result = creep.build(target);
+                if(result == ERR_NOT_IN_RANGE) {
                     creep.moveTo(target, {visualizePathStyle: {stroke: '#ffffff'}});
+					return OK;
                 }
+				else if (result == OK) {
+					return OK;
+				}
+				else {
+					//console.log("builder build error " + result + " at " + Game.time + " for " + roleBase.log(creep));
+				}
             }
 			else {
-				return -1;
+				//console.log("builder no target at " + Game.time + " for " + roleBase.log(creep));
 			}
 	    }
 	    else {
 	        var source = constants.sourceFinders[creep.memory.sourceFinderId](creep);
 			
 			if (source) {
-				if(source.name || creep.harvest(source) == ERR_NOT_IN_RANGE) {
+				var result = creep.harvest(source);
+				if(source.name || result == ERR_NOT_IN_RANGE) {
                     var path = creep.pos.findPathTo(source, {visualizePathStyle: {stroke: '#ffaa00'}});
 					creep.moveByPath(path);
 					//TODO: sanity check on path
+					return OK;
                 }
+				else if (result == OK) {
+					return OK;
+				}
+				else {
+					//console.log("builder harvest error " + result + " at " + Game.time + " for " + roleBase.log(creep));
+				}
 			} 
+			else {
+				//console.log("builder no source at " + Game.time + " for " + roleBase.log(creep));
+			}
 	    }
+				
+		roleBase.resetTempRole(creep);
 	}
 };
 

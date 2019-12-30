@@ -71,12 +71,18 @@ var constants = {
 					return (structure.structureType == STRUCTURE_EXTENSION ||
 							structure.structureType == STRUCTURE_SPAWN ||
 							structure.structureType == STRUCTURE_TOWER) && 
-							structure.pos.getRangeTo(creep.pos) < 16 && 
-							structure.store.getFreeCapacity(RESOURCE_ENERGY) > 0;
+							structure.pos.getRangeTo(creep.pos) < 16 
 				}
 		});
 		
-		if (targets.length > 0) return targets[0];
+		if (targets.length > 0){
+			for (var i=0; i<targets.length; i++){
+				if (targets[i].store.getFreeCapacity(RESOURCE_ENERGY) > 0){
+					return targets[i];
+				}
+			}
+			return targets[0];
+		}
 		
 		return null;
 	},
@@ -87,7 +93,7 @@ var constants = {
 	
 	targetCoreExt: function(creep){
 		var targets = creep.room.find(FIND_MY_CONSTRUCTION_SITES, {filter: (thisSite) => {
-			return thisSite.structureType == STRUCTURE_EXTENSION;
+			return creep.pos.inRangeTo(thisSite.pos, 13) && thisSite.structureType == STRUCTURE_EXTENSION;
 		}});
 		
 		if (targets.length > 0) return targets[0];
