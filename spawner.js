@@ -16,13 +16,13 @@ var goals = {
 				tempCapacityAvailable = room.energyCapacityAvailable;
 			}
 			
-			//TODO: max this dynamic somehow
+			//TODO: make this dynamic somehow
 			//TODO: possibly allow for bigger creations here, but probably need to solve energy source issues first
 			if(harvesterCount < (tempCapacityAvailable > 400 ? 3 : 2)) {
 				var newName = 'MoveHarvester' + Game.time;
 				
 				if(OK == Game.spawns['Spawn1'].spawnCreep([WORK,CARRY,MOVE,MOVE], newName, 
-					{memory: {goal: 0, role: constants.ROLE_HARVESTER, origRole: -1, sourceFinderId: constants.SOURCE_S0_M, targetFinderId: constants.TARGET_SPAWN_EXT}})){
+					{memory: {goal: this.id, role: constants.ROLE_HARVESTER, origRole: -1, sourceFinderId: constants.SOURCE_S0_M, targetFinderId: constants.TARGET_SPAWN_EXT}})){
 						console.log("created harvester at " + Game.time);
 					}
 				return true;
@@ -38,11 +38,11 @@ var goals = {
 			if (room.controller.level >= 2){
 				for (var name in Game.creeps) {
 				    var creep = Game.creeps[name];
-					if (creep.memory.goal == 1) {
+					if (creep.memory.goal == this.id) {
 						console.log("in building stage and converting upgrader " + roleBase.log(creep));
 						creep.memory.role = constants.ROLE_BUILDER;
 						creep.memory.targetFinderId = constants.TARGET_CORE_EXT;
-						creep.memory.goal = 2;
+						creep.memory.goal = goals.buildCoreExtensions.id;
 					}
 				}
 				
@@ -55,7 +55,7 @@ var goals = {
 				var newName = 'WorkUpgrader' + Game.time;
 				
 				if (OK == Game.spawns['Spawn1'].spawnCreep([WORK,WORK,CARRY,MOVE], newName, 
-					{memory: {goal: 1, role: constants.ROLE_UPGRADER, origRole: -1, sourceFinderId: constants.SOURCE_S0_M, targetFinderId: constants.TARGET_CONTROLLER}})){
+					{memory: {goal: this.id, role: constants.ROLE_UPGRADER, origRole: -1, sourceFinderId: constants.SOURCE_S0_M, targetFinderId: constants.TARGET_CONTROLLER}})){
 						console.log("created upgrader/builder  " + Game.time);
 					}
 			
@@ -78,9 +78,10 @@ var goals = {
 			if (extensions.length >= 3){
 				for(var name in Game.creeps) {
 					var creep = Game.creeps[name];
-					if (creep.memory.goal == 2 && creep.memory.role != constants.ROLE_MINER) {
+					if (creep.memory.goal == this.id && creep.memory.role != constants.ROLE_MINER) {
 						console.log("moving " + roleBase.log(creep) + " from goal 2 to goal 5");
-						creep.memory.goal = 5;
+						//TODO: make this dynamic somehow - figure out the next best goal for the current creep to do
+						creep.memory.goal = goals.upgrade3.id;
 						creep.memory.role = constants.ROLE_UPGRADER;
 						creep.memory.targetFinderId = constants.TARGET_CONTROLLER;
 						
@@ -98,7 +99,7 @@ var goals = {
 				var newName = 'WorkBuilder' + Game.time;
 				
 				if (OK == Game.spawns['Spawn1'].spawnCreep([WORK,WORK,CARRY,MOVE], newName, 
-					{memory: {goal: 2, role: constants.ROLE_BUILDER, origRole: -1, sourceFinderId: constants.SOURCE_S0_M, targetFinderId: constants.TARGET_CORE_EXT}})){
+					{memory: {goal: this.id, role: constants.ROLE_BUILDER, origRole: -1, sourceFinderId: constants.SOURCE_S0_M, targetFinderId: constants.TARGET_CORE_EXT}})){
 						console.log("created upgrader/builder  " + Game.time);
 					}
 			
@@ -136,7 +137,7 @@ var goals = {
 					bodyParts = [WORK,WORK,WORK,CARRY,MOVE];
 				}
 				if (OK == Game.spawns['Spawn1'].spawnCreep(bodyParts, newName, 
-					{memory: {goal: 2, role: constants.ROLE_MINER, origRole: -1, sourceFinderId: constants.SOURCE_S0, targetFinderId: constants.TARGET_CREEP}})){
+					{memory: {goal: this.id, role: constants.ROLE_MINER, origRole: -1, sourceFinderId: constants.SOURCE_S0, targetFinderId: constants.TARGET_CREEP}})){
 						console.log("created miner  " + Game.time);
 					}
 				
@@ -154,7 +155,7 @@ var goals = {
 					isBig = "big";
 				}
 				if (OK == Game.spawns['Spawn1'].spawnCreep(bodyParts, newName, 
-					{memory: {goal: 2, role: constants.ROLE_BUILDER, origRole: -1, sourceFinderId: constants.SOURCE_S0_M, targetFinderId: constants.TARGET_CORE_EXT}})){
+					{memory: {goal: this.id, role: constants.ROLE_BUILDER, origRole: -1, sourceFinderId: constants.SOURCE_S0_M, targetFinderId: constants.TARGET_CORE_EXT}})){
 						console.log("created " + isBig + " builder  " + Game.time);
 					}
 				return true;
@@ -168,19 +169,22 @@ var goals = {
 		id:3,
 		isComplete: function(room){
 			//TODO: there might be a way to do this to trade off CPU for memory/code
+			//TODO: make this range of 10 more dynamic
 			var extensions = room.find(FIND_MY_STRUCTURES, {	filter: (thisStructure) => {
 					return thisStructure.structureType == STRUCTURE_EXTENSION && thisStructure.pos.getRangeTo(Game.spawns['Spawn1']) > 10;
 			}});
+			
+			//TODO: number of extensions is narrowly defined
 			if (extensions.length >= 2) {
 				var countRemote = 0;
 				for (var name in Game.creeps) {
 					var creep = Game.creeps[name];
-					if (creep.memory.goal == 3 || creep.memory.goal == 4) {
+					if (creep.memory.goal == this.id || creep.memory.goal == goals.energizeRemoteExtensions.id) {
 						countRemote++;
 						if (countRemote > 2) {
 							console.log("sending remote back to core " + roleBase.log(creep));
 							//TODO: setting this to zero invokes the sanePath check, so the creep just sits. but setting to 4 means i need a different if() clause.
-							creep.memory.goal = 0;
+							creep.memory.goal = goals.energizeCore.id;
 							creep.memory.sourceFinderId = constants.SOURCE_S0_M;
 							creep.memory.targetFinderId = constants.TARGET_CORE_EXT;
 						}
@@ -200,7 +204,7 @@ var goals = {
 				var newName = 'HarvestRemote' + Game.time;
 				
 				if (OK == Game.spawns['Spawn1'].spawnCreep([WORK,WORK,CARRY,MOVE,MOVE], newName, 
-					{memory: {goal: 3, role: constants.ROLE_HARVESTER, origRole: -1, sourceFinderId: constants.SOURCE_S1, targetFinderId: constants.TARGET_REMOTE_EXT}})){
+					{memory: {goal: this.id, role: constants.ROLE_HARVESTER, origRole: -1, sourceFinderId: constants.SOURCE_S1, targetFinderId: constants.TARGET_REMOTE_EXT}})){
 						console.log("created remote upgrader/builder " + Game.time);
 					}		
 				return true;
@@ -218,13 +222,13 @@ var goals = {
 			var remoteCount = 0;
 			for (var name in Game.creeps) {
 				var creep = Game.creeps[name];
-				if (creep.memory.goal == 3 || creep.memory.goal == 4) remoteCount++;
+				if (creep.memory.goal == goals.buildRemoteExtensions.id || creep.memory.goal == this.id) remoteCount++;
 			}
 			if (room.energyAvailable >= 350 && room.energyCapacityAvailable >= 350 && remoteCount < 2) {
 				var newName = 'WorkRemote' + Game.time;
 				
 				if (OK == Game.spawns['Spawn1'].spawnCreep([WORK,WORK,CARRY,MOVE,MOVE], newName, 
-					{memory: {goal:4, role: constants.ROLE_HARVESTER, origRole: -1, sourceFinderId: constants.SOURCE_S1, targetFinderId: constants.TARGET_REMOTE_EXT}})){
+					{memory: {goal:this.id, role: constants.ROLE_HARVESTER, origRole: -1, sourceFinderId: constants.SOURCE_S1, targetFinderId: constants.TARGET_REMOTE_EXT}})){
 						console.log("created remote harvester " + Game.time);
 					}		
 				return true;
@@ -239,7 +243,6 @@ var goals = {
 		isComplete: function(room){return room.controller.level >= 3;},
 		spawnRule: function(room, roleCounts, creepCount){
 			//TODO: very duplicative of code in previous build spawnRule
-			//TODO: role converter probably should go somewhere else
 			
 			if (roleCounts[constants.ROLE_MINER] < 3) {
 				var newName = 'WorkMiner' + Game.time;
@@ -247,7 +250,7 @@ var goals = {
 				var bodyParts = [WORK,WORK,WORK,CARRY,CARRY,MOVE,MOVE,MOVE];
 				
 				if (OK == Game.spawns['Spawn1'].spawnCreep(bodyParts, newName, 
-					{memory: {goal: 5, role: constants.ROLE_MINER, origRole: -1, sourceFinderId: constants.SOURCE_S0, targetFinderId: constants.TARGET_CREEP}})){
+					{memory: {goal: this.id, role: constants.ROLE_MINER, origRole: -1, sourceFinderId: constants.SOURCE_S0, targetFinderId: constants.TARGET_CREEP}})){
 						console.log("created miner  " + Game.time);
 					}
 				
@@ -258,7 +261,7 @@ var goals = {
 				var bodyParts = [WORK,WORK,WORK,CARRY,CARRY,MOVE,MOVE,MOVE];
 					
 				if (OK == Game.spawns['Spawn1'].spawnCreep(bodyParts, newName, 
-					{memory: {goal: 5, role: constants.ROLE_UPGRADER, origRole: -1, sourceFinderId: constants.SOURCE_S0_M, targetFinderId: constants.TARGET_CONTROLLER}})){
+					{memory: {goal: this.id, role: constants.ROLE_UPGRADER, origRole: -1, sourceFinderId: constants.SOURCE_S0_M, targetFinderId: constants.TARGET_CONTROLLER}})){
 						console.log("created bigger builder  " + Game.time);
 					}
 				return true;
