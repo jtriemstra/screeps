@@ -1,6 +1,6 @@
-var roleHarvester = require('role.harvester');
-var roleUpgrader = require('role.upgrader');
-var roleBuilder = require('role.builder');
+var roleHarvester = require('./role.harvester');
+var roleUpgrader = require('./role.upgrader');
+var roleBuilder = require('./role.builder');
 var spawner = require('spawner');
 var constants = require('constants');
 var sitecreator = require('sitecreator');
@@ -47,9 +47,10 @@ module.exports.loop = function () {
         if(creep.memory.role == constants.ROLE_UPGRADER) {
 			//TODO: the legacy part of this condition should move to a goal
 			if (Memory.currentStage == constants.BUILDING && creep.memory.goal == 1) {
-			    console.log("in building stage and converting upgrader " + roleCounts[constants.ROLE_UPGRADER]);
+			    console.log("in building stage and converting upgrader " + roleBase.log(creep));
 				creep.memory.role = constants.ROLE_BUILDER;
 				creep.memory.targetFinderId = constants.TARGET_CORE_EXT;
+				creep.memory.goal = 2;
 			}
 			else {
 			    if (Memory.currentStage == constants.BUILDING) {
