@@ -20,6 +20,8 @@ var constants = {
 	TARGET_REMOTE_EXT: 4,
 	TARGET_CONTAINER: 5,
 	
+	GOAL_NONE: -1,
+	
 	sourceS0_M: function(creep){
 		var sources = creep.room.find(FIND_MY_CREEPS, {
 				filter: (minerCreep) => {

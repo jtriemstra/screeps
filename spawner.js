@@ -36,16 +36,6 @@ var goals = {
 		id:1,
 		isComplete: function(room){
 			if (room.controller.level >= 2){
-				for (var name in Game.creeps) {
-				    var creep = Game.creeps[name];
-					if (creep.memory.goal == this.id) {
-						console.log("in building stage and converting upgrader " + roleBase.log(creep));
-						creep.memory.role = constants.ROLE_BUILDER;
-						creep.memory.targetFinderId = constants.TARGET_CORE_EXT;
-						creep.memory.goal = goals.buildCoreExtensions.id;
-					}
-				}
-				
 				return true;
 			}
 		},
@@ -76,17 +66,7 @@ var goals = {
 			}});
 			
 			if (extensions.length >= 3){
-				for(var name in Game.creeps) {
-					var creep = Game.creeps[name];
-					if (creep.memory.goal == this.id && creep.memory.role != constants.ROLE_MINER) {
-						console.log("moving " + roleBase.log(creep) + " from goal 2 to goal 5");
-						//TODO: make this dynamic somehow - figure out the next best goal for the current creep to do
-						creep.memory.goal = goals.upgrade3.id;
-						creep.memory.role = constants.ROLE_UPGRADER;
-						creep.memory.targetFinderId = constants.TARGET_CONTROLLER;
-						
-					}
-				}
+				
 				return true;
 			}
 			else{
@@ -94,6 +74,18 @@ var goals = {
 			}
 		},
 		spawnRule: function(room, roleCounts, creepCount){
+			if (goals.upgrade2.isComplete(room)) {
+				for(var name in Game.creeps) {
+					var creep = Game.creeps[name];
+					if (creep.memory.goal == goals.upgrade2.id) {
+						console.log("converting to build extensions: " + roleBase.log(creep));
+						creep.memory.goal = this.id;
+						creep.memory.sourceFinderId = constants.SOURCE_S0_M;
+						creep.memory.targetFinderId = constants.TARGET_CORE_EXT;
+						creep.memory.role = constants.ROLE_BUILDER;
+					}
+				}
+			}
 			//TODO: some dynamic measure of congestion
 			if (creepCount < 5 ) {
 				var newName = 'WorkBuilder' + Game.time;
@@ -244,6 +236,19 @@ var goals = {
 		spawnRule: function(room, roleCounts, creepCount){
 			//TODO: very duplicative of code in previous build spawnRule
 			
+			if (goals.buildCoreExtensions.isComplete(room)){
+				for (var name in Game.creeps) {
+					var creep = Game.creeps[name];
+					if (creep.memory.goal == goals.buildCoreExtensions.id && creep.memory.role != constants.ROLE_MINER) {
+						console.log("moving " + roleBase.log(creep) + " from goal 2 to goal 5");
+						
+						creep.memory.goal = this.id;
+						creep.memory.role = constants.ROLE_UPGRADER;
+						creep.memory.targetFinderId = constants.TARGET_CONTROLLER;
+					}
+				}
+			}						
+						
 			if (roleCounts[constants.ROLE_MINER] < 3) {
 				var newName = 'WorkMiner' + Game.time;
 				//TODO: possible this starts executing before I actually have 550 available
