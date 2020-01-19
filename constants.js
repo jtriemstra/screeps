@@ -30,12 +30,15 @@ var constants = {
 		});
 		
 		if (sources.length == 0) {
-			//TODO: use a filter instead of assuming 0 is the one I want?
 			sources = creep.room.find(FIND_SOURCES);
 		}
 		
-		if (sources.length > 0) {
+		//TODO: consider how this algorithm changes if miners come back into play
+		if (sources.length == 1) {
 			return sources[0];			
+		}
+		else if (sources.length > 1){
+			return creep.findClosestByPath(sources);
 		}
 		else {
 			return null;
@@ -45,8 +48,11 @@ var constants = {
 	sourceS0: function(creep) {
 		var sources = creep.room.find(FIND_SOURCES);
 		
-		if (sources.length > 0) {
+		if (sources.length == 1) {
 			return sources[0];			
+		}
+		else if (sources.length > 1){
+			return creep.findClosestByPath(sources);
 		}
 		else {
 			return null;
