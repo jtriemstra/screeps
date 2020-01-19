@@ -41,7 +41,7 @@ var goals = {
 		},
 		spawnRule: function(room, roleCounts, creepCount){
 			//TODO: make dynamic check of congestion?
-			if (creepCount < 5 ) {
+			if (creepCount < 9 ) {
 				var newName = 'WorkUpgrader' + Game.time;
 				
 				if (OK == Game.spawns['Spawn1'].spawnCreep([WORK,WORK,CARRY,MOVE], newName, 
@@ -87,7 +87,7 @@ var goals = {
 				}
 			}
 			//TODO: some dynamic measure of congestion
-			if (creepCount < 5 ) {
+			if (creepCount < 9 ) {
 				var newName = 'WorkBuilder' + Game.time;
 				
 				if (OK == Game.spawns['Spawn1'].spawnCreep([WORK,WORK,CARRY,MOVE], newName, 
