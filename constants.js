@@ -38,7 +38,7 @@ var constants = {
 			return sources[0];			
 		}
 		else if (sources.length > 1){
-			return creep.findClosestByPath(sources);
+			return creep.pos.findClosestByPath(sources);
 		}
 		else {
 			return null;
@@ -52,7 +52,7 @@ var constants = {
 			return sources[0];			
 		}
 		else if (sources.length > 1){
-			return creep.findClosestByPath(sources);
+			return creep.pos.findClosestByPath(sources);
 		}
 		else {
 			return null;
