@@ -4,19 +4,19 @@ var sitecreator = {
     run: function(room) {
 		var spawnX = Game.spawns['Spawn1'].pos.x;
 		var spawnY = Game.spawns['Spawn1'].pos.y;
-		//var result = room.createConstructionSite(spawnX - 1, spawnY, STRUCTURE_EXTENSION);
-		var result = room.createConstructionSite(30, 26, STRUCTURE_EXTENSION);
+		var result = room.createConstructionSite(spawnX - 1, spawnY, STRUCTURE_EXTENSION);
+		//var result = room.createConstructionSite(30, 26, STRUCTURE_EXTENSION);
 		
 		if (result == OK) {
-			//room.createConstructionSite(spawnX - 1, spawnY - 1, STRUCTURE_EXTENSION);
-			//room.createConstructionSite(spawnX - 1, spawnY + 1, STRUCTURE_EXTENSION);
-			//room.createConstructionSite(spawnX + 1, spawnY, STRUCTURE_EXTENSION);
-			//room.createConstructionSite(spawnX + 1, spawnY + 1, STRUCTURE_EXTENSION);
+			room.createConstructionSite(spawnX - 1, spawnY - 1, STRUCTURE_EXTENSION);
+			room.createConstructionSite(spawnX - 1, spawnY + 1, STRUCTURE_EXTENSION);
+			room.createConstructionSite(spawnX + 1, spawnY, STRUCTURE_EXTENSION);
+			room.createConstructionSite(spawnX + 1, spawnY + 1, STRUCTURE_EXTENSION);
 			
-			room.createConstructionSite(29,26, STRUCTURE_EXTENSION);
-			room.createConstructionSite(29,27, STRUCTURE_EXTENSION);
-			room.createConstructionSite(40,44, STRUCTURE_EXTENSION);
-			room.createConstructionSite(45,42, STRUCTURE_EXTENSION);
+			//room.createConstructionSite(29,26, STRUCTURE_EXTENSION);
+			//room.createConstructionSite(29,27, STRUCTURE_EXTENSION);
+			//room.createConstructionSite(40,44, STRUCTURE_EXTENSION);
+			//room.createConstructionSite(45,42, STRUCTURE_EXTENSION);
 			
 			
 			console.log("setting stage to building at " + Game.time);
