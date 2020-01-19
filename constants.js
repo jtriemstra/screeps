@@ -101,7 +101,9 @@ var constants = {
 	
 	targetCoreExt: function(creep){
 		var targets = creep.room.find(FIND_MY_CONSTRUCTION_SITES, {filter: (thisSite) => {
-			return creep.pos.inRangeTo(thisSite.pos, 13) && thisSite.structureType == STRUCTURE_EXTENSION;
+			//TODO: what scenarios do I want a range limit, and how can it be flexible?
+			//return creep.pos.inRangeTo(thisSite.pos, 13) && thisSite.structureType == STRUCTURE_EXTENSION;
+			return thisSite.structureType == STRUCTURE_EXTENSION;
 		}});
 		
 		if (targets.length > 0) return targets[0];
