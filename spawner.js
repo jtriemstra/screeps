@@ -66,8 +66,8 @@ var goals = {
 					return thisStructure.structureType == STRUCTURE_EXTENSION && thisStructure.pos.getRangeTo(Game.spawns['Spawn1']) < 10;
 			}});
 			
+			//TODO: this only made sense when there was a "remote" source with extensions next to it
 			if (extensions.length >= 3){
-				
 				return true;
 			}
 			else{
@@ -87,11 +87,25 @@ var goals = {
 					}
 				}
 			}
-			//TODO: some dynamic measure of congestion
+
+			//TODO: set this up to loop and push parts
+			//TODO: make parts flexible based on the room  map
+			var bodyParts; 
+			if ( room.energyCapacityAvailable < 400) {
+				bodyParts = [WORK,WORK,CARRY,MOVE];
+			}
+			else if (room.energyCapacityAvailable < 450) {
+				bodyParts = [WORK,WORK,WORK,CARRY,MOVE];
+			}
+			else {
+				bodyParts = [WORK,WORK,WORK,CARRY,MOVE,MOVE];				
+			}
+
+			//TODO: some dynamic measure of congestion - this ends up being a ceiling for the entire if/else
 			if (creepCount < 9 ) {
 				var newName = 'WorkBuilder' + Game.time;
 				
-				if (OK == Game.spawns['Spawn1'].spawnCreep([WORK,WORK,CARRY,MOVE], newName, 
+				if (OK == Game.spawns['Spawn1'].spawnCreep(bodyParts, newName, 
 					{memory: {goal: this.id, role: constants.ROLE_BUILDER, origRole: -1, sourceFinderId: constants.SOURCE_S0_M, targetFinderId: constants.TARGET_CORE_EXT}})){
 						console.log("created upgrader/builder  " + Game.time);
 					}
@@ -122,35 +136,12 @@ var goals = {
 			}
 			else if (roleCounts[constants.ROLE_MINER] < 3) {
 				var newName = 'WorkMiner' + Game.time;
-				var bodyParts;
-				if ( room.energyCapacityAvailable < 400) {
-					bodyParts = [WORK,WORK,CARRY,MOVE];
-				}
-				else {
-					bodyParts = [WORK,WORK,WORK,CARRY,MOVE];
-				}
+				
 				if (OK == Game.spawns['Spawn1'].spawnCreep(bodyParts, newName, 
 					{memory: {goal: this.id, role: constants.ROLE_MINER, origRole: -1, sourceFinderId: constants.SOURCE_S0, targetFinderId: constants.TARGET_CREEP}})){
 						console.log("created miner  " + Game.time);
 					}
 				
-				return true;
-			}
-			else if (roleCounts[constants.ROLE_BUILDER] < roleCounts[constants.ROLE_MINER] + 2) {
-				var newName = 'WorkBuilder' + Game.time;
-				var bodyParts, isBig;
-				if ( room.energyCapacityAvailable < 450) {
-					bodyParts = [WORK,WORK,CARRY,MOVE];
-					isBig = "";
-				}
-				else {
-					bodyParts = [WORK,WORK,WORK,CARRY,MOVE,MOVE];
-					isBig = "big";
-				}
-				if (OK == Game.spawns['Spawn1'].spawnCreep(bodyParts, newName, 
-					{memory: {goal: this.id, role: constants.ROLE_BUILDER, origRole: -1, sourceFinderId: constants.SOURCE_S0_M, targetFinderId: constants.TARGET_CORE_EXT}})){
-						console.log("created " + isBig + " builder  " + Game.time);
-					}
 				return true;
 			}
 			else {
