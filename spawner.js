@@ -67,7 +67,7 @@ var goals = {
 			}});
 			
 			//TODO: this only made sense when there was a "remote" source with extensions next to it
-			if (extensions.length >= 3){
+			if (extensions.length >= 5){
 				return true;
 			}
 			else{
