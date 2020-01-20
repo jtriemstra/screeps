@@ -4,14 +4,15 @@ var sitecreator = {
     run: function(room) {
 		var spawnX = Game.spawns['Spawn1'].pos.x;
 		var spawnY = Game.spawns['Spawn1'].pos.y;
-		var result = room.createConstructionSite(spawnX - 1, spawnY, STRUCTURE_EXTENSION);
+		//TODO: make this more flexible for different rooms
+		var result = room.createConstructionSite(spawnX - 2, spawnY, STRUCTURE_EXTENSION);
 		//var result = room.createConstructionSite(30, 26, STRUCTURE_EXTENSION);
 		
 		if (result == OK) {
-			room.createConstructionSite(spawnX - 1, spawnY - 1, STRUCTURE_EXTENSION);
-			room.createConstructionSite(spawnX - 1, spawnY + 1, STRUCTURE_EXTENSION);
-			room.createConstructionSite(spawnX + 1, spawnY, STRUCTURE_EXTENSION);
-			room.createConstructionSite(spawnX + 1, spawnY + 1, STRUCTURE_EXTENSION);
+			room.createConstructionSite(spawnX - 2, spawnY - 2, STRUCTURE_EXTENSION);
+			room.createConstructionSite(spawnX - 2, spawnY + 2, STRUCTURE_EXTENSION);
+			room.createConstructionSite(spawnX + 2, spawnY, STRUCTURE_EXTENSION);
+			room.createConstructionSite(spawnX + 2, spawnY + 2, STRUCTURE_EXTENSION);
 			
 			//room.createConstructionSite(29,26, STRUCTURE_EXTENSION);
 			//room.createConstructionSite(29,27, STRUCTURE_EXTENSION);
