@@ -1,0 +1,893 @@
+
+This page uses the non standard property “zoom”. Consider using calc() in the relevant property values, or using “transform” along with “transform-origin: 0 0”. a
+window.controllers/Controllers is deprecated. Do not use it for UA detection. ace.js:1:17660
+this xtracking-0.1.js:1:354
+Request to access cookie or storage on “<URL>” was blocked because it came from a tracker and content blocking is enabled. 13
+downloadable font: OS/2: Bad sTypoLineGap, setting it to 0: -32 (font-family: "Material-Design" style:normal weight:400 stretch:100 src index:1) source: https://screeps.com/a/vendor/material-design/fonts/Material-Design.woff?2u7a7w unknown:1:11
+PixiJS 4.8.1 - WebGL - http://www.pixijs.com/ renderer.js:1:25832
+Error: WebGL warning: drawElements: Tex image TEXTURE_2D level 0 is incurring lazy initialization. renderer.js:1:308074
+Error: WebGL warning: drawElements: Texture level 0 would be read by TEXTURE_2D unit 0, but written by framebuffer attachment COLOR_ATTACHMENT0, which would be illegal feedback. 2 renderer.js:1:286830
+created harvester at 1 
+harvester harvest error -4 at 2 for creep MoveHarvester1 role: 0 goal 0 source 0 target 0 
+capacity upgraded at 2 
+harvester harvest error -4 at 3 for creep MoveHarvester1 role: 0 goal 0 source 0 target 0 
+harvester harvest error -4 at 4 for creep MoveHarvester1 role: 0 goal 0 source 0 target 0 
+harvester harvest error -4 at 5 for creep MoveHarvester1 role: 0 goal 0 source 0 target 0 
+harvester harvest error -4 at 6 for creep MoveHarvester1 role: 0 goal 0 source 0 target 0 
+created harvester at 106 
+created upgrader/builder  211 
+created upgrader/builder  311 
+created upgrader/builder  411 
+converting upgrader to miner 2 
+no target for miner creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 9 
+miner transfer result 0 for creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 
+no target for miner creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 
+miner transfer result 0 for creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 
+no target for miner creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 5 
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 
+no target for miner creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 9 
+created miner  473 
+miner transfer result 0 for creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 
+no target for miner creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 7 
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 
+no target for miner creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 7 
+no target for miner creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 
+setting stage to building at 494 
+no target for miner creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 
+in building stage and converting upgrader 0 
+no target for miner creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 8 
+miner transfer result 0 for creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 
+no target for miner creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 2 
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 
+no target for miner creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 3 
+miner transfer result 0 for creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 
+no target for miner creep WorkMiner473 role: 3 goal 2 source 1 target 3 
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 
+no target for miner creep WorkMiner473 role: 3 goal 2 source 1 target 3 2 
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 
+no target for miner creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 
+harvester no target at 536 for creep MoveHarvester1 role: 0 goal 0 source 0 target 0 
+no target for miner creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 
+created  builder  536 
+miner transfer result 0 for creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 
+Source map error: Error: request failed with status 404
+Resource URL: https://cdn.xsolla.net/network/xtracking-0.1.js
+Source Map URL: xtracking.min.js.map
+
+miner transfer result 0 for creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 2 
+miner transfer result 0 for creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 
+miner transfer result 0 for creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 
+miner transfer result 0 for creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 
+miner transfer result 0 for creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 
+created  builder  612 
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 
+miner transfer result 0 for creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 
+miner transfer result 0 for creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 
+miner transfer result 0 for creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 
+miner transfer result 0 for creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 
+miner transfer result 0 for creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 
+created  builder  682 
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 
+miner transfer result 0 for creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 
+miner transfer result 0 for creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 
+miner transfer result 0 for creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 
+miner transfer result 0 for creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 
+miner transfer result 0 for creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 
+miner transfer result 0 for creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 
+created  builder  767 
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 
+miner transfer result 0 for creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 
+miner transfer result 0 for creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 
+miner transfer result 0 for creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 
+miner transfer result 0 for creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 
+miner transfer result 0 for creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 
+miner transfer result 0 for creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 
+harvester no target at 855 for creep MoveHarvester1 role: 0 goal 0 source 0 target 0 
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 
+miner transfer result 0 for creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 
+harvester no target at 868 for creep MoveHarvester106 role: 0 goal 0 source 0 target 0 
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 
+harvester no target at 870 for creep MoveHarvester1 role: 0 goal 0 source 0 target 0 
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 
+miner transfer result 0 for creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 
+harvester no target at 884 for creep MoveHarvester1 role: 0 goal 0 source 0 target 0 
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 
+harvester no target at 890 for creep MoveHarvester106 role: 0 goal 0 source 0 target 0 
+miner transfer result 0 for creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 
+harvester no target at 898 for creep MoveHarvester1 role: 0 goal 0 source 0 target 0 
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 
+harvester no target at 905 for creep MoveHarvester106 role: 0 goal 0 source 0 target 0 
+miner transfer result 0 for creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 
+capacity upgraded at 915 
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 
+created remote upgrader/builder 932 
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 
+miner transfer result 0 for creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 
+miner transfer result 0 for creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 
+miner transfer result 0 for creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 
+miner transfer result 0 for creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 
+miner transfer result 0 for creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 
+created remote upgrader/builder 1005 
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 
+miner transfer result 0 for creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 
+miner transfer result 0 for creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 
+miner transfer result 0 for creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 
+miner transfer result 0 for creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 
+miner transfer result 0 for creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 
+miner transfer result 0 for creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 
+created remote upgrader/builder 1089 
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 
+miner transfer result 0 for creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 
+miner transfer result 0 for creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 
+miner transfer result 0 for creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 
+miner transfer result 0 for creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 
+miner transfer result 0 for creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 2 
+miner transfer result 0 for creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 
+created remote upgrader/builder 1165 
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 
+miner transfer result 0 for creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 
+miner transfer result 0 for creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 
+miner transfer result 0 for creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 
+miner transfer result 0 for creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 2 
+miner transfer result 0 for creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 
+harvester no target at 1266 for creep MoveHarvester1 role: 0 goal 0 source 0 target 0 
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 
+harvester no target at 1269 for creep MoveHarvester106 role: 0 goal 0 source 0 target 0 
+miner transfer result 0 for creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 2 
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 
+harvester no target at 1284 for creep MoveHarvester1 role: 0 goal 0 source 0 target 0 
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 
+miner transfer result 0 for creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 
+harvester no target at 1299 for creep MoveHarvester106 role: 0 goal 0 source 0 target 0 
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 
+harvester no target at 1302 for creep MoveHarvester1 role: 0 goal 0 source 0 target 0 
+miner transfer result 0 for creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 
+harvester no target at 1316 for creep MoveHarvester106 role: 0 goal 0 source 0 target 0 
+miner transfer result 0 for creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 
+harvester no target at 1329 for creep MoveHarvester1 role: 0 goal 0 source 0 target 0 
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 
+miner transfer result 0 for creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 
+harvester no target at 1334 for creep MoveHarvester106 role: 0 goal 0 source 0 target 0 
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 
+miner transfer result 0 for creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 
+harvester no target at 1350 for creep MoveHarvester1 role: 0 goal 0 source 0 target 0 
+capacity upgraded at 1356 
+creating road sites 
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 
+miner transfer result 0 for creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 
+harvester no target at 1368 for creep MoveHarvester106 role: 0 goal 0 source 0 target 0 
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 
+harvester no target at 1375 for creep MoveHarvester1 role: 0 goal 0 source 0 target 0 
+miner transfer result 0 for creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 
+harvester no target at 1385 for creep MoveHarvester106 role: 0 goal 0 source 0 target 0 
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 
+harvester no target at 1391 for creep MoveHarvester1 role: 0 goal 0 source 0 target 0 
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 
+miner transfer result 0 for creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 
+harvester no target at 1410 for creep MoveHarvester106 role: 0 goal 0 source 0 target 0 
+miner transfer result 0 for creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 
+harvester no target at 1414 for creep MoveHarvester1 role: 0 goal 0 source 0 target 0 
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 
+miner transfer result 0 for creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 
+harvester no target at 1431 for creep MoveHarvester1 role: 0 goal 0 source 0 target 0 
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 
+harvester no target at 1433 for creep MoveHarvester106 role: 0 goal 0 source 0 target 0 
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 
+miner transfer result 0 for creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 
+harvester no target at 1452 for creep MoveHarvester106 role: 0 goal 0 source 0 target 0 
+miner transfer result 0 for creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 
+harvester no target at 1460 for creep MoveHarvester1 role: 0 goal 0 source 0 target 0 
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 
+miner transfer result 0 for creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 
+harvester no target at 1476 for creep MoveHarvester106 role: 0 goal 0 source 0 target 0 
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 
+harvester no target at 1489 for creep MoveHarvester1 role: 0 goal 0 source 0 target 0 
+miner transfer result 0 for creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 
+harvester no target at 1494 for creep MoveHarvester106 role: 0 goal 0 source 0 target 0 
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 
+harvester no target at 1509 for creep MoveHarvester1 role: 0 goal 0 source 0 target 0 
+created harvester at 1512 
+miner transfer result 0 for creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 
+Object { room: {…}, pos: {}, id: "004cfcb9c17ca327aafe4900", _name: "WorkUpgrader211", _spawning: false, _my: true, _store: "[store]" }
+
+capacity upgraded at 1516 
+Object { room: {…}, pos: {}, id: "b333dc347e08097530ae0ca7", _name: "WorkMiner473", _spawning: false, _my: true, _store: "[store]" }
+
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 
+Object { room: {…}, pos: {}, id: "b333dc347e08097530ae0ca7", _name: "WorkMiner473", _spawning: false, _my: true, _store: "[store]" }
+
+Object { room: {…}, pos: {}, id: "eb65c43efe7bbf4288b019bb", _energy: 3000 }
+
+Object { room: {…}, pos: {}, id: "eb65c43efe7bbf4288b019bb", _energy: 2988 }
+
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 
+Object { room: {…}, pos: {}, id: "69228727672c93ba87309e3c", _name: "WorkUpgrader311", _spawning: false, _my: true, _store: "[store]" }
+
+Object { room: {…}, pos: {}, id: "eb65c43efe7bbf4288b019bb", _energy: 2968 }
+
+Object { room: {…}, pos: {}, id: "eb65c43efe7bbf4288b019bb", _energy: 2956 }
+
+Object { room: {…}, pos: {}, id: "eb65c43efe7bbf4288b019bb", _energy: 2944 }
+
+Object { room: {…}, pos: {}, id: "eb65c43efe7bbf4288b019bb", _energy: 2932 }
+
+miner transfer result 0 for creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 
+Object { room: {…}, pos: {}, id: "004cfcb9c17ca327aafe4900", _name: "WorkUpgrader211", _spawning: false, _my: true, _store: "[store]" }
+
+Object { room: {…}, pos: {}, id: "eb65c43efe7bbf4288b019bb", _energy: 2912 }
+
+Object { room: {…}, pos: {}, id: "eb65c43efe7bbf4288b019bb", _energy: 2900 }
+
+Object { room: {…}, pos: {}, id: "eb65c43efe7bbf4288b019bb", _energy: 2888 }
+
+Object { room: {…}, pos: {}, id: "eb65c43efe7bbf4288b019bb", _energy: 2876 }
+
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 
+Object { room: {…}, pos: {}, id: "b333dc347e08097530ae0ca7", _name: "WorkMiner473", _spawning: false, _my: true, _store: "[store]" }
+
+Object { room: {…}, pos: {}, id: "eb65c43efe7bbf4288b019bb", _energy: 2856 }
+
+Object { room: {…}, pos: {}, id: "eb65c43efe7bbf4288b019bb", _energy: 2844 }
+
+Object { room: {…}, pos: {}, id: "eb65c43efe7bbf4288b019bb", _energy: 2832 }
+
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 
+Object { room: {…}, pos: {}, id: "69228727672c93ba87309e3c", _name: "WorkUpgrader311", _spawning: false, _my: true, _store: "[store]" }
+
+Object { room: {…}, pos: {}, id: "eb65c43efe7bbf4288b019bb", _energy: 2812 }
+
+Object { room: {…}, pos: {}, id: "eb65c43efe7bbf4288b019bb", _energy: 2800 }
+
+Object { room: {…}, pos: {}, id: "eb65c43efe7bbf4288b019bb", _energy: 2788 }
+
+Object { room: {…}, pos: {}, id: "eb65c43efe7bbf4288b019bb", _energy: 2776 }
+
+Object { room: {…}, pos: {}, id: "004cfcb9c17ca327aafe4900", _name: "WorkUpgrader211", _spawning: false, _my: true, _store: "[store]" }
+
+miner transfer result 0 for creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 
+Object { room: {…}, pos: {}, id: "004cfcb9c17ca327aafe4900", _name: "WorkUpgrader211", _spawning: false, _my: true, _store: "[store]" }
+
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 
+miner transfer result 0 for creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 
+Object { room: {…}, pos: {}, id: "004cfcb9c17ca327aafe4900", _name: "WorkUpgrader211", _spawning: false, _my: true, _store: "[store]" }
+
+Object { room: {…}, pos: {}, id: "eb65c43efe7bbf4288b019bb", _energy: 2596 }
+
+Object { room: {…}, pos: {}, id: "eb65c43efe7bbf4288b019bb", _energy: 2584 }
+
+Object { room: {…}, pos: {}, id: "eb65c43efe7bbf4288b019bb", _energy: 2572 }
+
+Object { room: {…}, pos: {}, id: "b333dc347e08097530ae0ca7", _name: "WorkMiner473", _spawning: false, _my: true, _store: "[store]" }
+
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 
+Object { room: {…}, pos: {}, id: "b333dc347e08097530ae0ca7", _name: "WorkMiner473", _spawning: false, _my: true, _store: "[store]" }
+
+Object { room: {…}, pos: {}, id: "eb65c43efe7bbf4288b019bb", _energy: 2544 }
+
+Object { room: {…}, pos: {}, id: "eb65c43efe7bbf4288b019bb", _energy: 2532 }
+
+Object { room: {…}, pos: {}, id: "eb65c43efe7bbf4288b019bb", _energy: 2520 }
+
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 
+Object { room: {…}, pos: {}, id: "69228727672c93ba87309e3c", _name: "WorkUpgrader311", _spawning: false, _my: true, _store: "[store]" }
+
+Object { room: {…}, pos: {}, id: "eb65c43efe7bbf4288b019bb", _energy: 2500 }
+
+Object { room: {…}, pos: {}, id: "eb65c43efe7bbf4288b019bb", _energy: 2488 }
+
+Object { room: {…}, pos: {}, id: "eb65c43efe7bbf4288b019bb", _energy: 2476 }
+
+Object { room: {…}, pos: {}, id: "eb65c43efe7bbf4288b019bb", _energy: 2464 }
+
+miner transfer result 0 for creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 
+Object { room: {…}, pos: {}, id: "004cfcb9c17ca327aafe4900", _name: "WorkUpgrader211", _spawning: false, _my: true, _store: "[store]" }
+
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 
+miner transfer result 0 for creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 
+Object { room: {…}, pos: {}, id: "004cfcb9c17ca327aafe4900", _name: "WorkUpgrader211", _spawning: false, _my: true, _store: "[store]" }
+
+Object { room: {…}, pos: {}, id: "eb65c43efe7bbf4288b019bb", _energy: 2280 }
+
+Object { room: {…}, pos: {}, id: "eb65c43efe7bbf4288b019bb", _energy: 2268 }
+
+Object { room: {…}, pos: {}, id: "eb65c43efe7bbf4288b019bb", _energy: 2256 }
+
+Object { room: {…}, pos: {}, id: "b333dc347e08097530ae0ca7", _name: "WorkMiner473", _spawning: false, _my: true, _store: "[store]" }
+
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 
+Object { room: {…}, pos: {}, id: "b333dc347e08097530ae0ca7", _name: "WorkMiner473", _spawning: false, _my: true, _store: "[store]" }
+
+Object { room: {…}, pos: {}, id: "eb65c43efe7bbf4288b019bb", _energy: 2228 }
+
+Object { room: {…}, pos: {}, id: "eb65c43efe7bbf4288b019bb", _energy: 2216 }
+
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 
+Object { room: {…}, pos: {}, id: "69228727672c93ba87309e3c", _name: "WorkUpgrader311", _spawning: false, _my: true, _store: "[store]" }
+
+Object { room: {…}, pos: {}, id: "eb65c43efe7bbf4288b019bb", _energy: 2196 }
+
+Object { room: {…}, pos: {}, id: "eb65c43efe7bbf4288b019bb", _energy: 2184 }
+
+Object { room: {…}, pos: {}, id: "eb65c43efe7bbf4288b019bb", _energy: 2172 }
+
+Object { room: {…}, pos: {}, id: "eb65c43efe7bbf4288b019bb", _energy: 2160 }
+
+Object { room: {…}, pos: {}, id: "eb65c43efe7bbf4288b019bb", _energy: 2148 }
+
+miner transfer result 0 for creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 
+Object { room: {…}, pos: {}, id: "004cfcb9c17ca327aafe4900", _name: "WorkUpgrader211", _spawning: false, _my: true, _store: "[store]" }
+
+harvester no target at 1604 for creep MoveHarvester1512 role: 0 goal 0 source 0 target 0 
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 
+harvester no target at 1610 for creep MoveHarvester106 role: 0 goal 0 source 0 target 0 
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 
+created harvester at 1617 
+miner transfer result 0 for creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 
+Object { room: {…}, pos: {}, id: "004cfcb9c17ca327aafe4900", _name: "WorkUpgrader211", _spawning: false, _my: true, _store: "[store]" }
+
+Object { room: {…}, pos: {}, id: "eb65c43efe7bbf4288b019bb", _energy: 1976 }
+
+Object { room: {…}, pos: {}, id: "eb65c43efe7bbf4288b019bb", _energy: 1964 }
+
+Object { room: {…}, pos: {}, id: "eb65c43efe7bbf4288b019bb", _energy: 1952 }
+
+Object { room: {…}, pos: {}, id: "eb65c43efe7bbf4288b019bb", _energy: 1940 }
+
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 
+Object { room: {…}, pos: {}, id: "69228727672c93ba87309e3c", _name: "WorkUpgrader311", _spawning: false, _my: true, _store: "[store]" }
+
+Object { room: {…}, pos: {}, id: "eb65c43efe7bbf4288b019bb", _energy: 1920 }
+
+Object { room: {…}, pos: {}, id: "eb65c43efe7bbf4288b019bb", _energy: 1908 }
+
+Object { room: {…}, pos: {}, id: "eb65c43efe7bbf4288b019bb", _energy: 1896 }
+
+Object { room: {…}, pos: {}, id: "eb65c43efe7bbf4288b019bb", _energy: 1884 }
+
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 
+Object { room: {…}, pos: {}, id: "b333dc347e08097530ae0ca7", _name: "WorkMiner473", _spawning: false, _my: true, _store: "[store]" }
+
+miner transfer result 0 for creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 
+Object { room: {…}, pos: {}, id: "eb65c43efe7bbf4288b019bb", _energy: 1756 }
+
+Object { room: {…}, pos: {}, id: "eb65c43efe7bbf4288b019bb", _energy: 1744 }
+
+Object { room: {…}, pos: {}, id: "eb65c43efe7bbf4288b019bb", _energy: 1732 }
+
+Object { room: {…}, pos: {}, id: "b333dc347e08097530ae0ca7", _name: "WorkMiner473", _spawning: false, _my: true, _store: "[store]" }
+
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 
+Object { room: {…}, pos: {}, id: "b333dc347e08097530ae0ca7", _name: "WorkMiner473", _spawning: false, _my: true, _store: "[store]" }
+
+Object { room: {…}, pos: {}, id: "eb65c43efe7bbf4288b019bb", _energy: 1704 }
+
+Object { room: {…}, pos: {}, id: "eb65c43efe7bbf4288b019bb", _energy: 1692 }
+
+Object { room: {…}, pos: {}, id: "eb65c43efe7bbf4288b019bb", _energy: 1680 }
+
+miner transfer result 0 for creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 
+Object { room: {…}, pos: {}, id: "004cfcb9c17ca327aafe4900", _name: "WorkUpgrader211", _spawning: false, _my: true, _store: "[store]" }
+
+Object { room: {…}, pos: {}, id: "eb65c43efe7bbf4288b019bb", _energy: 1660 }
+
+Object { room: {…}, pos: {}, id: "eb65c43efe7bbf4288b019bb", _energy: 1648 }
+
+Object { room: {…}, pos: {}, id: "eb65c43efe7bbf4288b019bb", _energy: 1636 }
+
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 
+Object { room: {…}, pos: {}, id: "69228727672c93ba87309e3c", _name: "WorkUpgrader311", _spawning: false, _my: true, _store: "[store]" }
+
+Object { room: {…}, pos: {}, id: "eb65c43efe7bbf4288b019bb", _energy: 1616 }
+
+Object { room: {…}, pos: {}, id: "eb65c43efe7bbf4288b019bb", _energy: 1604 }
+
+Object { room: {…}, pos: {}, id: "eb65c43efe7bbf4288b019bb", _energy: 1592 }
+
+Object { room: {…}, pos: {}, id: "eb65c43efe7bbf4288b019bb", _energy: 1580 }
+
+Object { room: {…}, pos: {}, id: "eb65c43efe7bbf4288b019bb", _energy: 1568 }
+
+Object { room: {…}, pos: {}, id: "b333dc347e08097530ae0ca7", _name: "WorkMiner473", _spawning: false, _my: true, _store: "[store]" }
+
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 
+Object { room: {…}, pos: {}, id: "b333dc347e08097530ae0ca7", _name: "WorkMiner473", _spawning: false, _my: true, _store: "[store]" }
+
+miner transfer result 0 for creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 
+Object { room: {…}, pos: {}, id: "eb65c43efe7bbf4288b019bb", _energy: 1440 }
+
+Object { room: {…}, pos: {}, id: "eb65c43efe7bbf4288b019bb", _energy: 1428 }
+
+Object { room: {…}, pos: {}, id: "eb65c43efe7bbf4288b019bb", _energy: 1416 }
+
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 
+Object { room: {…}, pos: {}, id: "b333dc347e08097530ae0ca7", _name: "WorkMiner473", _spawning: false, _my: true, _store: "[store]" }
+
+Object { room: {…}, pos: {}, id: "eb65c43efe7bbf4288b019bb", _energy: 1396 }
+
+Object { room: {…}, pos: {}, id: "eb65c43efe7bbf4288b019bb", _energy: 1384 }
+
+Object { room: {…}, pos: {}, id: "eb65c43efe7bbf4288b019bb", _energy: 1372 }
+
+Object { room: {…}, pos: {}, id: "eb65c43efe7bbf4288b019bb", _energy: 1360 }
+
+miner transfer result 0 for creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 
+Object { room: {…}, pos: {}, id: "004cfcb9c17ca327aafe4900", _name: "WorkUpgrader211", _spawning: false, _my: true, _store: "[store]" }
+
+Object { room: {…}, pos: {}, id: "eb65c43efe7bbf4288b019bb", _energy: 1340 }
+
+Object { room: {…}, pos: {}, id: "eb65c43efe7bbf4288b019bb", _energy: 1328 }
+
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 
+Object { room: {…}, pos: {}, id: "69228727672c93ba87309e3c", _name: "WorkUpgrader311", _spawning: false, _my: true, _store: "[store]" }
+
+Object { room: {…}, pos: {}, id: "eb65c43efe7bbf4288b019bb", _energy: 1308 }
+
+Object { room: {…}, pos: {}, id: "eb65c43efe7bbf4288b019bb", _energy: 1296 }
+
+Object { room: {…}, pos: {}, id: "eb65c43efe7bbf4288b019bb", _energy: 1284 }
+
+Object { room: {…}, pos: {}, id: "eb65c43efe7bbf4288b019bb", _energy: 1272 }
+
+Object { room: {…}, pos: {}, id: "eb65c43efe7bbf4288b019bb", _energy: 1260 }
+
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 
+Object { room: {…}, pos: {}, id: "b333dc347e08097530ae0ca7", _name: "WorkMiner473", _spawning: false, _my: true, _store: "[store]" }
+
+harvester no target at 1692 for creep MoveHarvester1512 role: 0 goal 0 source 0 target 0 
+miner transfer result 0 for creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 
+Object { room: {…}, pos: {}, id: "eb65c43efe7bbf4288b019bb", _energy: 1084 }
+
+harvester no target at 1704 for creep MoveHarvester1617 role: 0 goal 0 source 0 target 0 
+Object { room: {…}, pos: {}, id: "eb65c43efe7bbf4288b019bb", _energy: 1072 }
+
+Object { room: {…}, pos: {}, id: "eb65c43efe7bbf4288b019bb", _energy: 1060 }
+
+Object { room: {…}, pos: {}, id: "eb65c43efe7bbf4288b019bb", _energy: 1048 }
+
+miner transfer result 0 for creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 
+Object { room: {…}, pos: {}, id: "004cfcb9c17ca327aafe4900", _name: "WorkUpgrader211", _spawning: false, _my: true, _store: "[store]" }
+
+Object { room: {…}, pos: {}, id: "eb65c43efe7bbf4288b019bb", _energy: 1028 }
+
+Object { room: {…}, pos: {}, id: "eb65c43efe7bbf4288b019bb", _energy: 1016 }
+
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 
+Object { room: {…}, pos: {}, id: "69228727672c93ba87309e3c", _name: "WorkUpgrader311", _spawning: false, _my: true, _store: "[store]" }
+
+harvester no target at 1712 for creep MoveHarvester1512 role: 0 goal 0 source 0 target 0 
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 
+builder no target at 1722 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 
+builder no target at 1722 for creep WorkBuilder612 role: 2 goal 2 source 0 target 2 
+builder no target at 1722 for creep MoveHarvester1512 role: 2 goal 0 source 0 target 2 
+moving creep WorkBuilder536 role: 2 goal 2 source 0 target 2 from goal 2 to goal 5 
+moving creep WorkBuilder612 role: 2 goal 2 source 0 target 2 from goal 2 to goal 5 
+moving creep WorkBuilder682 role: 2 goal 2 source 0 target 2 from goal 2 to goal 5 
+moving creep WorkBuilder767 role: 2 goal 2 source 0 target 2 from goal 2 to goal 5 
+builder no target at 1723 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 
+Object { room: {…}, pos: {}, id: "eb65c43efe7bbf4288b019bb", _energy: 876 }
+
+capacity upgraded at 1723 
+builder no target at 1724 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 
+Object { room: {…}, pos: {}, id: "eb65c43efe7bbf4288b019bb", _energy: 868 }
+
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 
+builder no target at 1725 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 
+Object { room: {…}, pos: {}, id: "69228727672c93ba87309e3c", _name: "WorkUpgrader311", _spawning: false, _my: true, _store: "[store]" }
+
+builder no target at 1726 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 
+Object { room: {…}, pos: {}, id: "eb65c43efe7bbf4288b019bb", _energy: 856 }
+
+builder no target at 1727 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 
+Object { room: {…}, pos: {}, id: "eb65c43efe7bbf4288b019bb", _energy: 848 }
+
+builder no target at 1728 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 
+Object { room: {…}, pos: {}, id: "eb65c43efe7bbf4288b019bb", _energy: 840 }
+
+builder no target at 1729 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 
+Object { room: {…}, pos: {}, id: "eb65c43efe7bbf4288b019bb", _energy: 832 }
+
+builder no target at 1730 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 
+Object { room: {…}, pos: {}, id: "eb65c43efe7bbf4288b019bb", _energy: 824 }
+
+builder no target at 1731 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 
+Object { room: {…}, pos: {}, id: "eb65c43efe7bbf4288b019bb", _energy: 816 }
+
+builder no target at 1732 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 
+Object { room: {…}, pos: {}, id: "b333dc347e08097530ae0ca7", _name: "WorkMiner473", _spawning: false, _my: true, _store: "[store]" }
+
+builder no target at 1733 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 
+Object { room: {…}, pos: {}, id: "b333dc347e08097530ae0ca7", _name: "WorkMiner473", _spawning: false, _my: true, _store: "[store]" }
+
+builder no target at 1734 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 
+Object { room: {…}, pos: {}, id: "eb65c43efe7bbf4288b019bb", _energy: 800 }
+
+builder no target at 1735 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 
+Object { room: {…}, pos: {}, id: "eb65c43efe7bbf4288b019bb", _energy: 792 }
+
+builder no target at 1736 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 
+Object { room: {…}, pos: {}, id: "eb65c43efe7bbf4288b019bb", _energy: 784 }
+
+builder no target at 1737 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 
+builder no target at 1738 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 
+builder no target at 1739 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 
+Object { room: {…}, pos: {}, id: "69228727672c93ba87309e3c", _name: "WorkUpgrader311", _spawning: false, _my: true, _store: "[store]" }
+
+builder no target at 1740 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 
+builder no target at 1741 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 
+builder no target at 1742 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 
+builder no target at 1743 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 
+builder no target at 1744 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 
+builder no target at 1745 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 
+builder no target at 1746 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 
+builder no target at 1747 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 
+builder no target at 1748 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 
+builder no target at 1749 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 
+Object { room: {…}, pos: {}, id: "eb65c43efe7bbf4288b019bb", _energy: 686 }
+
+harvester no target at 1749 for creep MoveHarvester1617 role: 0 goal 0 source 0 target 0 
+builder no target at 1749 for creep MoveHarvester1617 role: 2 goal 0 source 0 target 2 
+builder no target at 1750 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 
+Object { room: {…}, pos: {}, id: "eb65c43efe7bbf4288b019bb", _energy: 678 }
+
+harvester no target at 1750 for creep MoveHarvester1617 role: 0 goal 0 source 0 target 0 
+builder no target at 1750 for creep MoveHarvester1617 role: 2 goal 0 source 0 target 2 
+builder no target at 1751 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 
+Object { room: {…}, pos: {}, id: "eb65c43efe7bbf4288b019bb", _energy: 670 }
+
+harvester no target at 1751 for creep MoveHarvester1617 role: 0 goal 0 source 0 target 0 
+builder no target at 1751 for creep MoveHarvester1617 role: 2 goal 0 source 0 target 2 
+builder no target at 1752 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 
+Object { room: {…}, pos: {}, id: "eb65c43efe7bbf4288b019bb", _energy: 662 }
+
+harvester no target at 1752 for creep MoveHarvester1617 role: 0 goal 0 source 0 target 0 
+builder no target at 1752 for creep MoveHarvester1617 role: 2 goal 0 source 0 target 2 
+builder no target at 1753 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 
+Object { room: {…}, pos: {}, id: "eb65c43efe7bbf4288b019bb", _energy: 654 }
+
+harvester no target at 1753 for creep MoveHarvester1617 role: 0 goal 0 source 0 target 0 
+builder no target at 1753 for creep MoveHarvester1617 role: 2 goal 0 source 0 target 2 
+builder no target at 1754 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 
+Object { room: {…}, pos: {}, id: "eb65c43efe7bbf4288b019bb", _energy: 646 }
+
+harvester no target at 1754 for creep MoveHarvester1617 role: 0 goal 0 source 0 target 0 
+builder no target at 1754 for creep MoveHarvester1617 role: 2 goal 0 source 0 target 2 
+builder no target at 1755 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 
+Object { room: {…}, pos: {}, id: "eb65c43efe7bbf4288b019bb", _energy: 638 }
+
+harvester no target at 1755 for creep MoveHarvester1617 role: 0 goal 0 source 0 target 0 
+builder no target at 1755 for creep MoveHarvester1617 role: 2 goal 0 source 0 target 2 
+builder no target at 1756 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 
+Object { room: {…}, pos: {}, id: "eb65c43efe7bbf4288b019bb", _energy: 630 }
+
+harvester no target at 1756 for creep MoveHarvester1617 role: 0 goal 0 source 0 target 0 
+builder no target at 1756 for creep MoveHarvester1617 role: 2 goal 0 source 0 target 2 
+builder no target at 1757 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 
+Object { room: {…}, pos: {}, id: "eb65c43efe7bbf4288b019bb", _energy: 622 }
+
+harvester no target at 1757 for creep MoveHarvester1617 role: 0 goal 0 source 0 target 0 
+builder no target at 1757 for creep MoveHarvester1617 role: 2 goal 0 source 0 target 2 
+builder no target at 1758 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 
+Object { room: {…}, pos: {}, id: "eb65c43efe7bbf4288b019bb", _energy: 614 }
+
+harvester no target at 1758 for creep MoveHarvester1617 role: 0 goal 0 source 0 target 0 
+builder no target at 1758 for creep MoveHarvester1617 role: 2 goal 0 source 0 target 2 
+builder no target at 1759 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 
+Object { room: {…}, pos: {}, id: "eb65c43efe7bbf4288b019bb", _energy: 606 }
+
+harvester no target at 1759 for creep MoveHarvester1617 role: 0 goal 0 source 0 target 0 
+builder no target at 1759 for creep MoveHarvester1617 role: 2 goal 0 source 0 target 2 
+builder no target at 1760 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 
+Object { room: {…}, pos: {}, id: "b333dc347e08097530ae0ca7", _name: "WorkMiner473", _spawning: false, _my: true, _store: "[store]" }
+
+harvester no target at 1760 for creep MoveHarvester1617 role: 0 goal 0 source 0 target 0 
+builder no target at 1760 for creep MoveHarvester1617 role: 2 goal 0 source 0 target 2 
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 
+builder no target at 1761 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 
+Object { room: {…}, pos: {}, id: "69228727672c93ba87309e3c", _name: "WorkUpgrader311", _spawning: false, _my: true, _store: "[store]" }
+
+harvester no target at 1761 for creep MoveHarvester1617 role: 0 goal 0 source 0 target 0 
+builder no target at 1761 for creep MoveHarvester1617 role: 2 goal 0 source 0 target 2 
+builder no target at 1762 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 
+harvester no target at 1762 for creep MoveHarvester1512 role: 0 goal 0 source 0 target 0 
+builder no target at 1762 for creep MoveHarvester1512 role: 2 goal 0 source 0 target 2 
+harvester no target at 1762 for creep MoveHarvester1617 role: 0 goal 0 source 0 target 0 
+builder no target at 1762 for creep MoveHarvester1617 role: 2 goal 0 source 0 target 2 
+builder no target at 1763 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 
+harvester no target at 1763 for creep MoveHarvester1512 role: 0 goal 0 source 0 target 0 
+builder no target at 1763 for creep MoveHarvester1512 role: 2 goal 0 source 0 target 2 
+harvester no target at 1763 for creep MoveHarvester1617 role: 0 goal 0 source 0 target 0 
+builder no target at 1763 for creep MoveHarvester1617 role: 2 goal 0 source 0 target 2 
+builder no target at 1764 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 
+harvester no target at 1764 for creep MoveHarvester1512 role: 0 goal 0 source 0 target 0 
+builder no target at 1764 for creep MoveHarvester1512 role: 2 goal 0 source 0 target 2 
+harvester no target at 1764 for creep MoveHarvester1617 role: 0 goal 0 source 0 target 0 
+builder no target at 1764 for creep MoveHarvester1617 role: 2 goal 0 source 0 target 2 
+builder no target at 1765 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 
+harvester no target at 1765 for creep MoveHarvester1512 role: 0 goal 0 source 0 target 0 
+builder no target at 1765 for creep MoveHarvester1512 role: 2 goal 0 source 0 target 2 
+harvester no target at 1765 for creep MoveHarvester1617 role: 0 goal 0 source 0 target 0 
+builder no target at 1765 for creep MoveHarvester1617 role: 2 goal 0 source 0 target 2 
+builder no target at 1766 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 
+harvester no target at 1766 for creep MoveHarvester1512 role: 0 goal 0 source 0 target 0 
+builder no target at 1766 for creep MoveHarvester1512 role: 2 goal 0 source 0 target 2 
+harvester no target at 1766 for creep MoveHarvester1617 role: 0 goal 0 source 0 target 0 
+builder no target at 1766 for creep MoveHarvester1617 role: 2 goal 0 source 0 target 2 
+builder no target at 1767 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 
+harvester no target at 1767 for creep MoveHarvester1512 role: 0 goal 0 source 0 target 0 
+builder no target at 1767 for creep MoveHarvester1512 role: 2 goal 0 source 0 target 2 
+harvester no target at 1767 for creep MoveHarvester1617 role: 0 goal 0 source 0 target 0 
+builder no target at 1767 for creep MoveHarvester1617 role: 2 goal 0 source 0 target 2 
+builder no target at 1768 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 
+harvester no target at 1768 for creep MoveHarvester1512 role: 0 goal 0 source 0 target 0 
+builder no target at 1768 for creep MoveHarvester1512 role: 2 goal 0 source 0 target 2 
+harvester no target at 1768 for creep MoveHarvester1617 role: 0 goal 0 source 0 target 0 
+builder no target at 1768 for creep MoveHarvester1617 role: 2 goal 0 source 0 target 2 
+capacity upgraded at 1768 
+builder no target at 1769 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 
+harvester no target at 1769 for creep MoveHarvester1512 role: 0 goal 0 source 0 target 0 
+builder no target at 1769 for creep MoveHarvester1512 role: 2 goal 0 source 0 target 2 
+harvester no target at 1769 for creep MoveHarvester1617 role: 0 goal 0 source 0 target 0 
+builder no target at 1769 for creep MoveHarvester1617 role: 2 goal 0 source 0 target 2 
+builder no target at 1770 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 
+harvester no target at 1770 for creep MoveHarvester1512 role: 0 goal 0 source 0 target 0 
+builder no target at 1770 for creep MoveHarvester1512 role: 2 goal 0 source 0 target 2 
+harvester no target at 1770 for creep MoveHarvester1617 role: 0 goal 0 source 0 target 0 
+builder no target at 1770 for creep MoveHarvester1617 role: 2 goal 0 source 0 target 2 
+builder no target at 1771 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 
+harvester no target at 1771 for creep MoveHarvester1512 role: 0 goal 0 source 0 target 0 
+builder no target at 1771 for creep MoveHarvester1512 role: 2 goal 0 source 0 target 2 
+harvester no target at 1771 for creep MoveHarvester1617 role: 0 goal 0 source 0 target 0 
+builder no target at 1771 for creep MoveHarvester1617 role: 2 goal 0 source 0 target 2 
+builder no target at 1772 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 
+harvester no target at 1772 for creep MoveHarvester1512 role: 0 goal 0 source 0 target 0 
+builder no target at 1772 for creep MoveHarvester1512 role: 2 goal 0 source 0 target 2 
+harvester no target at 1772 for creep MoveHarvester1617 role: 0 goal 0 source 0 target 0 
+builder no target at 1772 for creep MoveHarvester1617 role: 2 goal 0 source 0 target 2 
+builder no target at 1773 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 
+harvester no target at 1773 for creep MoveHarvester1512 role: 0 goal 0 source 0 target 0 
+builder no target at 1773 for creep MoveHarvester1512 role: 2 goal 0 source 0 target 2 
+harvester no target at 1773 for creep MoveHarvester1617 role: 0 goal 0 source 0 target 0 
+builder no target at 1773 for creep MoveHarvester1617 role: 2 goal 0 source 0 target 2 
+builder no target at 1774 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 
+harvester no target at 1774 for creep MoveHarvester1512 role: 0 goal 0 source 0 target 0 
+builder no target at 1774 for creep MoveHarvester1512 role: 2 goal 0 source 0 target 2 
+harvester no target at 1774 for creep MoveHarvester1617 role: 0 goal 0 source 0 target 0 
+builder no target at 1774 for creep MoveHarvester1617 role: 2 goal 0 source 0 target 2 
+builder no target at 1775 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 
+harvester no target at 1775 for creep MoveHarvester1512 role: 0 goal 0 source 0 target 0 
+builder no target at 1775 for creep MoveHarvester1512 role: 2 goal 0 source 0 target 2 
+harvester no target at 1775 for creep MoveHarvester1617 role: 0 goal 0 source 0 target 0 
+builder no target at 1775 for creep MoveHarvester1617 role: 2 goal 0 source 0 target 2 
+builder no target at 1776 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 
+harvester no target at 1776 for creep MoveHarvester1512 role: 0 goal 0 source 0 target 0 
+builder no target at 1776 for creep MoveHarvester1512 role: 2 goal 0 source 0 target 2 
+harvester no target at 1776 for creep MoveHarvester1617 role: 0 goal 0 source 0 target 0 
+builder no target at 1776 for creep MoveHarvester1617 role: 2 goal 0 source 0 target 2 
+builder no target at 1777 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 
+harvester no target at 1777 for creep MoveHarvester1512 role: 0 goal 0 source 0 target 0 
+builder no target at 1777 for creep MoveHarvester1512 role: 2 goal 0 source 0 target 2 
+harvester no target at 1777 for creep MoveHarvester1617 role: 0 goal 0 source 0 target 0 
+builder no target at 1777 for creep MoveHarvester1617 role: 2 goal 0 source 0 target 2 
+builder no target at 1778 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 
+harvester no target at 1778 for creep MoveHarvester1512 role: 0 goal 0 source 0 target 0 
+builder no target at 1778 for creep MoveHarvester1512 role: 2 goal 0 source 0 target 2 
+harvester no target at 1778 for creep MoveHarvester1617 role: 0 goal 0 source 0 target 0 
+builder no target at 1778 for creep MoveHarvester1617 role: 2 goal 0 source 0 target 2 
+builder no target at 1779 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 
+harvester no target at 1779 for creep MoveHarvester1512 role: 0 goal 0 source 0 target 0 
+builder no target at 1779 for creep MoveHarvester1512 role: 2 goal 0 source 0 target 2 
+harvester no target at 1779 for creep MoveHarvester1617 role: 0 goal 0 source 0 target 0 
+builder no target at 1779 for creep MoveHarvester1617 role: 2 goal 0 source 0 target 2 
+builder no target at 1780 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 
+harvester no target at 1780 for creep MoveHarvester1512 role: 0 goal 0 source 0 target 0 
+builder no target at 1780 for creep MoveHarvester1512 role: 2 goal 0 source 0 target 2 
+harvester no target at 1780 for creep MoveHarvester1617 role: 0 goal 0 source 0 target 0 
+builder no target at 1780 for creep MoveHarvester1617 role: 2 goal 0 source 0 target 2 
+builder no target at 1781 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 
+harvester no target at 1781 for creep MoveHarvester1512 role: 0 goal 0 source 0 target 0 
+builder no target at 1781 for creep MoveHarvester1512 role: 2 goal 0 source 0 target 2 
+harvester no target at 1781 for creep MoveHarvester1617 role: 0 goal 0 source 0 target 0 
+builder no target at 1781 for creep MoveHarvester1617 role: 2 goal 0 source 0 target 2 
+builder no target at 1782 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 
+harvester no target at 1782 for creep MoveHarvester1512 role: 0 goal 0 source 0 target 0 
+builder no target at 1782 for creep MoveHarvester1512 role: 2 goal 0 source 0 target 2 
+harvester no target at 1782 for creep MoveHarvester1617 role: 0 goal 0 source 0 target 0 
+builder no target at 1782 for creep MoveHarvester1617 role: 2 goal 0 source 0 target 2 
+builder no target at 1783 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 
+harvester no target at 1783 for creep MoveHarvester1512 role: 0 goal 0 source 0 target 0 
+builder no target at 1783 for creep MoveHarvester1512 role: 2 goal 0 source 0 target 2 
+harvester no target at 1783 for creep MoveHarvester1617 role: 0 goal 0 source 0 target 0 
+builder no target at 1783 for creep MoveHarvester1617 role: 2 goal 0 source 0 target 2 
+builder no target at 1784 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 
+harvester no target at 1784 for creep MoveHarvester1512 role: 0 goal 0 source 0 target 0 
+builder no target at 1784 for creep MoveHarvester1512 role: 2 goal 0 source 0 target 2 
+harvester no target at 1784 for creep MoveHarvester1617 role: 0 goal 0 source 0 target 0 
+builder no target at 1784 for creep MoveHarvester1617 role: 2 goal 0 source 0 target 2 
+2 9029e6f9-70cd-4cc1-b83a-96ee986650cc:2:115837
+builder no target at 1785 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 
+harvester no target at 1785 for creep MoveHarvester1512 role: 0 goal 0 source 0 target 0 
+builder no target at 1785 for creep MoveHarvester1512 role: 2 goal 0 source 0 target 2 
+harvester no target at 1785 for creep MoveHarvester1617 role: 0 goal 0 source 0 target 0 
+builder no target at 1785 for creep MoveHarvester1617 role: 2 goal 0 source 0 target 2 
+builder no target at 1786 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 
+harvester no target at 1786 for creep MoveHarvester1512 role: 0 goal 0 source 0 target 0 
+builder no target at 1786 for creep MoveHarvester1512 role: 2 goal 0 source 0 target 2 
+harvester no target at 1786 for creep MoveHarvester1617 role: 0 goal 0 source 0 target 0 
+builder no target at 1786 for creep MoveHarvester1617 role: 2 goal 0 source 0 target 2 
+1 9029e6f9-70cd-4cc1-b83a-96ee986650cc:2:115837
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 
+builder no target at 1787 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 
+harvester no target at 1787 for creep MoveHarvester1512 role: 0 goal 0 source 0 target 0 
+builder no target at 1787 for creep MoveHarvester1512 role: 2 goal 0 source 0 target 2 
+harvester no target at 1787 for creep MoveHarvester1617 role: 0 goal 0 source 0 target 0 
+builder no target at 1787 for creep MoveHarvester1617 role: 2 goal 0 source 0 target 2 
+builder no target at 1788 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 
+harvester no target at 1788 for creep MoveHarvester1512 role: 0 goal 0 source 0 target 0 
+builder no target at 1788 for creep MoveHarvester1512 role: 2 goal 0 source 0 target 2 
+harvester no target at 1788 for creep MoveHarvester1617 role: 0 goal 0 source 0 target 0 
+builder no target at 1788 for creep MoveHarvester1617 role: 2 goal 0 source 0 target 2 
+builder no target at 1789 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 
+harvester no target at 1789 for creep MoveHarvester1512 role: 0 goal 0 source 0 target 0 
+builder no target at 1789 for creep MoveHarvester1512 role: 2 goal 0 source 0 target 2 
+harvester no target at 1789 for creep MoveHarvester1617 role: 0 goal 0 source 0 target 0 
+builder no target at 1789 for creep MoveHarvester1617 role: 2 goal 0 source 0 target 2 
+builder no target at 1790 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 
+harvester no target at 1790 for creep MoveHarvester1512 role: 0 goal 0 source 0 target 0 
+builder no target at 1790 for creep MoveHarvester1512 role: 2 goal 0 source 0 target 2 
+harvester no target at 1790 for creep MoveHarvester1617 role: 0 goal 0 source 0 target 0 
+builder no target at 1790 for creep MoveHarvester1617 role: 2 goal 0 source 0 target 2 
+builder no target at 1791 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 
+harvester no target at 1791 for creep MoveHarvester1512 role: 0 goal 0 source 0 target 0 
+builder no target at 1791 for creep MoveHarvester1512 role: 2 goal 0 source 0 target 2 
+harvester no target at 1791 for creep MoveHarvester1617 role: 0 goal 0 source 0 target 0 
+builder no target at 1791 for creep MoveHarvester1617 role: 2 goal 0 source 0 target 2 
+builder no target at 1792 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 
+harvester no target at 1792 for creep HarvestRemote932 role: 0 goal 3 source 2 target 4 
+builder no target at 1792 for creep HarvestRemote932 role: 2 goal 3 source 2 target 4 
+harvester no target at 1792 for creep MoveHarvester1512 role: 0 goal 0 source 0 target 0 
+builder no target at 1792 for creep MoveHarvester1512 role: 2 goal 0 source 0 target 2 
+harvester no target at 1792 for creep MoveHarvester1617 role: 0 goal 0 source 0 target 0 
+builder no target at 1792 for creep MoveHarvester1617 role: 2 goal 0 source 0 target 2 
+created miner  1792 
+builder no target at 1793 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 
+builder no target at 1794 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 
+builder no target at 1795 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 
+builder no target at 1796 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 
+builder no target at 1797 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 
+builder no target at 1798 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 
+builder no target at 1799 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 
+harvester no target at 1799 for creep HarvestRemote932 role: 0 goal 3 source 2 target 4 
+builder no target at 1799 for creep HarvestRemote932 role: 2 goal 3 source 2 target 4 
+builder no target at 1800 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 
+harvester no target at 1800 for creep HarvestRemote932 role: 0 goal 3 source 2 target 4 
+builder no target at 1800 for creep HarvestRemote932 role: 2 goal 3 source 2 target 4 
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 
+builder no target at 1801 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 
+harvester no target at 1801 for creep HarvestRemote932 role: 0 goal 3 source 2 target 4 
+builder no target at 1801 for creep HarvestRemote932 role: 2 goal 3 source 2 target 4 
+builder no target at 1802 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 
+harvester no target at 1802 for creep HarvestRemote932 role: 0 goal 3 source 2 target 4 
+builder no target at 1802 for creep HarvestRemote932 role: 2 goal 3 source 2 target 4 
+builder no target at 1803 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 
+harvester no target at 1803 for creep HarvestRemote932 role: 0 goal 3 source 2 target 4 
+builder no target at 1803 for creep HarvestRemote932 role: 2 goal 3 source 2 target 4 
+
+​
+

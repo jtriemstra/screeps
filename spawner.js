@@ -1,5 +1,6 @@
 var constants = require('./constants');
 var roleBase = require('./role.base');
+var sourceFinder = require('./sourcefinder');
 
 var goals = {
 	list: function() {
@@ -160,6 +161,9 @@ var goals = {
 	buildRemoteExtensions: {
 		id:3,
 		isComplete: function(room){
+			if (!sourceFinder.shouldPrioritizeOneSource(room)){
+				return true;
+			}
 			//TODO: there might be a way to do this to trade off CPU for memory/code
 			//TODO: make this range of 10 more dynamic
 			var extensions = room.find(FIND_MY_STRUCTURES, {	filter: (thisStructure) => {
@@ -208,7 +212,14 @@ var goals = {
 	},
 	energizeRemoteExtensions: {
 		id:4,
-		isComplete: function(room){	return false; },
+		isComplete: function(room){	
+			
+			if (!sourceFinder.shouldPrioritizeOneSource(room)){
+				return true;
+			}
+
+			return false; 
+		},
 		spawnRule: function(room, roleCounts, creepCount){
 			//TODO: how to limit this now that all builders use the same role? this should be moved elsewhere
 			var remoteCount = 0;

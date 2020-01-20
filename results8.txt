@@ -1,0 +1,52 @@
+[4:55:02 PM]created harvester at 460
+[4:55:02 PM]capacity upgraded at 461
+[4:55:22 PM]created harvester at 560
+[4:55:40 PM]created upgrader/builder  651
+[4:58:44 PM]created upgrader/builder  733
+[4:59:00 PM]created upgrader/builder  814
+
+[5:17:05 PM]created upgrader/builder  907
+[5:17:13 PM]converting to build extensions: creep WorkUpgrader907 role: 1 goal 1 source 0 target 1
+[5:17:13 PM]converting to build extensions: creep WorkUpgrader814 role: 1 goal 1 source 0 target 1
+[5:17:13 PM]converting to build extensions: creep WorkUpgrader733 role: 1 goal 1 source 0 target 1
+[5:17:13 PM]converting to build extensions: creep WorkUpgrader651 role: 1 goal 1 source 0 target 1
+[5:17:13 PM]setting stage to building at 946
+[5:17:20 PM]created upgrader/builder  981
+Game.creeps.WorkUpgrader733
+[creep WorkUpgrader733]
+[5:23:32 PM]created upgrader/builder  1052
+[5:23:49 PM]created upgrader/builder  1137
+[5:23:50 PM]not converting this to miner creep MoveHarvester460 role: 0 goal 0 source 0 target 0
+[5:23:50 PM]converting one upgrader to miner creep WorkBuilder1137 role: 2 goal 2 source 0 target 2
+[5:23:50 PM]not converting this to miner creep MoveHarvester460 role: 0 goal 0 source 0 target 0
+[5:23:50 PM]not converting this to miner creep WorkBuilder1137 role: 3 goal 2 source 1 target 3
+[5:23:50 PM]converting one upgrader to miner creep WorkBuilder1052 role: 2 goal 2 source 0 target 2
+[5:23:50 PM]converting one upgrader to miner creep WorkUpgrader907 role: 2 goal 2 source 0 target 2
+[5:35:43 PM]created  builder  1224
+[5:36:19 PM]capacity upgraded at 1375
+[5:36:20 PM]created remote upgrader/builder 1383
+[5:37:23 PM]created remote upgrader/builder 1434
+[5:37:38 PM]created remote upgrader/builder 1514
+[5:38:17 PM]created remote upgrader/builder 1706
+[5:38:41 PM]capacity upgraded at 1827
+[5:38:41 PM]creating road sites
+[5:39:10 PM]created harvester at 1972
+[5:39:30 PM]created harvester at 2071
+[5:39:49 PM]created  builder  2162
+[5:40:06 PM]created  builder  2245
+[5:40:14 PM]moving creep WorkBuilder2245 role: 2 goal 2 source 0 target 2 from goal 2 to goal 5
+[5:40:14 PM]moving creep WorkBuilder2162 role: 2 goal 2 source 0 target 2 from goal 2 to goal 5
+[5:40:14 PM]moving creep WorkUpgrader814 role: 2 goal 2 source 0 target 2 from goal 2 to goal 5
+[5:40:14 PM]moving creep WorkBuilder981 role: 2 goal 2 source 0 target 2 from goal 2 to goal 5
+[5:40:14 PM]moving creep WorkBuilder1224 role: 2 goal 2 source 0 target 2 from goal 2 to goal 5
+[5:40:14 PM]created harvester at 2289
+[5:40:14 PM]capacity upgraded at 2289
+[5:40:25 PM]created remote harvester 2345
+[5:40:43 PM]capacity upgraded at 2435
+[5:41:30 PM]capacity upgraded at 2668
+[5:41:31 PM]created miner  2675
+[5:41:50 PM]created miner  2770
+[5:42:05 PM]created miner  2839
+[5:42:16 PM]created remote harvester 2896
+[5:42:24 PM]created bigger builder  2939
+[5:42:37 PM]created bigger builder  3004

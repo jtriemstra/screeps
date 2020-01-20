@@ -1,0 +1,30 @@
+[6:46:10 PM]created harvester at 173
+[6:46:10 PM]capacity upgraded at 174
+[6:46:30 PM]created harvester at 273
+[6:46:45 PM]created upgrader/builder  347
+[6:47:05 PM]created upgrader/builder  426
+[6:47:19 PM]created upgrader/builder  495
+[6:47:33 PM]created upgrader/builder  562
+[6:47:42 PM]converting to build extensions: creep WorkUpgrader562 role: 1 goal 1 source 0 target 1
+[6:47:42 PM]converting to build extensions: creep WorkUpgrader495 role: 1 goal 1 source 0 target 1
+[6:47:42 PM]converting to build extensions: creep WorkUpgrader426 role: 1 goal 1 source 0 target 1
+[6:47:42 PM]converting to build extensions: creep WorkUpgrader347 role: 1 goal 1 source 0 target 1
+[6:47:42 PM]setting stage to building at 610
+[6:47:49 PM]created upgrader/builder  646
+[6:48:03 PM]created upgrader/builder  715
+[6:48:08 PM]Script execution timed out ungracefully, restarting virtual machine
+[6:49:03 PM]Script execution timed out ungracefully, restarting virtual machine
+[6:49:23 PM]capacity upgraded at 1014
+[6:50:40 PM]capacity upgraded at 1349
+[6:50:40 PM]creating road sites
+[6:51:46 PM]moving creep WorkBuilder646 role: 2 goal 2 source 0 target 2 from goal 2 to goal 5
+[6:51:46 PM]moving creep WorkBuilder715 role: 2 goal 2 source 0 target 2 from goal 2 to goal 5
+[6:51:46 PM]moving creep WorkBuilder781 role: 2 goal 2 source 0 target 2 from goal 2 to goal 5
+[6:51:46 PM]moving creep WorkBuilder836 role: 2 goal 2 source 0 target 2 from goal 2 to goal 5
+[6:51:46 PM]moving creep WorkUpgrader347 role: 2 goal 2 source 0 target 2 from goal 2 to goal 5
+[6:51:46 PM]created harvester at 1642
+[6:51:46 PM]capacity upgraded at 1642
+[6:51:55 PM]created harvester at 1685
+[6:52:19 PM]Script execution timed out ungracefully, restarting virtual machine
+[6:52:33 PM]created harvester at 1785
+[6:53:07 PM]capacity upgraded at 1844

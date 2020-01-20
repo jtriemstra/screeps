@@ -1,0 +1,640 @@
+created harvester at 1 
+harvester harvest error -4 at 4 for creep MoveHarvester1 role: 0 goal 0 source 0 target 0 
+capacity upgraded at 4 
+harvester harvest error -4 at 5 for creep MoveHarvester1 role: 0 goal 0 source 0 target 0 
+harvester harvest error -4 at 6 for creep MoveHarvester1 role: 0 goal 0 source 0 target 0 
+harvester harvest error -4 at 7 for creep MoveHarvester1 role: 0 goal 0 source 0 target 0 
+harvester harvest error -4 at 8 for creep MoveHarvester1 role: 0 goal 0 source 0 target 0 
+harvester harvest error -4 at 9 for creep MoveHarvester1 role: 0 goal 0 source 0 target 0 
+harvester harvest error -4 at 10 for creep MoveHarvester1 role: 0 goal 0 source 0 target 0 
+harvester harvest error -4 at 11 for creep MoveHarvester1 role: 0 goal 0 source 0 target 0 
+harvester harvest error -4 at 12 for creep MoveHarvester1 role: 0 goal 0 source 0 target 0 
+created harvester at 106 
+harvester harvest error -4 at 107 for creep MoveHarvester106 role: 0 goal 0 source 0 target 0 
+harvester harvest error -4 at 108 for creep MoveHarvester106 role: 0 goal 0 source 0 target 0 
+harvester harvest error -4 at 109 for creep MoveHarvester106 role: 0 goal 0 source 0 target 0 
+harvester harvest error -4 at 110 for creep MoveHarvester106 role: 0 goal 0 source 0 target 0 
+harvester harvest error -4 at 111 for creep MoveHarvester106 role: 0 goal 0 source 0 target 0 
+harvester harvest error -4 at 112 for creep MoveHarvester106 role: 0 goal 0 source 0 target 0 
+harvester harvest error -4 at 113 for creep MoveHarvester106 role: 0 goal 0 source 0 target 0 
+harvester harvest error -4 at 114 for creep MoveHarvester106 role: 0 goal 0 source 0 target 0 
+harvester harvest error -4 at 115 for creep MoveHarvester106 role: 0 goal 0 source 0 target 0 
+harvester harvest error -4 at 116 for creep MoveHarvester106 role: 0 goal 0 source 0 target 0 
+harvester harvest error -4 at 117 for creep MoveHarvester106 role: 0 goal 0 source 0 target 0 
+created upgrader/builder  211 
+created upgrader/builder  311 
+created upgrader/builder  411 
+converting upgrader to miner 2 
+created miner  473 
+setting stage to building at 494 
+in building stage and converting upgrader 0 
+harvester no target at 536 for creep MoveHarvester1 role: 0 goal 0 source 0 target 0 
+created  builder  536 
+builder harvest error -4 at 538 for creep WorkBuilder536 role: 2 goal 2 source 0 target 2 
+created  builder  612 
+builder harvest error -4 at 613 for creep WorkBuilder612 role: 2 goal 2 source 0 target 2 
+builder harvest error -4 at 614 for creep WorkBuilder612 role: 2 goal 2 source 0 target 2 
+builder harvest error -4 at 616 for creep WorkBuilder612 role: 2 goal 2 source 0 target 2 
+builder harvest error -4 at 617 for creep WorkBuilder612 role: 2 goal 2 source 0 target 2 
+builder harvest error -4 at 618 for creep WorkBuilder612 role: 2 goal 2 source 0 target 2 
+builder harvest error -4 at 619 for creep WorkBuilder612 role: 2 goal 2 source 0 target 2 
+builder harvest error -4 at 620 for creep WorkBuilder612 role: 2 goal 2 source 0 target 2 
+builder harvest error -4 at 621 for creep WorkBuilder612 role: 2 goal 2 source 0 target 2 
+builder harvest error -4 at 623 for creep WorkBuilder612 role: 2 goal 2 source 0 target 2 
+created  builder  682 
+builder harvest error -4 at 684 for creep WorkBuilder682 role: 2 goal 2 source 0 target 2 
+builder harvest error -4 at 686 for creep WorkBuilder682 role: 2 goal 2 source 0 target 2 
+builder harvest error -4 at 687 for creep WorkBuilder682 role: 2 goal 2 source 0 target 2 
+builder harvest error -4 at 688 for creep WorkBuilder682 role: 2 goal 2 source 0 target 2 
+builder harvest error -4 at 689 for creep WorkBuilder682 role: 2 goal 2 source 0 target 2 
+builder harvest error -4 at 690 for creep WorkBuilder682 role: 2 goal 2 source 0 target 2 
+builder harvest error -4 at 691 for creep WorkBuilder682 role: 2 goal 2 source 0 target 2 
+builder harvest error -4 at 693 for creep WorkBuilder682 role: 2 goal 2 source 0 target 2 
+created  builder  767 
+builder harvest error -4 at 768 for creep WorkBuilder767 role: 2 goal 2 source 0 target 2 
+builder harvest error -4 at 770 for creep WorkBuilder767 role: 2 goal 2 source 0 target 2 
+builder harvest error -4 at 771 for creep WorkBuilder767 role: 2 goal 2 source 0 target 2 
+builder harvest error -4 at 772 for creep WorkBuilder767 role: 2 goal 2 source 0 target 2 
+builder harvest error -4 at 773 for creep WorkBuilder767 role: 2 goal 2 source 0 target 2 
+builder harvest error -4 at 774 for creep WorkBuilder767 role: 2 goal 2 source 0 target 2 
+builder harvest error -4 at 776 for creep WorkBuilder767 role: 2 goal 2 source 0 target 2 
+builder harvest error -4 at 777 for creep WorkBuilder767 role: 2 goal 2 source 0 target 2 
+builder harvest error -4 at 778 for creep WorkBuilder767 role: 2 goal 2 source 0 target 2 
+harvester no target at 855 for creep MoveHarvester1 role: 0 goal 0 source 0 target 0 
+harvester no target at 868 for creep MoveHarvester106 role: 0 goal 0 source 0 target 0 
+harvester no target at 870 for creep MoveHarvester1 role: 0 goal 0 source 0 target 0 
+harvester no target at 884 for creep MoveHarvester1 role: 0 goal 0 source 0 target 0 
+0 e27a3143-b30d-467a-a6dc-bcb40bed4a52:2:115837
+harvester no target at 890 for creep MoveHarvester106 role: 0 goal 0 source 0 target 0 
+2 e27a3143-b30d-467a-a6dc-bcb40bed4a52:2:115837
+harvester no target at 898 for creep MoveHarvester1 role: 0 goal 0 source 0 target 0 
+harvester no target at 905 for creep MoveHarvester106 role: 0 goal 0 source 0 target 0 
+harvester harvest error -6 at 911 for creep MoveHarvester1 role: 0 goal 0 source 0 target 0 
+builder harvest error -6 at 911 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 
+builder harvest error -6 at 911 for creep WorkBuilder536 role: 2 goal 2 source 0 target 2 
+builder harvest error -6 at 911 for creep WorkBuilder612 role: 2 goal 2 source 0 target 2 
+builder harvest error -6 at 911 for creep WorkBuilder767 role: 2 goal 2 source 0 target 2 
+harvester harvest error -6 at 912 for creep MoveHarvester1 role: 0 goal 0 source 0 target 0 
+builder harvest error -6 at 912 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 
+builder harvest error -6 at 912 for creep WorkBuilder536 role: 2 goal 2 source 0 target 2 
+builder harvest error -6 at 912 for creep WorkBuilder612 role: 2 goal 2 source 0 target 2 
+builder harvest error -6 at 912 for creep WorkBuilder767 role: 2 goal 2 source 0 target 2 
+harvester harvest error -6 at 913 for creep MoveHarvester1 role: 0 goal 0 source 0 target 0 
+builder harvest error -6 at 913 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 
+builder harvest error -6 at 913 for creep WorkBuilder536 role: 2 goal 2 source 0 target 2 
+builder harvest error -6 at 913 for creep WorkBuilder612 role: 2 goal 2 source 0 target 2 
+builder harvest error -6 at 913 for creep WorkBuilder767 role: 2 goal 2 source 0 target 2 
+harvester harvest error -6 at 914 for creep MoveHarvester1 role: 0 goal 0 source 0 target 0 
+builder harvest error -6 at 914 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 
+builder harvest error -6 at 914 for creep WorkBuilder536 role: 2 goal 2 source 0 target 2 
+builder harvest error -6 at 914 for creep WorkBuilder612 role: 2 goal 2 source 0 target 2 
+builder harvest error -6 at 914 for creep WorkBuilder767 role: 2 goal 2 source 0 target 2 
+harvester harvest error -6 at 915 for creep MoveHarvester1 role: 0 goal 0 source 0 target 0 
+builder harvest error -6 at 915 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 
+builder harvest error -6 at 915 for creep WorkBuilder536 role: 2 goal 2 source 0 target 2 
+builder harvest error -6 at 915 for creep WorkBuilder612 role: 2 goal 2 source 0 target 2 
+builder harvest error -6 at 915 for creep WorkBuilder767 role: 2 goal 2 source 0 target 2 
+capacity upgraded at 915 
+harvester harvest error -6 at 916 for creep MoveHarvester1 role: 0 goal 0 source 0 target 0 
+builder harvest error -6 at 916 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 
+builder harvest error -6 at 916 for creep WorkBuilder536 role: 2 goal 2 source 0 target 2 
+builder harvest error -6 at 916 for creep WorkBuilder612 role: 2 goal 2 source 0 target 2 
+builder harvest error -6 at 916 for creep WorkBuilder767 role: 2 goal 2 source 0 target 2 
+harvester harvest error -6 at 917 for creep MoveHarvester1 role: 0 goal 0 source 0 target 0 
+builder harvest error -6 at 917 for creep MoveHarvester106 role: 0 goal 0 source 0 target 0 
+builder harvest error -6 at 917 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 
+builder harvest error -6 at 917 for creep WorkBuilder536 role: 2 goal 2 source 0 target 2 
+builder harvest error -6 at 917 for creep WorkBuilder612 role: 2 goal 2 source 0 target 2 
+builder harvest error -6 at 917 for creep WorkBuilder767 role: 2 goal 2 source 0 target 2 
+harvester harvest error -6 at 918 for creep MoveHarvester1 role: 0 goal 0 source 0 target 0 
+harvester harvest error -6 at 918 for creep MoveHarvester106 role: 0 goal 0 source 0 target 0 
+builder harvest error -6 at 918 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 
+builder harvest error -6 at 918 for creep WorkBuilder536 role: 2 goal 2 source 0 target 2 
+builder harvest error -6 at 918 for creep WorkBuilder612 role: 2 goal 2 source 0 target 2 
+builder harvest error -6 at 918 for creep WorkBuilder767 role: 2 goal 2 source 0 target 2 
+harvester harvest error -6 at 919 for creep MoveHarvester1 role: 0 goal 0 source 0 target 0 
+harvester harvest error -6 at 919 for creep MoveHarvester106 role: 0 goal 0 source 0 target 0 
+builder harvest error -6 at 919 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 
+builder harvest error -6 at 919 for creep WorkBuilder536 role: 2 goal 2 source 0 target 2 
+builder harvest error -6 at 919 for creep WorkBuilder612 role: 2 goal 2 source 0 target 2 
+builder harvest error -6 at 919 for creep WorkBuilder682 role: 2 goal 2 source 0 target 2 
+builder harvest error -6 at 919 for creep WorkBuilder767 role: 2 goal 2 source 0 target 2 
+harvester harvest error -6 at 920 for creep MoveHarvester1 role: 0 goal 0 source 0 target 0 
+harvester harvest error -6 at 920 for creep MoveHarvester106 role: 0 goal 0 source 0 target 0 
+builder harvest error -6 at 920 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 
+builder harvest error -6 at 920 for creep WorkBuilder536 role: 2 goal 2 source 0 target 2 
+builder harvest error -6 at 920 for creep WorkBuilder612 role: 2 goal 2 source 0 target 2 
+builder harvest error -6 at 920 for creep WorkBuilder682 role: 2 goal 2 source 0 target 2 
+builder harvest error -6 at 920 for creep WorkBuilder767 role: 2 goal 2 source 0 target 2 
+harvester harvest error -6 at 921 for creep MoveHarvester1 role: 0 goal 0 source 0 target 0 
+harvester harvest error -6 at 921 for creep MoveHarvester106 role: 0 goal 0 source 0 target 0 
+builder harvest error -6 at 921 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 
+builder harvest error -6 at 921 for creep WorkBuilder536 role: 2 goal 2 source 0 target 2 
+builder harvest error -6 at 921 for creep WorkBuilder612 role: 2 goal 2 source 0 target 2 
+builder harvest error -6 at 921 for creep WorkBuilder682 role: 2 goal 2 source 0 target 2 
+builder harvest error -6 at 921 for creep WorkBuilder767 role: 2 goal 2 source 0 target 2 
+harvester harvest error -6 at 922 for creep MoveHarvester1 role: 0 goal 0 source 0 target 0 
+harvester harvest error -6 at 922 for creep MoveHarvester106 role: 0 goal 0 source 0 target 0 
+builder harvest error -6 at 922 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 
+builder harvest error -6 at 922 for creep WorkBuilder536 role: 2 goal 2 source 0 target 2 
+builder harvest error -6 at 922 for creep WorkBuilder612 role: 2 goal 2 source 0 target 2 
+builder harvest error -6 at 922 for creep WorkBuilder682 role: 2 goal 2 source 0 target 2 
+builder harvest error -6 at 922 for creep WorkBuilder767 role: 2 goal 2 source 0 target 2 
+harvester harvest error -6 at 923 for creep MoveHarvester1 role: 0 goal 0 source 0 target 0 
+harvester harvest error -6 at 923 for creep MoveHarvester106 role: 0 goal 0 source 0 target 0 
+builder harvest error -6 at 923 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 
+builder harvest error -6 at 923 for creep WorkBuilder536 role: 2 goal 2 source 0 target 2 
+builder harvest error -6 at 923 for creep WorkBuilder612 role: 2 goal 2 source 0 target 2 
+builder harvest error -6 at 923 for creep WorkBuilder682 role: 2 goal 2 source 0 target 2 
+builder harvest error -6 at 923 for creep WorkBuilder767 role: 2 goal 2 source 0 target 2 
+created remote upgrader/builder 932 
+harvester harvest error -4 at 933 for creep HarvestRemote932 role: 0 goal 3 source 2 target 4 
+harvester harvest error -4 at 934 for creep HarvestRemote932 role: 0 goal 3 source 2 target 4 
+harvester harvest error -4 at 935 for creep HarvestRemote932 role: 0 goal 3 source 2 target 4 
+harvester harvest error -4 at 936 for creep HarvestRemote932 role: 0 goal 3 source 2 target 4 
+harvester harvest error -4 at 937 for creep HarvestRemote932 role: 0 goal 3 source 2 target 4 
+harvester harvest error -4 at 938 for creep HarvestRemote932 role: 0 goal 3 source 2 target 4 
+harvester harvest error -4 at 939 for creep HarvestRemote932 role: 0 goal 3 source 2 target 4 
+harvester harvest error -4 at 940 for creep HarvestRemote932 role: 0 goal 3 source 2 target 4 
+harvester harvest error -4 at 941 for creep HarvestRemote932 role: 0 goal 3 source 2 target 4 
+harvester harvest error -4 at 942 for creep HarvestRemote932 role: 0 goal 3 source 2 target 4 
+harvester harvest error -4 at 943 for creep HarvestRemote932 role: 0 goal 3 source 2 target 4 
+harvester harvest error -4 at 944 for creep HarvestRemote932 role: 0 goal 3 source 2 target 4 
+harvester harvest error -4 at 945 for creep HarvestRemote932 role: 0 goal 3 source 2 target 4 
+harvester harvest error -4 at 946 for creep HarvestRemote932 role: 0 goal 3 source 2 target 4 
+Source map error: Error: request failed with status 404
+Resource URL: https://cdn.xsolla.net/network/xtracking-0.1.js
+Source Map URL: xtracking.min.js.map
+
+harvester transfer error -7 at 988 for creep HarvestRemote932 role: 0 goal 3 source 2 target 4 
+created remote upgrader/builder 1005 
+harvester transfer error -7 at 1006 for creep HarvestRemote932 role: 0 goal 3 source 2 target 4 
+harvester harvest error -4 at 1006 for creep HarvestRemote1005 role: 0 goal 3 source 2 target 4 
+harvester harvest error -4 at 1007 for creep HarvestRemote1005 role: 0 goal 3 source 2 target 4 
+harvester harvest error -4 at 1008 for creep HarvestRemote1005 role: 0 goal 3 source 2 target 4 
+harvester harvest error -4 at 1009 for creep HarvestRemote1005 role: 0 goal 3 source 2 target 4 
+harvester harvest error -4 at 1010 for creep HarvestRemote1005 role: 0 goal 3 source 2 target 4 
+harvester harvest error -4 at 1011 for creep HarvestRemote1005 role: 0 goal 3 source 2 target 4 
+harvester harvest error -4 at 1012 for creep HarvestRemote1005 role: 0 goal 3 source 2 target 4 
+harvester harvest error -4 at 1013 for creep HarvestRemote1005 role: 0 goal 3 source 2 target 4 
+harvester harvest error -4 at 1014 for creep HarvestRemote1005 role: 0 goal 3 source 2 target 4 
+harvester harvest error -4 at 1015 for creep HarvestRemote1005 role: 0 goal 3 source 2 target 4 
+harvester harvest error -4 at 1016 for creep HarvestRemote1005 role: 0 goal 3 source 2 target 4 
+harvester harvest error -4 at 1017 for creep HarvestRemote1005 role: 0 goal 3 source 2 target 4 
+harvester harvest error -4 at 1018 for creep HarvestRemote1005 role: 0 goal 3 source 2 target 4 
+harvester harvest error -4 at 1019 for creep HarvestRemote1005 role: 0 goal 3 source 2 target 4 
+harvester transfer error -7 at 1024 for creep HarvestRemote932 role: 0 goal 3 source 2 target 4 
+harvester transfer error -7 at 1042 for creep HarvestRemote932 role: 0 goal 3 source 2 target 4 
+harvester transfer error -7 at 1060 for creep HarvestRemote932 role: 0 goal 3 source 2 target 4 
+harvester transfer error -7 at 1063 for creep HarvestRemote1005 role: 0 goal 3 source 2 target 4 
+harvester transfer error -7 at 1078 for creep HarvestRemote932 role: 0 goal 3 source 2 target 4 
+harvester transfer error -7 at 1083 for creep HarvestRemote1005 role: 0 goal 3 source 2 target 4 
+created remote upgrader/builder 1089 
+harvester harvest error -4 at 1090 for creep HarvestRemote1089 role: 0 goal 3 source 2 target 4 
+harvester harvest error -4 at 1091 for creep HarvestRemote1089 role: 0 goal 3 source 2 target 4 
+harvester harvest error -4 at 1092 for creep HarvestRemote1089 role: 0 goal 3 source 2 target 4 
+harvester harvest error -4 at 1093 for creep HarvestRemote1089 role: 0 goal 3 source 2 target 4 
+harvester harvest error -4 at 1094 for creep HarvestRemote1089 role: 0 goal 3 source 2 target 4 
+harvester harvest error -4 at 1095 for creep HarvestRemote1089 role: 0 goal 3 source 2 target 4 
+harvester transfer error -7 at 1096 for creep HarvestRemote932 role: 0 goal 3 source 2 target 4 
+harvester harvest error -4 at 1096 for creep HarvestRemote1089 role: 0 goal 3 source 2 target 4 
+harvester harvest error -4 at 1097 for creep HarvestRemote1089 role: 0 goal 3 source 2 target 4 
+harvester harvest error -4 at 1098 for creep HarvestRemote1089 role: 0 goal 3 source 2 target 4 
+harvester harvest error -4 at 1099 for creep HarvestRemote1089 role: 0 goal 3 source 2 target 4 
+harvester harvest error -4 at 1100 for creep HarvestRemote1089 role: 0 goal 3 source 2 target 4 
+harvester harvest error -4 at 1101 for creep HarvestRemote1089 role: 0 goal 3 source 2 target 4 
+harvester harvest error -4 at 1102 for creep HarvestRemote1089 role: 0 goal 3 source 2 target 4 
+harvester transfer error -7 at 1103 for creep HarvestRemote1005 role: 0 goal 3 source 2 target 4 
+harvester harvest error -4 at 1103 for creep HarvestRemote1089 role: 0 goal 3 source 2 target 4 
+harvester transfer error -7 at 1114 for creep HarvestRemote932 role: 0 goal 3 source 2 target 4 
+harvester transfer error -7 at 1123 for creep HarvestRemote1005 role: 0 goal 3 source 2 target 4 
+harvester transfer error -7 at 1132 for creep HarvestRemote932 role: 0 goal 3 source 2 target 4 
+harvester transfer error -7 at 1143 for creep HarvestRemote1005 role: 0 goal 3 source 2 target 4 
+harvester transfer error -7 at 1149 for creep HarvestRemote1089 role: 0 goal 3 source 2 target 4 
+harvester transfer error -7 at 1150 for creep HarvestRemote932 role: 0 goal 3 source 2 target 4 
+harvester transfer error -7 at 1163 for creep HarvestRemote1005 role: 0 goal 3 source 2 target 4 
+created remote upgrader/builder 1165 
+harvester harvest error -4 at 1166 for creep HarvestRemote1165 role: 0 goal 3 source 2 target 4 
+harvester transfer error -7 at 1167 for creep HarvestRemote1089 role: 0 goal 3 source 2 target 4 
+harvester harvest error -4 at 1167 for creep HarvestRemote1165 role: 0 goal 3 source 2 target 4 
+harvester transfer error -7 at 1168 for creep HarvestRemote932 role: 0 goal 3 source 2 target 4 
+harvester harvest error -4 at 1168 for creep HarvestRemote1165 role: 0 goal 3 source 2 target 4 
+harvester harvest error -4 at 1169 for creep HarvestRemote1165 role: 0 goal 3 source 2 target 4 
+harvester harvest error -4 at 1170 for creep HarvestRemote1165 role: 0 goal 3 source 2 target 4 
+harvester harvest error -4 at 1171 for creep HarvestRemote1165 role: 0 goal 3 source 2 target 4 
+harvester harvest error -4 at 1172 for creep HarvestRemote1165 role: 0 goal 3 source 2 target 4 
+harvester harvest error -4 at 1173 for creep HarvestRemote1165 role: 0 goal 3 source 2 target 4 
+harvester harvest error -4 at 1174 for creep HarvestRemote1165 role: 0 goal 3 source 2 target 4 
+harvester harvest error -4 at 1175 for creep HarvestRemote1165 role: 0 goal 3 source 2 target 4 
+harvester harvest error -4 at 1176 for creep HarvestRemote1165 role: 0 goal 3 source 2 target 4 
+harvester harvest error -4 at 1177 for creep HarvestRemote1165 role: 0 goal 3 source 2 target 4 
+harvester harvest error -4 at 1178 for creep HarvestRemote1165 role: 0 goal 3 source 2 target 4 
+harvester harvest error -4 at 1179 for creep HarvestRemote1165 role: 0 goal 3 source 2 target 4 
+harvester transfer error -7 at 1183 for creep HarvestRemote1005 role: 0 goal 3 source 2 target 4 
+harvester transfer error -7 at 1185 for creep HarvestRemote1089 role: 0 goal 3 source 2 target 4 
+harvester transfer error -7 at 1186 for creep HarvestRemote932 role: 0 goal 3 source 2 target 4 
+harvester transfer error -7 at 1203 for creep HarvestRemote1005 role: 0 goal 3 source 2 target 4 
+harvester transfer error -7 at 1203 for creep HarvestRemote1089 role: 0 goal 3 source 2 target 4 
+harvester transfer error -7 at 1204 for creep HarvestRemote932 role: 0 goal 3 source 2 target 4 
+harvester harvest error -6 at 1207 for creep MoveHarvester106 role: 0 goal 0 source 0 target 0 
+builder harvest error -6 at 1207 for creep WorkBuilder536 role: 2 goal 2 source 0 target 2 
+builder harvest error -6 at 1207 for creep WorkBuilder612 role: 2 goal 2 source 0 target 2 
+builder harvest error -6 at 1207 for creep WorkBuilder682 role: 2 goal 2 source 0 target 2 
+builder harvest error -6 at 1207 for creep WorkBuilder767 role: 2 goal 2 source 0 target 2 
+harvester harvest error -6 at 1208 for creep MoveHarvester106 role: 0 goal 0 source 0 target 0 
+builder harvest error -6 at 1208 for creep WorkBuilder536 role: 2 goal 2 source 0 target 2 
+builder harvest error -6 at 1208 for creep WorkBuilder612 role: 2 goal 2 source 0 target 2 
+builder harvest error -6 at 1208 for creep WorkBuilder682 role: 2 goal 2 source 0 target 2 
+builder harvest error -6 at 1208 for creep WorkBuilder767 role: 2 goal 2 source 0 target 2 
+harvester harvest error -6 at 1209 for creep MoveHarvester106 role: 0 goal 0 source 0 target 0 
+builder harvest error -6 at 1209 for creep WorkBuilder536 role: 2 goal 2 source 0 target 2 
+builder harvest error -6 at 1209 for creep WorkBuilder612 role: 2 goal 2 source 0 target 2 
+builder harvest error -6 at 1209 for creep WorkBuilder682 role: 2 goal 2 source 0 target 2 
+builder harvest error -6 at 1209 for creep WorkBuilder767 role: 2 goal 2 source 0 target 2 
+harvester harvest error -6 at 1210 for creep MoveHarvester106 role: 0 goal 0 source 0 target 0 
+builder harvest error -6 at 1210 for creep WorkBuilder536 role: 2 goal 2 source 0 target 2 
+builder harvest error -6 at 1210 for creep WorkBuilder612 role: 2 goal 2 source 0 target 2 
+builder harvest error -6 at 1210 for creep WorkBuilder682 role: 2 goal 2 source 0 target 2 
+builder harvest error -6 at 1210 for creep WorkBuilder767 role: 2 goal 2 source 0 target 2 
+harvester harvest error -6 at 1211 for creep MoveHarvester106 role: 0 goal 0 source 0 target 0 
+builder harvest error -6 at 1211 for creep WorkBuilder536 role: 2 goal 2 source 0 target 2 
+builder harvest error -6 at 1211 for creep WorkBuilder612 role: 2 goal 2 source 0 target 2 
+builder harvest error -6 at 1211 for creep WorkBuilder682 role: 2 goal 2 source 0 target 2 
+builder harvest error -6 at 1211 for creep WorkBuilder767 role: 2 goal 2 source 0 target 2 
+harvester harvest error -6 at 1212 for creep MoveHarvester106 role: 0 goal 0 source 0 target 0 
+builder harvest error -6 at 1212 for creep WorkBuilder536 role: 2 goal 2 source 0 target 2 
+builder harvest error -6 at 1212 for creep WorkBuilder612 role: 2 goal 2 source 0 target 2 
+builder harvest error -6 at 1212 for creep WorkBuilder682 role: 2 goal 2 source 0 target 2 
+builder harvest error -6 at 1212 for creep WorkBuilder767 role: 2 goal 2 source 0 target 2 
+harvester harvest error -6 at 1213 for creep MoveHarvester1 role: 0 goal 0 source 0 target 0 
+harvester harvest error -6 at 1213 for creep MoveHarvester106 role: 0 goal 0 source 0 target 0 
+builder harvest error -6 at 1213 for creep WorkBuilder536 role: 2 goal 2 source 0 target 2 
+builder harvest error -6 at 1213 for creep WorkBuilder612 role: 2 goal 2 source 0 target 2 
+builder harvest error -6 at 1213 for creep WorkBuilder682 role: 2 goal 2 source 0 target 2 
+builder harvest error -6 at 1213 for creep WorkBuilder767 role: 2 goal 2 source 0 target 2 
+harvester harvest error -6 at 1214 for creep MoveHarvester1 role: 0 goal 0 source 0 target 0 
+harvester harvest error -6 at 1214 for creep MoveHarvester106 role: 0 goal 0 source 0 target 0 
+builder harvest error -6 at 1214 for creep WorkBuilder536 role: 2 goal 2 source 0 target 2 
+builder harvest error -6 at 1214 for creep WorkBuilder612 role: 2 goal 2 source 0 target 2 
+builder harvest error -6 at 1214 for creep WorkBuilder682 role: 2 goal 2 source 0 target 2 
+builder harvest error -6 at 1214 for creep WorkBuilder767 role: 2 goal 2 source 0 target 2 
+harvester harvest error -6 at 1215 for creep MoveHarvester1 role: 0 goal 0 source 0 target 0 
+harvester harvest error -6 at 1215 for creep MoveHarvester106 role: 0 goal 0 source 0 target 0 
+builder harvest error -6 at 1215 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 
+builder harvest error -6 at 1215 for creep WorkBuilder536 role: 2 goal 2 source 0 target 2 
+builder harvest error -6 at 1215 for creep WorkBuilder612 role: 2 goal 2 source 0 target 2 
+builder harvest error -6 at 1215 for creep WorkBuilder682 role: 2 goal 2 source 0 target 2 
+builder harvest error -6 at 1215 for creep WorkBuilder767 role: 2 goal 2 source 0 target 2 
+harvester harvest error -6 at 1216 for creep MoveHarvester1 role: 0 goal 0 source 0 target 0 
+harvester harvest error -6 at 1216 for creep MoveHarvester106 role: 0 goal 0 source 0 target 0 
+builder harvest error -6 at 1216 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 
+builder harvest error -6 at 1216 for creep WorkBuilder536 role: 2 goal 2 source 0 target 2 
+builder harvest error -6 at 1216 for creep WorkBuilder612 role: 2 goal 2 source 0 target 2 
+builder harvest error -6 at 1216 for creep WorkBuilder682 role: 2 goal 2 source 0 target 2 
+builder harvest error -6 at 1216 for creep WorkBuilder767 role: 2 goal 2 source 0 target 2 
+harvester harvest error -6 at 1217 for creep MoveHarvester1 role: 0 goal 0 source 0 target 0 
+harvester harvest error -6 at 1217 for creep MoveHarvester106 role: 0 goal 0 source 0 target 0 
+builder harvest error -6 at 1217 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 
+builder harvest error -6 at 1217 for creep WorkBuilder536 role: 2 goal 2 source 0 target 2 
+builder harvest error -6 at 1217 for creep WorkBuilder612 role: 2 goal 2 source 0 target 2 
+builder harvest error -6 at 1217 for creep WorkBuilder682 role: 2 goal 2 source 0 target 2 
+builder harvest error -6 at 1217 for creep WorkBuilder767 role: 2 goal 2 source 0 target 2 
+harvester harvest error -6 at 1218 for creep MoveHarvester1 role: 0 goal 0 source 0 target 0 
+harvester harvest error -6 at 1218 for creep MoveHarvester106 role: 0 goal 0 source 0 target 0 
+builder harvest error -6 at 1218 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 
+builder harvest error -6 at 1218 for creep WorkBuilder536 role: 2 goal 2 source 0 target 2 
+builder harvest error -6 at 1218 for creep WorkBuilder612 role: 2 goal 2 source 0 target 2 
+builder harvest error -6 at 1218 for creep WorkBuilder682 role: 2 goal 2 source 0 target 2 
+builder harvest error -6 at 1218 for creep WorkBuilder767 role: 2 goal 2 source 0 target 2 
+harvester harvest error -6 at 1219 for creep MoveHarvester1 role: 0 goal 0 source 0 target 0 
+harvester harvest error -6 at 1219 for creep MoveHarvester106 role: 0 goal 0 source 0 target 0 
+builder harvest error -6 at 1219 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 
+builder harvest error -6 at 1219 for creep WorkBuilder536 role: 2 goal 2 source 0 target 2 
+builder harvest error -6 at 1219 for creep WorkBuilder612 role: 2 goal 2 source 0 target 2 
+builder harvest error -6 at 1219 for creep WorkBuilder682 role: 2 goal 2 source 0 target 2 
+builder harvest error -6 at 1219 for creep WorkBuilder767 role: 2 goal 2 source 0 target 2 
+harvester harvest error -6 at 1220 for creep MoveHarvester1 role: 0 goal 0 source 0 target 0 
+harvester harvest error -6 at 1220 for creep MoveHarvester106 role: 0 goal 0 source 0 target 0 
+builder harvest error -6 at 1220 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 
+builder harvest error -6 at 1220 for creep WorkBuilder536 role: 2 goal 2 source 0 target 2 
+builder harvest error -6 at 1220 for creep WorkBuilder612 role: 2 goal 2 source 0 target 2 
+builder harvest error -6 at 1220 for creep WorkBuilder682 role: 2 goal 2 source 0 target 2 
+builder harvest error -6 at 1220 for creep WorkBuilder767 role: 2 goal 2 source 0 target 2 
+harvester harvest error -6 at 1221 for creep MoveHarvester1 role: 0 goal 0 source 0 target 0 
+harvester harvest error -6 at 1221 for creep MoveHarvester106 role: 0 goal 0 source 0 target 0 
+builder harvest error -6 at 1221 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 
+builder harvest error -6 at 1221 for creep WorkBuilder536 role: 2 goal 2 source 0 target 2 
+builder harvest error -6 at 1221 for creep WorkBuilder612 role: 2 goal 2 source 0 target 2 
+builder harvest error -6 at 1221 for creep WorkBuilder682 role: 2 goal 2 source 0 target 2 
+builder harvest error -6 at 1221 for creep WorkBuilder767 role: 2 goal 2 source 0 target 2 
+harvester transfer error -7 at 1221 for creep HarvestRemote1089 role: 0 goal 3 source 2 target 4 
+harvester harvest error -6 at 1222 for creep MoveHarvester1 role: 0 goal 0 source 0 target 0 
+harvester harvest error -6 at 1222 for creep MoveHarvester106 role: 0 goal 0 source 0 target 0 
+builder harvest error -6 at 1222 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 
+builder harvest error -6 at 1222 for creep WorkBuilder536 role: 2 goal 2 source 0 target 2 
+builder harvest error -6 at 1222 for creep WorkBuilder612 role: 2 goal 2 source 0 target 2 
+builder harvest error -6 at 1222 for creep WorkBuilder682 role: 2 goal 2 source 0 target 2 
+builder harvest error -6 at 1222 for creep WorkBuilder767 role: 2 goal 2 source 0 target 2 
+harvester transfer error -7 at 1222 for creep HarvestRemote932 role: 0 goal 3 source 2 target 4 
+harvester harvest error -6 at 1223 for creep MoveHarvester1 role: 0 goal 0 source 0 target 0 
+harvester harvest error -6 at 1223 for creep MoveHarvester106 role: 0 goal 0 source 0 target 0 
+builder harvest error -6 at 1223 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 
+builder harvest error -6 at 1223 for creep WorkBuilder536 role: 2 goal 2 source 0 target 2 
+builder harvest error -6 at 1223 for creep WorkBuilder612 role: 2 goal 2 source 0 target 2 
+builder harvest error -6 at 1223 for creep WorkBuilder682 role: 2 goal 2 source 0 target 2 
+builder harvest error -6 at 1223 for creep WorkBuilder767 role: 2 goal 2 source 0 target 2 
+harvester transfer error -7 at 1223 for creep HarvestRemote1005 role: 0 goal 3 source 2 target 4 
+harvester transfer error -7 at 1238 for creep HarvestRemote1165 role: 0 goal 3 source 2 target 4 
+harvester transfer error -7 at 1239 for creep HarvestRemote1089 role: 0 goal 3 source 2 target 4 
+harvester transfer error -7 at 1240 for creep HarvestRemote932 role: 0 goal 3 source 2 target 4 
+harvester transfer error -7 at 1255 for creep HarvestRemote1005 role: 0 goal 3 source 2 target 4 
+harvester transfer error -7 at 1257 for creep HarvestRemote1089 role: 0 goal 3 source 2 target 4 
+harvester transfer error -7 at 1258 for creep HarvestRemote932 role: 0 goal 3 source 2 target 4 
+harvester no target at 1266 for creep MoveHarvester1 role: 0 goal 0 source 0 target 0 
+harvester no target at 1269 for creep MoveHarvester106 role: 0 goal 0 source 0 target 0 
+harvester transfer error -7 at 1270 for creep HarvestRemote1165 role: 0 goal 3 source 2 target 4 
+harvester transfer error -7 at 1275 for creep HarvestRemote1089 role: 0 goal 3 source 2 target 4 
+harvester transfer error -7 at 1276 for creep HarvestRemote932 role: 0 goal 3 source 2 target 4 
+harvester no target at 1284 for creep MoveHarvester1 role: 0 goal 0 source 0 target 0 
+harvester transfer error -7 at 1287 for creep HarvestRemote1005 role: 0 goal 3 source 2 target 4 
+harvester transfer error -7 at 1293 for creep HarvestRemote1089 role: 0 goal 3 source 2 target 4 
+harvester transfer error -7 at 1294 for creep HarvestRemote932 role: 0 goal 3 source 2 target 4 
+harvester no target at 1299 for creep MoveHarvester106 role: 0 goal 0 source 0 target 0 
+harvester no target at 1302 for creep MoveHarvester1 role: 0 goal 0 source 0 target 0 
+harvester transfer error -7 at 1302 for creep HarvestRemote1165 role: 0 goal 3 source 2 target 4 
+harvester transfer error -7 at 1311 for creep HarvestRemote1089 role: 0 goal 3 source 2 target 4 
+harvester transfer error -7 at 1312 for creep HarvestRemote932 role: 0 goal 3 source 2 target 4 
+harvester no target at 1316 for creep MoveHarvester106 role: 0 goal 0 source 0 target 0 
+harvester transfer error -7 at 1319 for creep HarvestRemote1005 role: 0 goal 3 source 2 target 4 
+harvester no target at 1329 for creep MoveHarvester1 role: 0 goal 0 source 0 target 0 
+harvester transfer error -7 at 1329 for creep HarvestRemote1089 role: 0 goal 3 source 2 target 4 
+harvester transfer error -7 at 1330 for creep HarvestRemote932 role: 0 goal 3 source 2 target 4 
+harvester no target at 1334 for creep MoveHarvester106 role: 0 goal 0 source 0 target 0 
+harvester transfer error -7 at 1334 for creep HarvestRemote1165 role: 0 goal 3 source 2 target 4 
+harvester transfer error -7 at 1347 for creep HarvestRemote1089 role: 0 goal 3 source 2 target 4 
+harvester transfer error -7 at 1348 for creep HarvestRemote932 role: 0 goal 3 source 2 target 4 
+harvester no target at 1350 for creep MoveHarvester1 role: 0 goal 0 source 0 target 0 
+harvester transfer error -7 at 1351 for creep HarvestRemote1005 role: 0 goal 3 source 2 target 4 
+capacity upgraded at 1356 
+creating road sites 
+harvester transfer error -7 at 1365 for creep HarvestRemote1089 role: 0 goal 3 source 2 target 4 
+harvester transfer error -7 at 1366 for creep HarvestRemote932 role: 0 goal 3 source 2 target 4 
+harvester transfer error -7 at 1366 for creep HarvestRemote1165 role: 0 goal 3 source 2 target 4 
+harvester no target at 1368 for creep MoveHarvester106 role: 0 goal 0 source 0 target 0 
+harvester no target at 1375 for creep MoveHarvester1 role: 0 goal 0 source 0 target 0 
+harvester transfer error -7 at 1383 for creep HarvestRemote1005 role: 0 goal 3 source 2 target 4 
+harvester transfer error -7 at 1383 for creep HarvestRemote1089 role: 0 goal 3 source 2 target 4 
+harvester transfer error -7 at 1384 for creep HarvestRemote932 role: 0 goal 3 source 2 target 4 
+harvester no target at 1385 for creep MoveHarvester106 role: 0 goal 0 source 0 target 0 
+harvester no target at 1391 for creep MoveHarvester1 role: 0 goal 0 source 0 target 0 
+harvester transfer error -7 at 1398 for creep HarvestRemote1165 role: 0 goal 3 source 2 target 4 
+harvester transfer error -7 at 1401 for creep HarvestRemote1089 role: 0 goal 3 source 2 target 4 
+harvester transfer error -7 at 1402 for creep HarvestRemote932 role: 0 goal 3 source 2 target 4 
+harvester no target at 1410 for creep MoveHarvester106 role: 0 goal 0 source 0 target 0 
+harvester no target at 1414 for creep MoveHarvester1 role: 0 goal 0 source 0 target 0 
+harvester transfer error -7 at 1415 for creep HarvestRemote1005 role: 0 goal 3 source 2 target 4 
+harvester transfer error -7 at 1419 for creep HarvestRemote1089 role: 0 goal 3 source 2 target 4 
+harvester transfer error -7 at 1420 for creep HarvestRemote932 role: 0 goal 3 source 2 target 4 
+harvester transfer error -7 at 1430 for creep HarvestRemote1165 role: 0 goal 3 source 2 target 4 
+harvester no target at 1431 for creep MoveHarvester1 role: 0 goal 0 source 0 target 0 
+harvester no target at 1433 for creep MoveHarvester106 role: 0 goal 0 source 0 target 0 
+harvester transfer error -7 at 1437 for creep HarvestRemote1089 role: 0 goal 3 source 2 target 4 
+harvester transfer error -7 at 1438 for creep HarvestRemote932 role: 0 goal 3 source 2 target 4 
+harvester transfer error -7 at 1447 for creep HarvestRemote1005 role: 0 goal 3 source 2 target 4 
+harvester no target at 1452 for creep MoveHarvester106 role: 0 goal 0 source 0 target 0 
+harvester transfer error -7 at 1455 for creep HarvestRemote1089 role: 0 goal 3 source 2 target 4 
+harvester transfer error -7 at 1456 for creep HarvestRemote932 role: 0 goal 3 source 2 target 4 
+harvester no target at 1460 for creep MoveHarvester1 role: 0 goal 0 source 0 target 0 
+harvester transfer error -7 at 1462 for creep HarvestRemote1165 role: 0 goal 3 source 2 target 4 
+harvester transfer error -7 at 1473 for creep HarvestRemote1089 role: 0 goal 3 source 2 target 4 
+harvester transfer error -7 at 1474 for creep HarvestRemote932 role: 0 goal 3 source 2 target 4 
+harvester no target at 1476 for creep MoveHarvester106 role: 0 goal 0 source 0 target 0 
+harvester transfer error -7 at 1479 for creep HarvestRemote1005 role: 0 goal 3 source 2 target 4 
+harvester no target at 1489 for creep MoveHarvester1 role: 0 goal 0 source 0 target 0 
+harvester transfer error -7 at 1491 for creep HarvestRemote1089 role: 0 goal 3 source 2 target 4 
+harvester transfer error -7 at 1492 for creep HarvestRemote932 role: 0 goal 3 source 2 target 4 
+harvester no target at 1494 for creep MoveHarvester106 role: 0 goal 0 source 0 target 0 
+harvester transfer error -7 at 1494 for creep HarvestRemote1165 role: 0 goal 3 source 2 target 4 
+harvester no target at 1509 for creep MoveHarvester1 role: 0 goal 0 source 0 target 0 
+harvester transfer error -7 at 1509 for creep HarvestRemote1089 role: 0 goal 3 source 2 target 4 
+harvester transfer error -7 at 1510 for creep HarvestRemote932 role: 0 goal 3 source 2 target 4 
+harvester transfer error -7 at 1511 for creep HarvestRemote1005 role: 0 goal 3 source 2 target 4 
+created harvester at 1512 
+harvester harvest error -4 at 1514 for creep MoveHarvester1512 role: 0 goal 0 source 0 target 0 
+harvester harvest error -4 at 1515 for creep MoveHarvester1512 role: 0 goal 0 source 0 target 0 
+harvester harvest error -4 at 1516 for creep MoveHarvester1512 role: 0 goal 0 source 0 target 0 
+capacity upgraded at 1516 
+harvester harvest error -4 at 1519 for creep MoveHarvester1512 role: 0 goal 0 source 0 target 0 
+builder harvest error -6 at 1520 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 
+builder harvest error -6 at 1520 for creep WorkBuilder536 role: 2 goal 2 source 0 target 2 
+builder harvest error -6 at 1520 for creep WorkBuilder612 role: 2 goal 2 source 0 target 2 
+builder harvest error -6 at 1520 for creep WorkBuilder682 role: 2 goal 2 source 0 target 2 
+harvester harvest error -4 at 1520 for creep MoveHarvester1512 role: 0 goal 0 source 0 target 0 
+builder harvest error -6 at 1521 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 
+builder harvest error -6 at 1521 for creep WorkBuilder536 role: 2 goal 2 source 0 target 2 
+builder harvest error -6 at 1521 for creep WorkBuilder612 role: 2 goal 2 source 0 target 2 
+builder harvest error -6 at 1521 for creep WorkBuilder682 role: 2 goal 2 source 0 target 2 
+harvester harvest error -4 at 1521 for creep MoveHarvester1512 role: 0 goal 0 source 0 target 0 
+builder harvest error -6 at 1522 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 
+builder harvest error -6 at 1522 for creep WorkBuilder536 role: 2 goal 2 source 0 target 2 
+builder harvest error -6 at 1522 for creep WorkBuilder612 role: 2 goal 2 source 0 target 2 
+builder harvest error -6 at 1522 for creep WorkBuilder682 role: 2 goal 2 source 0 target 2 
+harvester harvest error -4 at 1522 for creep MoveHarvester1512 role: 0 goal 0 source 0 target 0 
+builder harvest error -6 at 1523 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 
+builder harvest error -6 at 1523 for creep WorkBuilder536 role: 2 goal 2 source 0 target 2 
+builder harvest error -6 at 1523 for creep WorkBuilder612 role: 2 goal 2 source 0 target 2 
+builder harvest error -6 at 1523 for creep WorkBuilder682 role: 2 goal 2 source 0 target 2 
+harvester harvest error -4 at 1523 for creep MoveHarvester1512 role: 0 goal 0 source 0 target 0 
+harvester transfer error -7 at 1526 for creep HarvestRemote1165 role: 0 goal 3 source 2 target 4 
+harvester transfer error -7 at 1527 for creep HarvestRemote1089 role: 0 goal 3 source 2 target 4 
+harvester transfer error -7 at 1528 for creep HarvestRemote932 role: 0 goal 3 source 2 target 4 
+harvester transfer error -7 at 1544 for creep HarvestRemote1165 role: 0 goal 3 source 2 target 4 
+harvester transfer error -7 at 1545 for creep HarvestRemote1089 role: 0 goal 3 source 2 target 4 
+harvester transfer error -7 at 1546 for creep HarvestRemote932 role: 0 goal 3 source 2 target 4 
+harvester transfer error -7 at 1562 for creep HarvestRemote1165 role: 0 goal 3 source 2 target 4 
+harvester transfer error -7 at 1563 for creep HarvestRemote1089 role: 0 goal 3 source 2 target 4 
+harvester transfer error -7 at 1564 for creep HarvestRemote932 role: 0 goal 3 source 2 target 4 
+harvester transfer error -7 at 1580 for creep HarvestRemote1165 role: 0 goal 3 source 2 target 4 
+harvester transfer error -7 at 1581 for creep HarvestRemote1089 role: 0 goal 3 source 2 target 4 
+harvester transfer error -7 at 1582 for creep HarvestRemote932 role: 0 goal 3 source 2 target 4 
+harvester transfer error -7 at 1598 for creep HarvestRemote1165 role: 0 goal 3 source 2 target 4 
+harvester transfer error -7 at 1599 for creep HarvestRemote1089 role: 0 goal 3 source 2 target 4 
+harvester transfer error -7 at 1600 for creep HarvestRemote932 role: 0 goal 3 source 2 target 4 
+harvester no target at 1604 for creep MoveHarvester1512 role: 0 goal 0 source 0 target 0 
+harvester no target at 1610 for creep MoveHarvester106 role: 0 goal 0 source 0 target 0 
+harvester transfer error -7 at 1616 for creep HarvestRemote1165 role: 0 goal 3 source 2 target 4 
+harvester transfer error -7 at 1617 for creep HarvestRemote1089 role: 0 goal 3 source 2 target 4 
+created harvester at 1617 
+harvester transfer error -7 at 1618 for creep HarvestRemote932 role: 0 goal 3 source 2 target 4 
+harvester harvest error -4 at 1621 for creep MoveHarvester1617 role: 0 goal 0 source 0 target 0 
+harvester harvest error -4 at 1622 for creep MoveHarvester1617 role: 0 goal 0 source 0 target 0 
+harvester harvest error -4 at 1623 for creep MoveHarvester1617 role: 0 goal 0 source 0 target 0 
+harvester harvest error -4 at 1624 for creep MoveHarvester1617 role: 0 goal 0 source 0 target 0 
+harvester harvest error -4 at 1626 for creep MoveHarvester1617 role: 0 goal 0 source 0 target 0 
+harvester harvest error -4 at 1627 for creep MoveHarvester1617 role: 0 goal 0 source 0 target 0 
+harvester harvest error -4 at 1628 for creep MoveHarvester1617 role: 0 goal 0 source 0 target 0 
+harvester transfer error -7 at 1634 for creep HarvestRemote1165 role: 0 goal 3 source 2 target 4 
+harvester transfer error -7 at 1635 for creep HarvestRemote1089 role: 0 goal 3 source 2 target 4 
+harvester transfer error -7 at 1636 for creep HarvestRemote932 role: 0 goal 3 source 2 target 4 
+harvester transfer error -7 at 1652 for creep HarvestRemote1165 role: 0 goal 3 source 2 target 4 
+harvester transfer error -7 at 1653 for creep HarvestRemote1089 role: 0 goal 3 source 2 target 4 
+harvester transfer error -7 at 1654 for creep HarvestRemote932 role: 0 goal 3 source 2 target 4 
+harvester transfer error -7 at 1670 for creep HarvestRemote1165 role: 0 goal 3 source 2 target 4 
+harvester transfer error -7 at 1671 for creep HarvestRemote1089 role: 0 goal 3 source 2 target 4 
+harvester transfer error -7 at 1672 for creep HarvestRemote932 role: 0 goal 3 source 2 target 4 
+harvester transfer error -7 at 1688 for creep HarvestRemote1165 role: 0 goal 3 source 2 target 4 
+harvester transfer error -7 at 1689 for creep HarvestRemote1089 role: 0 goal 3 source 2 target 4 
+harvester transfer error -7 at 1690 for creep HarvestRemote932 role: 0 goal 3 source 2 target 4 
+harvester no target at 1692 for creep MoveHarvester1512 role: 0 goal 0 source 0 target 0 
+harvester no target at 1704 for creep MoveHarvester1617 role: 0 goal 0 source 0 target 0 
+harvester transfer error -7 at 1706 for creep HarvestRemote1165 role: 0 goal 3 source 2 target 4 
+harvester transfer error -7 at 1707 for creep HarvestRemote1089 role: 0 goal 3 source 2 target 4 
+harvester transfer error -7 at 1708 for creep HarvestRemote932 role: 0 goal 3 source 2 target 4 
+harvester no target at 1712 for creep MoveHarvester1512 role: 0 goal 0 source 0 target 0 
+moving WorkUpgrader311 from goal 2 to goal 5 
+moving WorkMiner473 from goal 2 to goal 5 
+moving WorkBuilder536 from goal 2 to goal 5 
+moving WorkBuilder612 from goal 2 to goal 5 
+moving WorkBuilder682 from goal 2 to goal 5 
+moving WorkBuilder767 from goal 2 to goal 5 
+capacity upgraded at 1723 
+harvester transfer error -7 at 1724 for creep HarvestRemote1165 role: 0 goal 3 source 2 target 4 
+harvester transfer error -7 at 1725 for creep HarvestRemote1089 role: 0 goal 3 source 2 target 4 
+harvester transfer error -7 at 1726 for creep HarvestRemote932 role: 0 goal 3 source 2 target 4 
+2 e27a3143-b30d-467a-a6dc-bcb40bed4a52:2:115837
+0 e27a3143-b30d-467a-a6dc-bcb40bed4a52:2:115837
+2 e27a3143-b30d-467a-a6dc-bcb40bed4a52:2:115837
+harvester transfer error -7 at 1742 for creep HarvestRemote1165 role: 0 goal 3 source 2 target 4 
+harvester transfer error -7 at 1743 for creep HarvestRemote1089 role: 0 goal 3 source 2 target 4 
+harvester transfer error -7 at 1744 for creep HarvestRemote932 role: 0 goal 3 source 2 target 4 
+harvester transfer error -7 at 1760 for creep HarvestRemote1165 role: 0 goal 3 source 2 target 4 
+harvester transfer error -7 at 1761 for creep HarvestRemote1089 role: 0 goal 3 source 2 target 4 
+harvester transfer error -7 at 1762 for creep HarvestRemote932 role: 0 goal 3 source 2 target 4 
+builder no target at 1766 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 
+builder build error -7 at 1766 for creep HarvestRemote932 role: 2 goal 3 source 2 target 4 
+builder build error -7 at 1766 for creep HarvestRemote1089 role: 2 goal 3 source 2 target 4 
+builder no target at 1767 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 
+capacity upgraded at 1767 
+builder no target at 1768 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 
+builder no target at 1769 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 
+builder no target at 1770 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 
+2 e27a3143-b30d-467a-a6dc-bcb40bed4a52:2:115837
+builder no target at 1771 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 
+builder no target at 1772 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 
+1 e27a3143-b30d-467a-a6dc-bcb40bed4a52:2:115837
+builder no target at 1773 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 
+builder no target at 1774 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 
+builder no target at 1775 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 
+2 e27a3143-b30d-467a-a6dc-bcb40bed4a52:2:115837
+builder no target at 1776 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 
+builder no target at 1777 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 
+builder no target at 1778 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 
+builder no target at 1779 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 
+builder no target at 1780 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 
+builder no target at 1781 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 
+builder no target at 1782 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 
+harvester no target at 1782 for creep HarvestRemote1089 role: 0 goal 3 source 2 target 4 
+builder no target at 1782 for creep HarvestRemote1089 role: 2 goal 3 source 2 target 4 
+created miner  1782 
+builder no target at 1783 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 
+builder no target at 1784 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 
+builder no target at 1785 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 
+builder no target at 1786 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 
+builder no target at 1787 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 
+builder no target at 1788 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 
+builder no target at 1789 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 
+builder no target at 1790 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 
+builder no target at 1791 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 
+builder no target at 1792 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 
+builder no target at 1793 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 
+builder no target at 1794 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 
+builder no target at 1795 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 
+builder no target at 1796 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 
+harvester no target at 1796 for creep HarvestRemote932 role: 0 goal 3 source 2 target 4 
+builder no target at 1796 for creep HarvestRemote932 role: 2 goal 3 source 2 target 4 
+builder no target at 1797 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 
+harvester no target at 1797 for creep HarvestRemote932 role: 0 goal 3 source 2 target 4 
+builder no target at 1797 for creep HarvestRemote932 role: 2 goal 3 source 2 target 4 
+builder no target at 1798 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 
+harvester no target at 1798 for creep HarvestRemote932 role: 0 goal 3 source 2 target 4 
+builder no target at 1798 for creep HarvestRemote932 role: 2 goal 3 source 2 target 4 
+harvester no target at 1798 for creep HarvestRemote1089 role: 0 goal 3 source 2 target 4 
+builder no target at 1798 for creep HarvestRemote1089 role: 2 goal 3 source 2 target 4 
+builder no target at 1799 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 
+harvester no target at 1799 for creep HarvestRemote932 role: 0 goal 3 source 2 target 4 
+builder no target at 1799 for creep HarvestRemote932 role: 2 goal 3 source 2 target 4 
+harvester no target at 1799 for creep HarvestRemote1089 role: 0 goal 3 source 2 target 4 
+builder no target at 1799 for creep HarvestRemote1089 role: 2 goal 3 source 2 target 4 
+builder no target at 1800 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 
+harvester no target at 1800 for creep HarvestRemote932 role: 0 goal 3 source 2 target 4 
+builder no target at 1800 for creep HarvestRemote932 role: 2 goal 3 source 2 target 4 
+harvester no target at 1800 for creep HarvestRemote1089 role: 0 goal 3 source 2 target 4 
+builder no target at 1800 for creep HarvestRemote1089 role: 2 goal 3 source 2 target 4 
+builder no target at 1801 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 
+harvester no target at 1801 for creep HarvestRemote932 role: 0 goal 3 source 2 target 4 
+builder no target at 1801 for creep HarvestRemote932 role: 2 goal 3 source 2 target 4 
+harvester no target at 1801 for creep HarvestRemote1089 role: 0 goal 3 source 2 target 4 
+builder no target at 1801 for creep HarvestRemote1089 role: 2 goal 3 source 2 target 4 
+builder no target at 1802 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 
+harvester no target at 1802 for creep HarvestRemote932 role: 0 goal 3 source 2 target 4 
+builder no target at 1802 for creep HarvestRemote932 role: 2 goal 3 source 2 target 4 
+harvester no target at 1802 for creep HarvestRemote1089 role: 0 goal 3 source 2 target 4 
+builder no target at 1802 for creep HarvestRemote1089 role: 2 goal 3 source 2 target 4 
+builder no target at 1803 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 
+harvester no target at 1803 for creep HarvestRemote932 role: 0 goal 3 source 2 target 4 
+builder no target at 1803 for creep HarvestRemote932 role: 2 goal 3 source 2 target 4 
+harvester no target at 1803 for creep HarvestRemote1089 role: 0 goal 3 source 2 target 4 
+builder no target at 1803 for creep HarvestRemote1089 role: 2 goal 3 source 2 target 4 
+builder no target at 1804 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 
+harvester no target at 1804 for creep HarvestRemote932 role: 0 goal 3 source 2 target 4 
+builder no target at 1804 for creep HarvestRemote932 role: 2 goal 3 source 2 target 4 
+harvester no target at 1804 for creep HarvestRemote1089 role: 0 goal 3 source 2 target 4 
+builder no target at 1804 for creep HarvestRemote1089 role: 2 goal 3 source 2 target 4 
+builder no target at 1805 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 
+harvester no target at 1805 for creep HarvestRemote932 role: 0 goal 3 source 2 target 4 
+builder no target at 1805 for creep HarvestRemote932 role: 2 goal 3 source 2 target 4 
+harvester no target at 1805 for creep HarvestRemote1089 role: 0 goal 3 source 2 target 4 
+builder no target at 1805 for creep HarvestRemote1089 role: 2 goal 3 source 2 target 4 
+builder no target at 1806 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 
+harvester no target at 1806 for creep HarvestRemote932 role: 0 goal 3 source 2 target 4 
+builder no target at 1806 for creep HarvestRemote932 role: 2 goal 3 source 2 target 4 
+harvester no target at 1806 for creep HarvestRemote1089 role: 0 goal 3 source 2 target 4 
+builder no target at 1806 for creep HarvestRemote1089 role: 2 goal 3 source 2 target 4 
+builder no target at 1807 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 
+harvester no target at 1807 for creep HarvestRemote932 role: 0 goal 3 source 2 target 4 
+builder no target at 1807 for creep HarvestRemote932 role: 2 goal 3 source 2 target 4 
+harvester no target at 1807 for creep HarvestRemote1089 role: 0 goal 3 source 2 target 4 
+builder no target at 1807 for creep HarvestRemote1089 role: 2 goal 3 source 2 target 4 
+builder no target at 1808 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 
+harvester no target at 1808 for creep HarvestRemote932 role: 0 goal 3 source 2 target 4 
+builder no target at 1808 for creep HarvestRemote932 role: 2 goal 3 source 2 target 4 
+harvester no target at 1808 for creep HarvestRemote1089 role: 0 goal 3 source 2 target 4 
+builder no target at 1808 for creep HarvestRemote1089 role: 2 goal 3 source 2 target 4 
+builder no target at 1809 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 
+harvester no target at 1809 for creep HarvestRemote932 role: 0 goal 3 source 2 target 4 
+builder no target at 1809 for creep HarvestRemote932 role: 2 goal 3 source 2 target 4 
+harvester no target at 1809 for creep HarvestRemote1089 role: 0 goal 3 source 2 target 4 
+builder no target at 1809 for creep HarvestRemote1089 role: 2 goal 3 source 2 target 4 
+harvester no target at 1809 for creep HarvestRemote1165 role: 0 goal 3 source 2 target 4 
+builder no target at 1809 for creep HarvestRemote1165 role: 2 goal 3 source 2 target 4 
+builder no target at 1810 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 
+harvester no target at 1810 for creep HarvestRemote932 role: 0 goal 3 source 2 target 4 
+builder no target at 1810 for creep HarvestRemote932 role: 2 goal 3 source 2 target 4 
+harvester no target at 1810 for creep HarvestRemote1089 role: 0 goal 3 source 2 target 4 
+builder no target at 1810 for creep HarvestRemote1089 role: 2 goal 3 source 2 target 4 
+harvester no target at 1810 for creep HarvestRemote1165 role: 0 goal 3 source 2 target 4 
+builder no target at 1810 for creep HarvestRemote1165 role: 2 goal 3 source 2 target 4 
+builder no target at 1811 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 
+harvester no target at 1811 for creep HarvestRemote932 role: 0 goal 3 source 2 target 4 
+builder no target at 1811 for creep HarvestRemote932 role: 2 goal 3 source 2 target 4 
+harvester no target at 1811 for creep HarvestRemote1089 role: 0 goal 3 source 2 target 4 
+builder no target at 1811 for creep HarvestRemote1089 role: 2 goal 3 source 2 target 4 
+harvester no target at 1811 for creep HarvestRemote1165 role: 0 goal 3 source 2 target 4 
+builder no target at 1811 for creep HarvestRemote1165 role: 2 goal 3 source 2 target 4 
+builder no target at 1812 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 
+harvester no target at 1812 for creep HarvestRemote932 role: 0 goal 3 source 2 target 4 
+builder no target at 1812 for creep HarvestRemote932 role: 2 goal 3 source 2 target 4 
+harvester no target at 1812 for creep HarvestRemote1089 role: 0 goal 3 source 2 target 4 
+builder no target at 1812 for creep HarvestRemote1089 role: 2 goal 3 source 2 target 4 
+harvester no target at 1812 for creep HarvestRemote1165 role: 0 goal 3 source 2 target 4 
+builder no target at 1812 for creep HarvestRemote1165 role: 2 goal 3 source 2 target 4

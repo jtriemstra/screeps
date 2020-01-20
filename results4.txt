@@ -1,0 +1,1261 @@
+
+This page uses the non standard property “zoom”. Consider using calc() in the relevant property values, or using “transform” along with “transform-origin: 0 0”. a
+window.controllers/Controllers is deprecated. Do not use it for UA detection. ace.js:1:17660
+this xtracking-0.1.js:1:354
+Request to access cookie or storage on “<URL>” was blocked because it came from a tracker and content blocking is enabled. 12
+downloadable font: OS/2: Bad sTypoLineGap, setting it to 0: -32 (font-family: "Material-Design" style:normal weight:400 stretch:100 src index:1) source: https://screeps.com/a/vendor/material-design/fonts/Material-Design.woff?2u7a7w unknown:1:11
+PixiJS 4.8.1 - WebGL - http://www.pixijs.com/ renderer.js:1:25832
+Error: WebGL warning: drawElements: Tex image TEXTURE_2D level 0 is incurring lazy initialization. renderer.js:1:308074
+Error: WebGL warning: drawElements: Texture level 0 would be read by TEXTURE_2D unit 0, but written by framebuffer attachment COLOR_ATTACHMENT0, which would be illegal feedback. 2 renderer.js:1:286830
+created harvester at 1 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+capacity upgraded at 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+created harvester at 106 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+created upgrader/builder  211 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+created upgrader/builder  311 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+created upgrader/builder  411 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+not converting this to miner creep MoveHarvester1 role: 0 goal 0 source 0 target 0 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+not converting this to miner creep MoveHarvester106 role: 0 goal 0 source 0 target 0 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+converting one upgrader to miner creep WorkUpgrader211 role: 1 goal 1 source 0 target 1 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+not converting this to miner creep MoveHarvester1 role: 0 goal 0 source 0 target 0 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+not converting this to miner creep MoveHarvester106 role: 0 goal 0 source 0 target 0 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+not converting this to miner creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+converting one upgrader to miner creep WorkUpgrader311 role: 1 goal 1 source 0 target 1 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 9 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 5 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 9 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+created miner  473 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 7 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 7 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+setting stage to building at 494 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+in building stage and converting upgrader creep WorkUpgrader411 role: 1 goal 1 source 0 target 1 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 8 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkMiner473 role: 3 goal 2 source 1 target 3 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 536 for creep MoveHarvester1 role: 0 goal 0 source 0 target 0 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+created  builder  536 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 4 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkMiner473 role: 3 goal 2 source 1 target 3 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkMiner473 role: 3 goal 2 source 1 target 3 4 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+created  builder  612 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkMiner473 role: 3 goal 2 source 1 target 3 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkMiner473 role: 3 goal 2 source 1 target 3 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+created  builder  682 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkMiner473 role: 3 goal 2 source 1 target 3 4 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkMiner473 role: 3 goal 2 source 1 target 3 5 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+created  builder  767 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkMiner473 role: 3 goal 2 source 1 target 3 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkMiner473 role: 3 goal 2 source 1 target 3 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkMiner473 role: 3 goal 2 source 1 target 3 4 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 855 for creep MoveHarvester1 role: 0 goal 0 source 0 target 0 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 868 for creep MoveHarvester106 role: 0 goal 0 source 0 target 0 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 870 for creep MoveHarvester1 role: 0 goal 0 source 0 target 0 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 4 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 884 for creep MoveHarvester1 role: 0 goal 0 source 0 target 0 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 890 for creep MoveHarvester106 role: 0 goal 0 source 0 target 0 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 898 for creep MoveHarvester1 role: 0 goal 0 source 0 target 0 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 905 for creep MoveHarvester106 role: 0 goal 0 source 0 target 0 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+capacity upgraded at 915 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+created remote upgrader/builder 932 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+created remote upgrader/builder 1005 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+created remote upgrader/builder 1089 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkMiner473 role: 3 goal 2 source 1 target 3 4 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkMiner473 role: 3 goal 2 source 1 target 3 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkMiner473 role: 3 goal 2 source 1 target 3 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+created remote upgrader/builder 1165 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkMiner473 role: 3 goal 2 source 1 target 3 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkMiner473 role: 3 goal 2 source 1 target 3 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+Source map error: Error: request failed with status 404
+Resource URL: https://cdn.xsolla.net/network/xtracking-0.1.js
+Source Map URL: xtracking.min.js.map
+
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1266 for creep MoveHarvester1 role: 0 goal 0 source 0 target 0 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1269 for creep MoveHarvester106 role: 0 goal 0 source 0 target 0 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1284 for creep MoveHarvester1 role: 0 goal 0 source 0 target 0 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1299 for creep MoveHarvester106 role: 0 goal 0 source 0 target 0 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1302 for creep MoveHarvester1 role: 0 goal 0 source 0 target 0 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1316 for creep MoveHarvester106 role: 0 goal 0 source 0 target 0 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1329 for creep MoveHarvester1 role: 0 goal 0 source 0 target 0 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1334 for creep MoveHarvester106 role: 0 goal 0 source 0 target 0 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1350 for creep MoveHarvester1 role: 0 goal 0 source 0 target 0 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+capacity upgraded at 1356 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+creating road sites 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 4 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1368 for creep MoveHarvester106 role: 0 goal 0 source 0 target 0 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1375 for creep MoveHarvester1 role: 0 goal 0 source 0 target 0 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1385 for creep MoveHarvester106 role: 0 goal 0 source 0 target 0 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkMiner473 role: 3 goal 2 source 1 target 3 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1391 for creep MoveHarvester1 role: 0 goal 0 source 0 target 0 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkMiner473 role: 3 goal 2 source 1 target 3 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1410 for creep MoveHarvester106 role: 0 goal 0 source 0 target 0 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1414 for creep MoveHarvester1 role: 0 goal 0 source 0 target 0 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1431 for creep MoveHarvester1 role: 0 goal 0 source 0 target 0 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1433 for creep MoveHarvester106 role: 0 goal 0 source 0 target 0 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1452 for creep MoveHarvester106 role: 0 goal 0 source 0 target 0 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1460 for creep MoveHarvester1 role: 0 goal 0 source 0 target 0 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkMiner473 role: 3 goal 2 source 1 target 3 8 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1476 for creep MoveHarvester106 role: 0 goal 0 source 0 target 0 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1489 for creep MoveHarvester1 role: 0 goal 0 source 0 target 0 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1494 for creep MoveHarvester106 role: 0 goal 0 source 0 target 0 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1509 for creep MoveHarvester1 role: 0 goal 0 source 0 target 0 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 4 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+created harvester at 1512 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+Object { room: {…}, pos: {}, id: "4523ff13d935866a3ce97b8e", _name: "WorkUpgrader211", _spawning: false, _my: true, _store: "[store]" }
+3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+capacity upgraded at 1516 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+Object { room: {…}, pos: {}, id: "db178e1fddd9d9d000ae23be", _name: "WorkMiner473", _spawning: false, _my: true, _store: "[store]" }
+3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+Object { room: {…}, pos: {}, id: "db178e1fddd9d9d000ae23be", _name: "WorkMiner473", _spawning: false, _my: true, _store: "[store]" }
+3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+Object { room: {…}, pos: {}, id: "2248bb1f3cfcd04d1fa3a079", _energy: 3000 }
+3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+Object { room: {…}, pos: {}, id: "2248bb1f3cfcd04d1fa3a079", _energy: 2988 }
+3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+Object { room: {…}, pos: {}, id: "eae419598551a21a8e6f8dd6", _name: "WorkUpgrader311", _spawning: false, _my: true, _store: "[store]" }
+3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+Object { room: {…}, pos: {}, id: "2248bb1f3cfcd04d1fa3a079", _energy: 2968 }
+3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+Object { room: {…}, pos: {}, id: "2248bb1f3cfcd04d1fa3a079", _energy: 2956 }
+3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+Object { room: {…}, pos: {}, id: "2248bb1f3cfcd04d1fa3a079", _energy: 2944 }
+3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+Object { room: {…}, pos: {}, id: "2248bb1f3cfcd04d1fa3a079", _energy: 2932 }
+3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+Object { room: {…}, pos: {}, id: "4523ff13d935866a3ce97b8e", _name: "WorkUpgrader211", _spawning: false, _my: true, _store: "[store]" }
+3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+Object { room: {…}, pos: {}, id: "2248bb1f3cfcd04d1fa3a079", _energy: 2912 }
+3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+Object { room: {…}, pos: {}, id: "2248bb1f3cfcd04d1fa3a079", _energy: 2900 }
+3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+Object { room: {…}, pos: {}, id: "2248bb1f3cfcd04d1fa3a079", _energy: 2888 }
+3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+Object { room: {…}, pos: {}, id: "2248bb1f3cfcd04d1fa3a079", _energy: 2876 }
+3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+Object { room: {…}, pos: {}, id: "db178e1fddd9d9d000ae23be", _name: "WorkMiner473", _spawning: false, _my: true, _store: "[store]" }
+3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+Object { room: {…}, pos: {}, id: "2248bb1f3cfcd04d1fa3a079", _energy: 2856 }
+3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+Object { room: {…}, pos: {}, id: "2248bb1f3cfcd04d1fa3a079", _energy: 2844 }
+3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+Object { room: {…}, pos: {}, id: "2248bb1f3cfcd04d1fa3a079", _energy: 2832 }
+3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+Object { room: {…}, pos: {}, id: "eae419598551a21a8e6f8dd6", _name: "WorkUpgrader311", _spawning: false, _my: true, _store: "[store]" }
+3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+Object { room: {…}, pos: {}, id: "2248bb1f3cfcd04d1fa3a079", _energy: 2812 }
+3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+Object { room: {…}, pos: {}, id: "2248bb1f3cfcd04d1fa3a079", _energy: 2800 }
+3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+Object { room: {…}, pos: {}, id: "2248bb1f3cfcd04d1fa3a079", _energy: 2788 }
+3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+Object { room: {…}, pos: {}, id: "2248bb1f3cfcd04d1fa3a079", _energy: 2776 }
+3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+Object { room: {…}, pos: {}, id: "4523ff13d935866a3ce97b8e", _name: "WorkUpgrader211", _spawning: false, _my: true, _store: "[store]" }
+3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+Object { room: {…}, pos: {}, id: "4523ff13d935866a3ce97b8e", _name: "WorkUpgrader211", _spawning: false, _my: true, _store: "[store]" }
+3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+Object { room: {…}, pos: {}, id: "4523ff13d935866a3ce97b8e", _name: "WorkUpgrader211", _spawning: false, _my: true, _store: "[store]" }
+3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+Object { room: {…}, pos: {}, id: "2248bb1f3cfcd04d1fa3a079", _energy: 2596 }
+3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+Object { room: {…}, pos: {}, id: "2248bb1f3cfcd04d1fa3a079", _energy: 2584 }
+3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+Object { room: {…}, pos: {}, id: "2248bb1f3cfcd04d1fa3a079", _energy: 2572 }
+3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+Object { room: {…}, pos: {}, id: "db178e1fddd9d9d000ae23be", _name: "WorkMiner473", _spawning: false, _my: true, _store: "[store]" }
+3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+Object { room: {…}, pos: {}, id: "db178e1fddd9d9d000ae23be", _name: "WorkMiner473", _spawning: false, _my: true, _store: "[store]" }
+3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+Object { room: {…}, pos: {}, id: "2248bb1f3cfcd04d1fa3a079", _energy: 2544 }
+3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+Object { room: {…}, pos: {}, id: "2248bb1f3cfcd04d1fa3a079", _energy: 2532 }
+3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+Object { room: {…}, pos: {}, id: "2248bb1f3cfcd04d1fa3a079", _energy: 2520 }
+3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+Object { room: {…}, pos: {}, id: "eae419598551a21a8e6f8dd6", _name: "WorkUpgrader311", _spawning: false, _my: true, _store: "[store]" }
+3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+Object { room: {…}, pos: {}, id: "2248bb1f3cfcd04d1fa3a079", _energy: 2500 }
+3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+Object { room: {…}, pos: {}, id: "2248bb1f3cfcd04d1fa3a079", _energy: 2488 }
+3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+Object { room: {…}, pos: {}, id: "2248bb1f3cfcd04d1fa3a079", _energy: 2476 }
+3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+Object { room: {…}, pos: {}, id: "2248bb1f3cfcd04d1fa3a079", _energy: 2464 }
+3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+Object { room: {…}, pos: {}, id: "4523ff13d935866a3ce97b8e", _name: "WorkUpgrader211", _spawning: false, _my: true, _store: "[store]" }
+3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+Object { room: {…}, pos: {}, id: "4523ff13d935866a3ce97b8e", _name: "WorkUpgrader211", _spawning: false, _my: true, _store: "[store]" }
+3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+Object { room: {…}, pos: {}, id: "2248bb1f3cfcd04d1fa3a079", _energy: 2280 }
+3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+Object { room: {…}, pos: {}, id: "2248bb1f3cfcd04d1fa3a079", _energy: 2268 }
+3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+Object { room: {…}, pos: {}, id: "2248bb1f3cfcd04d1fa3a079", _energy: 2256 }
+3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+Object { room: {…}, pos: {}, id: "db178e1fddd9d9d000ae23be", _name: "WorkMiner473", _spawning: false, _my: true, _store: "[store]" }
+3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+Object { room: {…}, pos: {}, id: "db178e1fddd9d9d000ae23be", _name: "WorkMiner473", _spawning: false, _my: true, _store: "[store]" }
+3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+Object { room: {…}, pos: {}, id: "2248bb1f3cfcd04d1fa3a079", _energy: 2228 }
+3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+Object { room: {…}, pos: {}, id: "2248bb1f3cfcd04d1fa3a079", _energy: 2216 }
+3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+Object { room: {…}, pos: {}, id: "eae419598551a21a8e6f8dd6", _name: "WorkUpgrader311", _spawning: false, _my: true, _store: "[store]" }
+3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+Object { room: {…}, pos: {}, id: "2248bb1f3cfcd04d1fa3a079", _energy: 2196 }
+3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+Object { room: {…}, pos: {}, id: "2248bb1f3cfcd04d1fa3a079", _energy: 2184 }
+3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+Object { room: {…}, pos: {}, id: "2248bb1f3cfcd04d1fa3a079", _energy: 2172 }
+3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+Object { room: {…}, pos: {}, id: "2248bb1f3cfcd04d1fa3a079", _energy: 2160 }
+3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+Object { room: {…}, pos: {}, id: "2248bb1f3cfcd04d1fa3a079", _energy: 2148 }
+3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+Object { room: {…}, pos: {}, id: "4523ff13d935866a3ce97b8e", _name: "WorkUpgrader211", _spawning: false, _my: true, _store: "[store]" }
+3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1604 for creep MoveHarvester1512 role: 0 goal 0 source 0 target 0 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1610 for creep MoveHarvester106 role: 0 goal 0 source 0 target 0 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkMiner473 role: 3 goal 2 source 1 target 3 5 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+created harvester at 1617 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+Object { room: {…}, pos: {}, id: "4523ff13d935866a3ce97b8e", _name: "WorkUpgrader211", _spawning: false, _my: true, _store: "[store]" }
+3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+Object { room: {…}, pos: {}, id: "2248bb1f3cfcd04d1fa3a079", _energy: 1976 }
+3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+Object { room: {…}, pos: {}, id: "2248bb1f3cfcd04d1fa3a079", _energy: 1964 }
+3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+Object { room: {…}, pos: {}, id: "2248bb1f3cfcd04d1fa3a079", _energy: 1952 }
+3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+Object { room: {…}, pos: {}, id: "2248bb1f3cfcd04d1fa3a079", _energy: 1940 }
+3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+Object { room: {…}, pos: {}, id: "eae419598551a21a8e6f8dd6", _name: "WorkUpgrader311", _spawning: false, _my: true, _store: "[store]" }
+3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+Object { room: {…}, pos: {}, id: "2248bb1f3cfcd04d1fa3a079", _energy: 1920 }
+3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+Object { room: {…}, pos: {}, id: "2248bb1f3cfcd04d1fa3a079", _energy: 1908 }
+3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+Object { room: {…}, pos: {}, id: "2248bb1f3cfcd04d1fa3a079", _energy: 1896 }
+3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+Object { room: {…}, pos: {}, id: "2248bb1f3cfcd04d1fa3a079", _energy: 1884 }
+3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+Object { room: {…}, pos: {}, id: "db178e1fddd9d9d000ae23be", _name: "WorkMiner473", _spawning: false, _my: true, _store: "[store]" }
+3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+Object { room: {…}, pos: {}, id: "2248bb1f3cfcd04d1fa3a079", _energy: 1756 }
+3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+Object { room: {…}, pos: {}, id: "2248bb1f3cfcd04d1fa3a079", _energy: 1744 }
+3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+Object { room: {…}, pos: {}, id: "2248bb1f3cfcd04d1fa3a079", _energy: 1732 }
+3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+Object { room: {…}, pos: {}, id: "db178e1fddd9d9d000ae23be", _name: "WorkMiner473", _spawning: false, _my: true, _store: "[store]" }
+3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+Object { room: {…}, pos: {}, id: "db178e1fddd9d9d000ae23be", _name: "WorkMiner473", _spawning: false, _my: true, _store: "[store]" }
+3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+Object { room: {…}, pos: {}, id: "2248bb1f3cfcd04d1fa3a079", _energy: 1704 }
+3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+Object { room: {…}, pos: {}, id: "2248bb1f3cfcd04d1fa3a079", _energy: 1692 }
+3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+Object { room: {…}, pos: {}, id: "2248bb1f3cfcd04d1fa3a079", _energy: 1680 }
+3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+Object { room: {…}, pos: {}, id: "4523ff13d935866a3ce97b8e", _name: "WorkUpgrader211", _spawning: false, _my: true, _store: "[store]" }
+3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+Object { room: {…}, pos: {}, id: "2248bb1f3cfcd04d1fa3a079", _energy: 1660 }
+3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+Object { room: {…}, pos: {}, id: "2248bb1f3cfcd04d1fa3a079", _energy: 1648 }
+3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+Object { room: {…}, pos: {}, id: "2248bb1f3cfcd04d1fa3a079", _energy: 1636 }
+3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+Object { room: {…}, pos: {}, id: "eae419598551a21a8e6f8dd6", _name: "WorkUpgrader311", _spawning: false, _my: true, _store: "[store]" }
+3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+Object { room: {…}, pos: {}, id: "2248bb1f3cfcd04d1fa3a079", _energy: 1616 }
+3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+Object { room: {…}, pos: {}, id: "2248bb1f3cfcd04d1fa3a079", _energy: 1604 }
+3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+Object { room: {…}, pos: {}, id: "2248bb1f3cfcd04d1fa3a079", _energy: 1592 }
+3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+Object { room: {…}, pos: {}, id: "2248bb1f3cfcd04d1fa3a079", _energy: 1580 }
+3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+Object { room: {…}, pos: {}, id: "2248bb1f3cfcd04d1fa3a079", _energy: 1568 }
+3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+Object { room: {…}, pos: {}, id: "db178e1fddd9d9d000ae23be", _name: "WorkMiner473", _spawning: false, _my: true, _store: "[store]" }
+3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+Object { room: {…}, pos: {}, id: "db178e1fddd9d9d000ae23be", _name: "WorkMiner473", _spawning: false, _my: true, _store: "[store]" }
+3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+Object { room: {…}, pos: {}, id: "2248bb1f3cfcd04d1fa3a079", _energy: 1440 }
+3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+Object { room: {…}, pos: {}, id: "2248bb1f3cfcd04d1fa3a079", _energy: 1428 }
+3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+Object { room: {…}, pos: {}, id: "2248bb1f3cfcd04d1fa3a079", _energy: 1416 }
+3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+Object { room: {…}, pos: {}, id: "db178e1fddd9d9d000ae23be", _name: "WorkMiner473", _spawning: false, _my: true, _store: "[store]" }
+3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+Object { room: {…}, pos: {}, id: "2248bb1f3cfcd04d1fa3a079", _energy: 1396 }
+3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+Object { room: {…}, pos: {}, id: "2248bb1f3cfcd04d1fa3a079", _energy: 1384 }
+3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+Object { room: {…}, pos: {}, id: "2248bb1f3cfcd04d1fa3a079", _energy: 1372 }
+3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+Object { room: {…}, pos: {}, id: "2248bb1f3cfcd04d1fa3a079", _energy: 1360 }
+3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+Object { room: {…}, pos: {}, id: "4523ff13d935866a3ce97b8e", _name: "WorkUpgrader211", _spawning: false, _my: true, _store: "[store]" }
+3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+Object { room: {…}, pos: {}, id: "2248bb1f3cfcd04d1fa3a079", _energy: 1340 }
+3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+Object { room: {…}, pos: {}, id: "2248bb1f3cfcd04d1fa3a079", _energy: 1328 }
+3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+Object { room: {…}, pos: {}, id: "eae419598551a21a8e6f8dd6", _name: "WorkUpgrader311", _spawning: false, _my: true, _store: "[store]" }
+3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+Object { room: {…}, pos: {}, id: "2248bb1f3cfcd04d1fa3a079", _energy: 1308 }
+3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+Object { room: {…}, pos: {}, id: "2248bb1f3cfcd04d1fa3a079", _energy: 1296 }
+3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+Object { room: {…}, pos: {}, id: "2248bb1f3cfcd04d1fa3a079", _energy: 1284 }
+3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+Object { room: {…}, pos: {}, id: "2248bb1f3cfcd04d1fa3a079", _energy: 1272 }
+3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+Object { room: {…}, pos: {}, id: "2248bb1f3cfcd04d1fa3a079", _energy: 1260 }
+3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+Object { room: {…}, pos: {}, id: "db178e1fddd9d9d000ae23be", _name: "WorkMiner473", _spawning: false, _my: true, _store: "[store]" }
+3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1692 for creep MoveHarvester1512 role: 0 goal 0 source 0 target 0 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+Object { room: {…}, pos: {}, id: "2248bb1f3cfcd04d1fa3a079", _energy: 1084 }
+3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1704 for creep MoveHarvester1617 role: 0 goal 0 source 0 target 0 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+Object { room: {…}, pos: {}, id: "2248bb1f3cfcd04d1fa3a079", _energy: 1072 }
+3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+Object { room: {…}, pos: {}, id: "2248bb1f3cfcd04d1fa3a079", _energy: 1060 }
+3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+Object { room: {…}, pos: {}, id: "2248bb1f3cfcd04d1fa3a079", _energy: 1048 }
+3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader211 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+Object { room: {…}, pos: {}, id: "4523ff13d935866a3ce97b8e", _name: "WorkUpgrader211", _spawning: false, _my: true, _store: "[store]" }
+3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+Object { room: {…}, pos: {}, id: "2248bb1f3cfcd04d1fa3a079", _energy: 1028 }
+3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+Object { room: {…}, pos: {}, id: "2248bb1f3cfcd04d1fa3a079", _energy: 1016 }
+3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+Object { room: {…}, pos: {}, id: "eae419598551a21a8e6f8dd6", _name: "WorkUpgrader311", _spawning: false, _my: true, _store: "[store]" }
+3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1712 for creep MoveHarvester1512 role: 0 goal 0 source 0 target 0 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1722 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1722 for creep WorkBuilder612 role: 2 goal 2 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1722 for creep MoveHarvester1512 role: 2 goal 0 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+moving creep WorkBuilder536 role: 2 goal 2 source 0 target 2 from goal 2 to goal 5 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+moving creep WorkBuilder612 role: 2 goal 2 source 0 target 2 from goal 2 to goal 5 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+moving creep WorkBuilder682 role: 2 goal 2 source 0 target 2 from goal 2 to goal 5 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+moving creep WorkBuilder767 role: 2 goal 2 source 0 target 2 from goal 2 to goal 5 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1723 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+Object { room: {…}, pos: {}, id: "2248bb1f3cfcd04d1fa3a079", _energy: 876 }
+3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+capacity upgraded at 1723 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1724 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+Object { room: {…}, pos: {}, id: "2248bb1f3cfcd04d1fa3a079", _energy: 868 }
+3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1725 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+Object { room: {…}, pos: {}, id: "eae419598551a21a8e6f8dd6", _name: "WorkUpgrader311", _spawning: false, _my: true, _store: "[store]" }
+3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1726 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+Object { room: {…}, pos: {}, id: "2248bb1f3cfcd04d1fa3a079", _energy: 856 }
+3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1727 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+Object { room: {…}, pos: {}, id: "2248bb1f3cfcd04d1fa3a079", _energy: 848 }
+3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1728 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+Object { room: {…}, pos: {}, id: "2248bb1f3cfcd04d1fa3a079", _energy: 840 }
+3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1729 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+Object { room: {…}, pos: {}, id: "2248bb1f3cfcd04d1fa3a079", _energy: 832 }
+3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1730 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+Object { room: {…}, pos: {}, id: "2248bb1f3cfcd04d1fa3a079", _energy: 824 }
+3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1731 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+Object { room: {…}, pos: {}, id: "2248bb1f3cfcd04d1fa3a079", _energy: 816 }
+3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1732 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+Object { room: {…}, pos: {}, id: "db178e1fddd9d9d000ae23be", _name: "WorkMiner473", _spawning: false, _my: true, _store: "[store]" }
+3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1733 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+Object { room: {…}, pos: {}, id: "db178e1fddd9d9d000ae23be", _name: "WorkMiner473", _spawning: false, _my: true, _store: "[store]" }
+3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1734 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+Object { room: {…}, pos: {}, id: "2248bb1f3cfcd04d1fa3a079", _energy: 800 }
+3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1735 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+Object { room: {…}, pos: {}, id: "2248bb1f3cfcd04d1fa3a079", _energy: 792 }
+3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1736 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+Object { room: {…}, pos: {}, id: "2248bb1f3cfcd04d1fa3a079", _energy: 784 }
+3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1737 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1738 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1739 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+Object { room: {…}, pos: {}, id: "eae419598551a21a8e6f8dd6", _name: "WorkUpgrader311", _spawning: false, _my: true, _store: "[store]" }
+3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1740 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1741 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1742 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1743 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1744 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1745 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1746 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1747 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1748 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1749 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+Object { room: {…}, pos: {}, id: "2248bb1f3cfcd04d1fa3a079", _energy: 686 }
+3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1749 for creep MoveHarvester1617 role: 0 goal 0 source 0 target 0 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1749 for creep MoveHarvester1617 role: 2 goal 0 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1750 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+Object { room: {…}, pos: {}, id: "2248bb1f3cfcd04d1fa3a079", _energy: 678 }
+3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1750 for creep MoveHarvester1617 role: 0 goal 0 source 0 target 0 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1750 for creep MoveHarvester1617 role: 2 goal 0 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1751 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+Object { room: {…}, pos: {}, id: "2248bb1f3cfcd04d1fa3a079", _energy: 670 }
+3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1751 for creep MoveHarvester1617 role: 0 goal 0 source 0 target 0 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1751 for creep MoveHarvester1617 role: 2 goal 0 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1752 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+Object { room: {…}, pos: {}, id: "2248bb1f3cfcd04d1fa3a079", _energy: 662 }
+3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1752 for creep MoveHarvester1617 role: 0 goal 0 source 0 target 0 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1752 for creep MoveHarvester1617 role: 2 goal 0 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1753 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+Object { room: {…}, pos: {}, id: "2248bb1f3cfcd04d1fa3a079", _energy: 654 }
+3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1753 for creep MoveHarvester1617 role: 0 goal 0 source 0 target 0 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1753 for creep MoveHarvester1617 role: 2 goal 0 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1754 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+Object { room: {…}, pos: {}, id: "2248bb1f3cfcd04d1fa3a079", _energy: 646 }
+3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1754 for creep MoveHarvester1617 role: 0 goal 0 source 0 target 0 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1754 for creep MoveHarvester1617 role: 2 goal 0 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1755 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+Object { room: {…}, pos: {}, id: "2248bb1f3cfcd04d1fa3a079", _energy: 638 }
+3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1755 for creep MoveHarvester1617 role: 0 goal 0 source 0 target 0 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1755 for creep MoveHarvester1617 role: 2 goal 0 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1756 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+Object { room: {…}, pos: {}, id: "2248bb1f3cfcd04d1fa3a079", _energy: 630 }
+3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1756 for creep MoveHarvester1617 role: 0 goal 0 source 0 target 0 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1756 for creep MoveHarvester1617 role: 2 goal 0 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1757 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+Object { room: {…}, pos: {}, id: "2248bb1f3cfcd04d1fa3a079", _energy: 622 }
+3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1757 for creep MoveHarvester1617 role: 0 goal 0 source 0 target 0 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1757 for creep MoveHarvester1617 role: 2 goal 0 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1758 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+Object { room: {…}, pos: {}, id: "2248bb1f3cfcd04d1fa3a079", _energy: 614 }
+3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1758 for creep MoveHarvester1617 role: 0 goal 0 source 0 target 0 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1758 for creep MoveHarvester1617 role: 2 goal 0 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1759 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+Object { room: {…}, pos: {}, id: "2248bb1f3cfcd04d1fa3a079", _energy: 606 }
+3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1759 for creep MoveHarvester1617 role: 0 goal 0 source 0 target 0 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1759 for creep MoveHarvester1617 role: 2 goal 0 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1760 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+Object { room: {…}, pos: {}, id: "db178e1fddd9d9d000ae23be", _name: "WorkMiner473", _spawning: false, _my: true, _store: "[store]" }
+3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1760 for creep MoveHarvester1617 role: 0 goal 0 source 0 target 0 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1760 for creep MoveHarvester1617 role: 2 goal 0 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1761 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+Object { room: {…}, pos: {}, id: "eae419598551a21a8e6f8dd6", _name: "WorkUpgrader311", _spawning: false, _my: true, _store: "[store]" }
+3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1761 for creep MoveHarvester1617 role: 0 goal 0 source 0 target 0 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1761 for creep MoveHarvester1617 role: 2 goal 0 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1762 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1762 for creep MoveHarvester1512 role: 0 goal 0 source 0 target 0 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1762 for creep MoveHarvester1512 role: 2 goal 0 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1762 for creep MoveHarvester1617 role: 0 goal 0 source 0 target 0 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1762 for creep MoveHarvester1617 role: 2 goal 0 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1763 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1763 for creep MoveHarvester1512 role: 0 goal 0 source 0 target 0 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1763 for creep MoveHarvester1512 role: 2 goal 0 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1763 for creep MoveHarvester1617 role: 0 goal 0 source 0 target 0 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1763 for creep MoveHarvester1617 role: 2 goal 0 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1764 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1764 for creep MoveHarvester1512 role: 0 goal 0 source 0 target 0 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1764 for creep MoveHarvester1512 role: 2 goal 0 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1764 for creep MoveHarvester1617 role: 0 goal 0 source 0 target 0 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1764 for creep MoveHarvester1617 role: 2 goal 0 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1765 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1765 for creep MoveHarvester1512 role: 0 goal 0 source 0 target 0 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1765 for creep MoveHarvester1512 role: 2 goal 0 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1765 for creep MoveHarvester1617 role: 0 goal 0 source 0 target 0 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1765 for creep MoveHarvester1617 role: 2 goal 0 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1766 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1766 for creep MoveHarvester1512 role: 0 goal 0 source 0 target 0 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1766 for creep MoveHarvester1512 role: 2 goal 0 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1766 for creep MoveHarvester1617 role: 0 goal 0 source 0 target 0 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1766 for creep MoveHarvester1617 role: 2 goal 0 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1767 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1767 for creep MoveHarvester1512 role: 0 goal 0 source 0 target 0 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1767 for creep MoveHarvester1512 role: 2 goal 0 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1767 for creep MoveHarvester1617 role: 0 goal 0 source 0 target 0 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1767 for creep MoveHarvester1617 role: 2 goal 0 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1768 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1768 for creep MoveHarvester1512 role: 0 goal 0 source 0 target 0 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1768 for creep MoveHarvester1512 role: 2 goal 0 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1768 for creep MoveHarvester1617 role: 0 goal 0 source 0 target 0 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1768 for creep MoveHarvester1617 role: 2 goal 0 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+capacity upgraded at 1768 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1769 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1769 for creep MoveHarvester1512 role: 0 goal 0 source 0 target 0 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1769 for creep MoveHarvester1512 role: 2 goal 0 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1769 for creep MoveHarvester1617 role: 0 goal 0 source 0 target 0 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1769 for creep MoveHarvester1617 role: 2 goal 0 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1770 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1770 for creep MoveHarvester1512 role: 0 goal 0 source 0 target 0 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1770 for creep MoveHarvester1512 role: 2 goal 0 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1770 for creep MoveHarvester1617 role: 0 goal 0 source 0 target 0 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1770 for creep MoveHarvester1617 role: 2 goal 0 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1771 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1771 for creep MoveHarvester1512 role: 0 goal 0 source 0 target 0 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1771 for creep MoveHarvester1512 role: 2 goal 0 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1771 for creep MoveHarvester1617 role: 0 goal 0 source 0 target 0 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1771 for creep MoveHarvester1617 role: 2 goal 0 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1772 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1772 for creep MoveHarvester1512 role: 0 goal 0 source 0 target 0 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1772 for creep MoveHarvester1512 role: 2 goal 0 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1772 for creep MoveHarvester1617 role: 0 goal 0 source 0 target 0 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1772 for creep MoveHarvester1617 role: 2 goal 0 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1773 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1773 for creep MoveHarvester1512 role: 0 goal 0 source 0 target 0 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1773 for creep MoveHarvester1512 role: 2 goal 0 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1773 for creep MoveHarvester1617 role: 0 goal 0 source 0 target 0 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1773 for creep MoveHarvester1617 role: 2 goal 0 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1774 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1774 for creep MoveHarvester1512 role: 0 goal 0 source 0 target 0 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1774 for creep MoveHarvester1512 role: 2 goal 0 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1774 for creep MoveHarvester1617 role: 0 goal 0 source 0 target 0 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1774 for creep MoveHarvester1617 role: 2 goal 0 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1775 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1775 for creep MoveHarvester1512 role: 0 goal 0 source 0 target 0 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1775 for creep MoveHarvester1512 role: 2 goal 0 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1775 for creep MoveHarvester1617 role: 0 goal 0 source 0 target 0 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1775 for creep MoveHarvester1617 role: 2 goal 0 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1776 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1776 for creep MoveHarvester1512 role: 0 goal 0 source 0 target 0 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1776 for creep MoveHarvester1512 role: 2 goal 0 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1776 for creep MoveHarvester1617 role: 0 goal 0 source 0 target 0 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1776 for creep MoveHarvester1617 role: 2 goal 0 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1777 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1777 for creep MoveHarvester1512 role: 0 goal 0 source 0 target 0 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1777 for creep MoveHarvester1512 role: 2 goal 0 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1777 for creep MoveHarvester1617 role: 0 goal 0 source 0 target 0 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1777 for creep MoveHarvester1617 role: 2 goal 0 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1778 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1778 for creep MoveHarvester1512 role: 0 goal 0 source 0 target 0 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1778 for creep MoveHarvester1512 role: 2 goal 0 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1778 for creep MoveHarvester1617 role: 0 goal 0 source 0 target 0 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1778 for creep MoveHarvester1617 role: 2 goal 0 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1779 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1779 for creep MoveHarvester1512 role: 0 goal 0 source 0 target 0 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1779 for creep MoveHarvester1512 role: 2 goal 0 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1779 for creep MoveHarvester1617 role: 0 goal 0 source 0 target 0 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1779 for creep MoveHarvester1617 role: 2 goal 0 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1780 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1780 for creep MoveHarvester1512 role: 0 goal 0 source 0 target 0 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1780 for creep MoveHarvester1512 role: 2 goal 0 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1780 for creep MoveHarvester1617 role: 0 goal 0 source 0 target 0 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1780 for creep MoveHarvester1617 role: 2 goal 0 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1781 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1781 for creep MoveHarvester1512 role: 0 goal 0 source 0 target 0 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1781 for creep MoveHarvester1512 role: 2 goal 0 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1781 for creep MoveHarvester1617 role: 0 goal 0 source 0 target 0 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1781 for creep MoveHarvester1617 role: 2 goal 0 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1782 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1782 for creep MoveHarvester1512 role: 0 goal 0 source 0 target 0 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1782 for creep MoveHarvester1512 role: 2 goal 0 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1782 for creep MoveHarvester1617 role: 0 goal 0 source 0 target 0 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1782 for creep MoveHarvester1617 role: 2 goal 0 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1783 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1783 for creep MoveHarvester1512 role: 0 goal 0 source 0 target 0 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1783 for creep MoveHarvester1512 role: 2 goal 0 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1783 for creep MoveHarvester1617 role: 0 goal 0 source 0 target 0 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1783 for creep MoveHarvester1617 role: 2 goal 0 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1784 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1784 for creep MoveHarvester1512 role: 0 goal 0 source 0 target 0 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1784 for creep MoveHarvester1512 role: 2 goal 0 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1784 for creep MoveHarvester1617 role: 0 goal 0 source 0 target 0 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1784 for creep MoveHarvester1617 role: 2 goal 0 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1785 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1785 for creep MoveHarvester1512 role: 0 goal 0 source 0 target 0 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1785 for creep MoveHarvester1512 role: 2 goal 0 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1785 for creep MoveHarvester1617 role: 0 goal 0 source 0 target 0 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1785 for creep MoveHarvester1617 role: 2 goal 0 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1786 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1786 for creep MoveHarvester1512 role: 0 goal 0 source 0 target 0 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1786 for creep MoveHarvester1512 role: 2 goal 0 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1786 for creep MoveHarvester1617 role: 0 goal 0 source 0 target 0 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1786 for creep MoveHarvester1617 role: 2 goal 0 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1787 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1787 for creep MoveHarvester1512 role: 0 goal 0 source 0 target 0 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1787 for creep MoveHarvester1512 role: 2 goal 0 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1787 for creep MoveHarvester1617 role: 0 goal 0 source 0 target 0 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1787 for creep MoveHarvester1617 role: 2 goal 0 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1788 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1788 for creep MoveHarvester1512 role: 0 goal 0 source 0 target 0 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1788 for creep MoveHarvester1512 role: 2 goal 0 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1788 for creep MoveHarvester1617 role: 0 goal 0 source 0 target 0 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1788 for creep MoveHarvester1617 role: 2 goal 0 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1789 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1789 for creep MoveHarvester1512 role: 0 goal 0 source 0 target 0 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1789 for creep MoveHarvester1512 role: 2 goal 0 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1789 for creep MoveHarvester1617 role: 0 goal 0 source 0 target 0 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1789 for creep MoveHarvester1617 role: 2 goal 0 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1790 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1790 for creep MoveHarvester1512 role: 0 goal 0 source 0 target 0 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1790 for creep MoveHarvester1512 role: 2 goal 0 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1790 for creep MoveHarvester1617 role: 0 goal 0 source 0 target 0 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1790 for creep MoveHarvester1617 role: 2 goal 0 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1791 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1791 for creep MoveHarvester1512 role: 0 goal 0 source 0 target 0 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1791 for creep MoveHarvester1512 role: 2 goal 0 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1791 for creep MoveHarvester1617 role: 0 goal 0 source 0 target 0 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1791 for creep MoveHarvester1617 role: 2 goal 0 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1792 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1792 for creep HarvestRemote932 role: 0 goal 3 source 2 target 4 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1792 for creep HarvestRemote932 role: 2 goal 3 source 2 target 4 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1792 for creep MoveHarvester1512 role: 0 goal 0 source 0 target 0 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1792 for creep MoveHarvester1512 role: 2 goal 0 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1792 for creep MoveHarvester1617 role: 0 goal 0 source 0 target 0 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1792 for creep MoveHarvester1617 role: 2 goal 0 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+created miner  1792 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1793 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1794 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1795 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1796 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1797 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1798 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1799 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1799 for creep HarvestRemote932 role: 0 goal 3 source 2 target 4 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1799 for creep HarvestRemote932 role: 2 goal 3 source 2 target 4 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1800 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1800 for creep HarvestRemote932 role: 0 goal 3 source 2 target 4 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1800 for creep HarvestRemote932 role: 2 goal 3 source 2 target 4 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1801 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1801 for creep HarvestRemote932 role: 0 goal 3 source 2 target 4 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1801 for creep HarvestRemote932 role: 2 goal 3 source 2 target 4 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1802 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1802 for creep HarvestRemote932 role: 0 goal 3 source 2 target 4 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1802 for creep HarvestRemote932 role: 2 goal 3 source 2 target 4 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1803 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1803 for creep HarvestRemote932 role: 0 goal 3 source 2 target 4 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1803 for creep HarvestRemote932 role: 2 goal 3 source 2 target 4 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1804 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1804 for creep HarvestRemote932 role: 0 goal 3 source 2 target 4 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1804 for creep HarvestRemote932 role: 2 goal 3 source 2 target 4 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+Object { room: {…}, pos: {}, id: "db178e1fddd9d9d000ae23be", _name: "WorkMiner473", _spawning: false, _my: true, _store: "[store]" }
+3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1805 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1805 for creep HarvestRemote932 role: 0 goal 3 source 2 target 4 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1805 for creep HarvestRemote932 role: 2 goal 3 source 2 target 4 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+Object { room: {…}, pos: {}, id: "db178e1fddd9d9d000ae23be", _name: "WorkMiner473", _spawning: false, _my: true, _store: "[store]" }
+3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1806 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1806 for creep HarvestRemote932 role: 0 goal 3 source 2 target 4 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1806 for creep HarvestRemote932 role: 2 goal 3 source 2 target 4 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+Object { room: {…}, pos: {}, id: "db178e1fddd9d9d000ae23be", _name: "WorkMiner473", _spawning: false, _my: true, _store: "[store]" }
+3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1807 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1807 for creep HarvestRemote932 role: 0 goal 3 source 2 target 4 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1807 for creep HarvestRemote932 role: 2 goal 3 source 2 target 4 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1807 for creep HarvestRemote1165 role: 0 goal 3 source 2 target 4 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1807 for creep HarvestRemote1165 role: 2 goal 3 source 2 target 4 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+Object { room: {…}, pos: {}, id: "db178e1fddd9d9d000ae23be", _name: "WorkMiner473", _spawning: false, _my: true, _store: "[store]" }
+3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1808 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1808 for creep HarvestRemote932 role: 0 goal 3 source 2 target 4 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1808 for creep HarvestRemote932 role: 2 goal 3 source 2 target 4 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1808 for creep HarvestRemote1165 role: 0 goal 3 source 2 target 4 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1808 for creep HarvestRemote1165 role: 2 goal 3 source 2 target 4 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+Object { room: {…}, pos: {}, id: "db178e1fddd9d9d000ae23be", _name: "WorkMiner473", _spawning: false, _my: true, _store: "[store]" }
+3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1809 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1809 for creep HarvestRemote932 role: 0 goal 3 source 2 target 4 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1809 for creep HarvestRemote932 role: 2 goal 3 source 2 target 4 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1809 for creep HarvestRemote1165 role: 0 goal 3 source 2 target 4 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1809 for creep HarvestRemote1165 role: 2 goal 3 source 2 target 4 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+Object { room: {…}, pos: {}, id: "db178e1fddd9d9d000ae23be", _name: "WorkMiner473", _spawning: false, _my: true, _store: "[store]" }
+3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1810 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1810 for creep HarvestRemote932 role: 0 goal 3 source 2 target 4 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1810 for creep HarvestRemote932 role: 2 goal 3 source 2 target 4 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1810 for creep HarvestRemote1165 role: 0 goal 3 source 2 target 4 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1810 for creep HarvestRemote1165 role: 2 goal 3 source 2 target 4 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+Object { room: {…}, pos: {}, id: "db178e1fddd9d9d000ae23be", _name: "WorkMiner473", _spawning: false, _my: true, _store: "[store]" }
+3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1811 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1811 for creep HarvestRemote932 role: 0 goal 3 source 2 target 4 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1811 for creep HarvestRemote932 role: 2 goal 3 source 2 target 4 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1811 for creep HarvestRemote1089 role: 0 goal 3 source 2 target 4 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1811 for creep HarvestRemote1089 role: 2 goal 3 source 2 target 4 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1811 for creep HarvestRemote1165 role: 0 goal 3 source 2 target 4 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1811 for creep HarvestRemote1165 role: 2 goal 3 source 2 target 4 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+Object { room: {…}, pos: {}, id: "db178e1fddd9d9d000ae23be", _name: "WorkMiner473", _spawning: false, _my: true, _store: "[store]" }
+3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1812 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+no target for miner creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1812 for creep HarvestRemote932 role: 0 goal 3 source 2 target 4 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1812 for creep HarvestRemote932 role: 2 goal 3 source 2 target 4 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1812 for creep HarvestRemote1005 role: 0 goal 3 source 2 target 4 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1812 for creep HarvestRemote1005 role: 2 goal 3 source 2 target 4 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1812 for creep HarvestRemote1089 role: 0 goal 3 source 2 target 4 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1812 for creep HarvestRemote1089 role: 2 goal 3 source 2 target 4 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1812 for creep HarvestRemote1165 role: 0 goal 3 source 2 target 4 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1812 for creep HarvestRemote1165 role: 2 goal 3 source 2 target 4 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+Object { room: {…}, pos: {}, id: "db178e1fddd9d9d000ae23be", _name: "WorkMiner473", _spawning: false, _my: true, _store: "[store]" }
+3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1813 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkMiner473 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1813 for creep HarvestRemote932 role: 0 goal 3 source 2 target 4 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1813 for creep HarvestRemote932 role: 2 goal 3 source 2 target 4 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1813 for creep HarvestRemote1005 role: 0 goal 3 source 2 target 4 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1813 for creep HarvestRemote1005 role: 2 goal 3 source 2 target 4 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1813 for creep HarvestRemote1089 role: 0 goal 3 source 2 target 4 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1813 for creep HarvestRemote1089 role: 2 goal 3 source 2 target 4 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1813 for creep HarvestRemote1165 role: 0 goal 3 source 2 target 4 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1813 for creep HarvestRemote1165 role: 2 goal 3 source 2 target 4 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+Object { room: {…}, pos: {}, id: "db178e1fddd9d9d000ae23be", _name: "WorkMiner473", _spawning: false, _my: true, _store: "[store]" }
+3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1814 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1814 for creep HarvestRemote932 role: 0 goal 3 source 2 target 4 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1814 for creep HarvestRemote932 role: 2 goal 3 source 2 target 4 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1814 for creep HarvestRemote1005 role: 0 goal 3 source 2 target 4 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1814 for creep HarvestRemote1005 role: 2 goal 3 source 2 target 4 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1814 for creep HarvestRemote1089 role: 0 goal 3 source 2 target 4 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1814 for creep HarvestRemote1089 role: 2 goal 3 source 2 target 4 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1814 for creep HarvestRemote1165 role: 0 goal 3 source 2 target 4 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1814 for creep HarvestRemote1165 role: 2 goal 3 source 2 target 4 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+miner transfer result 0 for creep WorkUpgrader311 role: 3 goal 2 source 1 target 3 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1815 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1815 for creep HarvestRemote932 role: 0 goal 3 source 2 target 4 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1815 for creep HarvestRemote932 role: 2 goal 3 source 2 target 4 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1815 for creep HarvestRemote1005 role: 0 goal 3 source 2 target 4 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1815 for creep HarvestRemote1005 role: 2 goal 3 source 2 target 4 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1815 for creep HarvestRemote1089 role: 0 goal 3 source 2 target 4 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1815 for creep HarvestRemote1089 role: 2 goal 3 source 2 target 4 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1815 for creep HarvestRemote1165 role: 0 goal 3 source 2 target 4 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1815 for creep HarvestRemote1165 role: 2 goal 3 source 2 target 4 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1816 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1816 for creep HarvestRemote932 role: 0 goal 3 source 2 target 4 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1816 for creep HarvestRemote932 role: 2 goal 3 source 2 target 4 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1816 for creep HarvestRemote1005 role: 0 goal 3 source 2 target 4 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1816 for creep HarvestRemote1005 role: 2 goal 3 source 2 target 4 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1816 for creep HarvestRemote1089 role: 0 goal 3 source 2 target 4 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1816 for creep HarvestRemote1089 role: 2 goal 3 source 2 target 4 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1816 for creep HarvestRemote1165 role: 0 goal 3 source 2 target 4 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1816 for creep HarvestRemote1165 role: 2 goal 3 source 2 target 4 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1817 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1817 for creep HarvestRemote932 role: 0 goal 3 source 2 target 4 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1817 for creep HarvestRemote932 role: 2 goal 3 source 2 target 4 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1817 for creep HarvestRemote1005 role: 0 goal 3 source 2 target 4 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1817 for creep HarvestRemote1005 role: 2 goal 3 source 2 target 4 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1817 for creep HarvestRemote1089 role: 0 goal 3 source 2 target 4 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1817 for creep HarvestRemote1089 role: 2 goal 3 source 2 target 4 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1817 for creep HarvestRemote1165 role: 0 goal 3 source 2 target 4 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1817 for creep HarvestRemote1165 role: 2 goal 3 source 2 target 4 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1818 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1818 for creep HarvestRemote932 role: 0 goal 3 source 2 target 4 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1818 for creep HarvestRemote932 role: 2 goal 3 source 2 target 4 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1818 for creep HarvestRemote1005 role: 0 goal 3 source 2 target 4 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1818 for creep HarvestRemote1005 role: 2 goal 3 source 2 target 4 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1818 for creep HarvestRemote1089 role: 0 goal 3 source 2 target 4 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1818 for creep HarvestRemote1089 role: 2 goal 3 source 2 target 4 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1818 for creep HarvestRemote1165 role: 0 goal 3 source 2 target 4 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1818 for creep HarvestRemote1165 role: 2 goal 3 source 2 target 4 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1819 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1819 for creep HarvestRemote932 role: 0 goal 3 source 2 target 4 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1819 for creep HarvestRemote932 role: 2 goal 3 source 2 target 4 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1819 for creep HarvestRemote1005 role: 0 goal 3 source 2 target 4 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1819 for creep HarvestRemote1005 role: 2 goal 3 source 2 target 4 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1819 for creep HarvestRemote1089 role: 0 goal 3 source 2 target 4 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1819 for creep HarvestRemote1089 role: 2 goal 3 source 2 target 4 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1819 for creep HarvestRemote1165 role: 0 goal 3 source 2 target 4 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1819 for creep HarvestRemote1165 role: 2 goal 3 source 2 target 4 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1820 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1820 for creep HarvestRemote932 role: 0 goal 3 source 2 target 4 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1820 for creep HarvestRemote932 role: 2 goal 3 source 2 target 4 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1820 for creep HarvestRemote1005 role: 0 goal 3 source 2 target 4 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1820 for creep HarvestRemote1005 role: 2 goal 3 source 2 target 4 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1820 for creep HarvestRemote1089 role: 0 goal 3 source 2 target 4 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1820 for creep HarvestRemote1089 role: 2 goal 3 source 2 target 4 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1820 for creep HarvestRemote1165 role: 0 goal 3 source 2 target 4 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1820 for creep HarvestRemote1165 role: 2 goal 3 source 2 target 4 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1821 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1821 for creep HarvestRemote932 role: 0 goal 3 source 2 target 4 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1821 for creep HarvestRemote932 role: 2 goal 3 source 2 target 4 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1821 for creep HarvestRemote1005 role: 0 goal 3 source 2 target 4 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1821 for creep HarvestRemote1005 role: 2 goal 3 source 2 target 4 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1821 for creep HarvestRemote1089 role: 0 goal 3 source 2 target 4 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1821 for creep HarvestRemote1089 role: 2 goal 3 source 2 target 4 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1821 for creep HarvestRemote1165 role: 0 goal 3 source 2 target 4 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1821 for creep HarvestRemote1165 role: 2 goal 3 source 2 target 4 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1822 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1822 for creep HarvestRemote932 role: 0 goal 3 source 2 target 4 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1822 for creep HarvestRemote932 role: 2 goal 3 source 2 target 4 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1822 for creep HarvestRemote1005 role: 0 goal 3 source 2 target 4 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1822 for creep HarvestRemote1005 role: 2 goal 3 source 2 target 4 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1822 for creep HarvestRemote1089 role: 0 goal 3 source 2 target 4 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1822 for creep HarvestRemote1089 role: 2 goal 3 source 2 target 4 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1822 for creep HarvestRemote1165 role: 0 goal 3 source 2 target 4 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1822 for creep HarvestRemote1165 role: 2 goal 3 source 2 target 4 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1823 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1823 for creep HarvestRemote932 role: 0 goal 3 source 2 target 4 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1823 for creep HarvestRemote932 role: 2 goal 3 source 2 target 4 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1823 for creep HarvestRemote1005 role: 0 goal 3 source 2 target 4 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1823 for creep HarvestRemote1005 role: 2 goal 3 source 2 target 4 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1823 for creep HarvestRemote1089 role: 0 goal 3 source 2 target 4 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1823 for creep HarvestRemote1089 role: 2 goal 3 source 2 target 4 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1823 for creep HarvestRemote1165 role: 0 goal 3 source 2 target 4 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1823 for creep HarvestRemote1165 role: 2 goal 3 source 2 target 4 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1824 for creep WorkUpgrader411 role: 2 goal 1 source 0 target 2 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1824 for creep HarvestRemote932 role: 0 goal 3 source 2 target 4 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1824 for creep HarvestRemote932 role: 2 goal 3 source 2 target 4 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1824 for creep HarvestRemote1005 role: 0 goal 3 source 2 target 4 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1824 for creep HarvestRemote1005 role: 2 goal 3 source 2 target 4 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1824 for creep HarvestRemote1089 role: 0 goal 3 source 2 target 4 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1824 for creep HarvestRemote1089 role: 2 goal 3 source 2 target 4 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+harvester no target at 1824 for creep HarvestRemote1165 role: 0 goal 3 source 2 target 4 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+builder no target at 1824 for creep HarvestRemote1165 role: 2 goal 3 source 2 target 4 3d02b6bc-cbe5-4223-b907-5a13507536ca:2:115579
+
+

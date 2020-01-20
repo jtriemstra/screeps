@@ -1,0 +1,11 @@
+todo
+harvesters eventually wait for somethign to spawn ~3k ticks
+if energy source runs out, upgraders/builders don't start moving back toward the miners/souorce
+waiting till something dies to create a new one
+
+
+when to leverage miners
+when to call a source remote
+when to change behavior for a remote source
+
+upgrade3 has caps on how many it will spawn
