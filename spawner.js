@@ -272,7 +272,7 @@ var goals = {
 				
 				return true;
 			}
-			else if (roleCounts[constants.ROLE_UPGRADER] + roleCounts[constants.ROLE_BUILDER] < roleCounts[constants.ROLE_MINER] + 2) {
+			else { //} if (roleCounts[constants.ROLE_UPGRADER] + roleCounts[constants.ROLE_BUILDER] < roleCounts[constants.ROLE_MINER] + 2) {
 				var newName = 'WorkBuilder' + Game.time;
 				var bodyParts = [WORK,WORK,WORK,CARRY,CARRY,MOVE,MOVE,MOVE];
 					
@@ -282,9 +282,9 @@ var goals = {
 					}
 				return true;
 			}
-			else {
+			/*else {
 				return false;
-			}
+			}*/
 		},
 		
 	},
