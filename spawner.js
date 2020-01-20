@@ -250,11 +250,18 @@ var goals = {
 					}
 				}
 			}						
-						
+			
+			var bodyParts;
+			if (room.energyCapacityAvailable < 550){
+				bodyParts = [WORK,WORK,CARRY,CARRY,MOVE,MOVE,MOVE];
+			} 
+			else {
+				bodyParts = [WORK,WORK,WORK,CARRY,CARRY,MOVE,MOVE,MOVE];
+			}
+
 			if (roleCounts[constants.ROLE_MINER] < 3) {
 				var newName = 'WorkMiner' + Game.time;
-				//TODO: possible this starts executing before I actually have 550 available
-				var bodyParts = [WORK,WORK,WORK,CARRY,CARRY,MOVE,MOVE,MOVE];
+				//TODO: possible this starts executing before I actually have 550 available				
 				
 				if (OK == Game.spawns['Spawn1'].spawnCreep(bodyParts, newName, 
 					{memory: {goal: this.id, role: constants.ROLE_MINER, origRole: -1, sourceFinderId: constants.SOURCE_S0, targetFinderId: constants.TARGET_CREEP}})){
@@ -265,7 +272,6 @@ var goals = {
 			}
 			else { //} if (roleCounts[constants.ROLE_UPGRADER] + roleCounts[constants.ROLE_BUILDER] < roleCounts[constants.ROLE_MINER] + 2) {
 				var newName = 'WorkBuilder' + Game.time;
-				var bodyParts = [WORK,WORK,WORK,CARRY,CARRY,MOVE,MOVE,MOVE];
 					
 				if (OK == Game.spawns['Spawn1'].spawnCreep(bodyParts, newName, 
 					{memory: {goal: this.id, role: constants.ROLE_UPGRADER, origRole: -1, sourceFinderId: constants.SOURCE_S0_M, targetFinderId: constants.TARGET_CONTROLLER}})){
