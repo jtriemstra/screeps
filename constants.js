@@ -121,7 +121,8 @@ var constants = {
 		});
 		
 		//TODO: try multiple targets
-		if (targets.length > 0) return targets[0];
+		//NOTE: rotate through potential targets
+		if (targets.length > 0) return targets[(Game.time % targets.length)];
 		
 		return null;
 	},

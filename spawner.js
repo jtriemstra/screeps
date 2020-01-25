@@ -103,7 +103,8 @@ var goals = {
 			}
 
 			//TODO: some dynamic measure of congestion - this ends up being a ceiling for the entire if/else
-			if (creepCount < 9 ) {
+			var numberOfBuilders = roleBase.countByRole(constants.ROLE_BUILDER);
+			if (numberOfBuilders < 9 ) {
 				var newName = 'Builder' + Game.time;
 				
 				if (OK == Game.spawns['Spawn1'].spawnCreep(bodyParts, newName, 

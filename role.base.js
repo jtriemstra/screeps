@@ -28,6 +28,17 @@ var roleBase = {
 		" target " + creep.memory.targetFinderId +
 		" upgrading? " + creep.memory.upgrading + 
 		" building? " + creep.memory.building;
+	},
+	countByRole: function(role){
+		//TODO: store this in memory to save CPU
+		var numberOfCreeps = 0;
+		for(var name in Game.creeps) {
+			var creep = Game.creeps[name];
+			if (creep.memory.role === role){
+				numberOfCreeps++;
+			}
+		}
+		return numberOfCreeps;
 	}
 };
 
