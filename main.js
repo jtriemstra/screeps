@@ -52,3 +52,16 @@ module.exports.loop = function () {
 	}
 	if (room) sitecreator.run(room);
 }
+
+debug = function(){
+    for(var name in Game.creeps) {
+        var creep = Game.creeps[name];
+        console.log(roleBase.log(creep));
+    }
+}
+
+watch = function(creepName) {
+    var creep = Game.creeps[creepName];
+    creep.memory.watching = !(creep.memory.watching);
+    return creep.memory.watching;
+}

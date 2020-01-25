@@ -20,7 +20,7 @@ var goals = {
 			//TODO: make this dynamic somehow
 			//TODO: possibly allow for bigger creations here, but probably need to solve energy source issues first
 			if(harvesterCount < (tempCapacityAvailable > 400 ? 3 : 2)) {
-				var newName = 'MoveHarvester' + Game.time;
+				var newName = 'Harvester' + Game.time;
 				
 				if(OK == Game.spawns['Spawn1'].spawnCreep([WORK,CARRY,MOVE,MOVE], newName, 
 					{memory: {goal: this.id, role: constants.ROLE_HARVESTER, origRole: -1, sourceFinderId: constants.SOURCE_S0_M, targetFinderId: constants.TARGET_SPAWN_EXT}})){
@@ -43,7 +43,7 @@ var goals = {
 		spawnRule: function(room, roleCounts, creepCount){
 			//TODO: make dynamic check of congestion?
 			if (creepCount < 9 ) {
-				var newName = 'WorkUpgrader' + Game.time;
+				var newName = 'Upgrader' + Game.time;
 				
 				if (OK == Game.spawns['Spawn1'].spawnCreep([WORK,WORK,CARRY,MOVE], newName, 
 					{memory: {goal: this.id, role: constants.ROLE_UPGRADER, origRole: -1, sourceFinderId: constants.SOURCE_S0_M, targetFinderId: constants.TARGET_CONTROLLER}})){
@@ -60,13 +60,14 @@ var goals = {
 	buildCoreExtensions: {
 		id:2,
 		isComplete: function(room){
+			//TODO: account for the fact that after the room levels up to 3, I can build extensions again
 			//TODO: there might be a way to do this to trade off CPU for memory/code. memoize?
 			//TODO: this is pretty narrowly defined with the range of 10
 			var extensions = room.find(FIND_MY_STRUCTURES, {	filter: (thisStructure) => {
 					return thisStructure.structureType == STRUCTURE_EXTENSION && thisStructure.pos.getRangeTo(Game.spawns['Spawn1']) < 10;
 			}});
 			
-			//TODO: this only made sense when there was a "remote" source with extensions next to it
+			//TODO: this setting of 3 only made sense when there was a "remote" source with extensions next to it
 			if (extensions.length >= 5){
 				return true;
 			}
@@ -103,7 +104,7 @@ var goals = {
 
 			//TODO: some dynamic measure of congestion - this ends up being a ceiling for the entire if/else
 			if (creepCount < 9 ) {
-				var newName = 'WorkBuilder' + Game.time;
+				var newName = 'Builder' + Game.time;
 				
 				if (OK == Game.spawns['Spawn1'].spawnCreep(bodyParts, newName, 
 					{memory: {goal: this.id, role: constants.ROLE_BUILDER, origRole: -1, sourceFinderId: constants.SOURCE_S0_M, targetFinderId: constants.TARGET_CORE_EXT}})){
@@ -118,7 +119,7 @@ var goals = {
 				for(var name in Game.creeps) {
 					var creep = Game.creeps[name];
 					
-					if (creep.memory.goal == 1 && creep.memory.role == constants.ROLE_UPGRADER || creep.memory.role == constants.ROLE_BUILDER)  {
+					if ((creep.memory.role == constants.ROLE_UPGRADER || creep.memory.role == constants.ROLE_BUILDER) && creep.memory.origRole != constants.ROLE_HARVESTER)  {
 						console.log("converting one upgrader to miner " + roleBase.log(creep));
 						creep.memory.role = constants.ROLE_MINER;
 						creep.memory.sourceFinderId = constants.SOURCE_S0;
@@ -126,16 +127,13 @@ var goals = {
 						creep.memory.goal = 2;
 						break;
 					}
-					else {
-						console.log("not converting this to miner " + roleBase.log(creep));
-					}
 				}
 				
 				return true;
 
 			}
 			else if (roleCounts[constants.ROLE_MINER] < 3) {
-				var newName = 'WorkMiner' + Game.time;
+				var newName = 'Miner' + Game.time;
 				
 				if (OK == Game.spawns['Spawn1'].spawnCreep(bodyParts, newName, 
 					{memory: {goal: this.id, role: constants.ROLE_MINER, origRole: -1, sourceFinderId: constants.SOURCE_S0, targetFinderId: constants.TARGET_CREEP}})){
@@ -260,8 +258,7 @@ var goals = {
 			}
 
 			if (roleCounts[constants.ROLE_MINER] < 3) {
-				var newName = 'WorkMiner' + Game.time;
-				//TODO: possible this starts executing before I actually have 550 available				
+				var newName = 'Miner' + Game.time;
 				
 				if (OK == Game.spawns['Spawn1'].spawnCreep(bodyParts, newName, 
 					{memory: {goal: this.id, role: constants.ROLE_MINER, origRole: -1, sourceFinderId: constants.SOURCE_S0, targetFinderId: constants.TARGET_CREEP}})){
@@ -271,7 +268,7 @@ var goals = {
 				return true;
 			}
 			else { //} if (roleCounts[constants.ROLE_UPGRADER] + roleCounts[constants.ROLE_BUILDER] < roleCounts[constants.ROLE_MINER] + 2) {
-				var newName = 'WorkBuilder' + Game.time;
+				var newName = 'Builder' + Game.time;
 					
 				if (OK == Game.spawns['Spawn1'].spawnCreep(bodyParts, newName, 
 					{memory: {goal: this.id, role: constants.ROLE_UPGRADER, origRole: -1, sourceFinderId: constants.SOURCE_S0_M, targetFinderId: constants.TARGET_CONTROLLER}})){

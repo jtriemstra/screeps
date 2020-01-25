@@ -22,20 +22,24 @@ var roleHarvester = {
 				    
                     var path = creep.pos.findPathTo(source, {visualizePathStyle: {stroke: '#ffaa00'}});
 					if (this.isSanePath(path, creep)) {
+						if (creep.memory.watching) {console.log("moving to source");}
 						creep.moveByPath(path);
+					}
+					else {
+						if (creep.memory.watching) {console.log("can't find source in range");}
 					}
                 }
 				
 				else if (result == OK){
-					
+					if (creep.memory.watching) {console.log("reloaded");}
 				}
 				else {
 				    
-					//console.log("harvester harvest error " + result + " at " + Game.time + " for " + roleBase.log(creep));
+					if (creep.memory.watching) {console.log("harvester harvest error " + result + " at " + Game.time + " for " + roleBase.log(creep));}
 				}
 			}  
 			else {
-				//console.log("harvester no source at " + Game.time + " for " + roleBase.log(creep));
+				if (creep.memory.watching) {console.log("harvester no source at " + Game.time + " for " + roleBase.log(creep));}
 			}			
         }
         else {
@@ -46,19 +50,24 @@ var roleHarvester = {
                 if(result == ERR_NOT_IN_RANGE) {
 					var path = creep.pos.findPathTo(target, {visualizePathStyle: {stroke: '#ffffff'}});
                     if (this.isSanePath(path, creep)) {
+						if (creep.memory.watching) {console.log("moving to deliver");}
 						creep.moveByPath(path);
+					}
+					else {
+						if (creep.memory.watching) {console.log("can't find a target to deliver");}
 					}
                 }
 				else if (result == OK){
+					if (creep.memory.watching) {console.log("successsfully delivered");}
 					roleBase.resetTempRole(creep);
 				}
 				else {
-					//console.log("harvester transfer error " + result + " at " + Game.time + " for " + roleBase.log(creep));
+					if (creep.memory.watching) {console.log("harvester transfer error " + result + " at " + Game.time + " for " + roleBase.log(creep));}
 					return -1;
 				}
             }
 			else {
-				//console.log("harvester no target at " + Game.time + " for " + roleBase.log(creep));
+				if (creep.memory.watching) {console.log("harvester no target at " + Game.time + " for " + roleBase.log(creep));}
 				return -1;
 			}
         }

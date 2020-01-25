@@ -5,6 +5,7 @@ var sitecreator = {
 		var spawnX = Game.spawns['Spawn1'].pos.x;
 		var spawnY = Game.spawns['Spawn1'].pos.y;
 		//TODO: make this more flexible for different rooms
+		//TODO: this needs to be useful for increasing room levels
 		var result = room.createConstructionSite(spawnX - 2, spawnY, STRUCTURE_EXTENSION);
 		//var result = room.createConstructionSite(30, 26, STRUCTURE_EXTENSION);
 		

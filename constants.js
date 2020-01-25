@@ -120,6 +120,7 @@ var constants = {
 				}
 		});
 		
+		//TODO: try multiple targets
 		if (targets.length > 0) return targets[0];
 		
 		return null;

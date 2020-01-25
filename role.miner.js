@@ -11,16 +11,20 @@ var roleMiner = {
 			
             if(creep.harvest(source) == ERR_NOT_IN_RANGE) {
                 creep.moveTo(source, {visualizePathStyle: {stroke: '#ffaa00'}});
+                if (creep.memory.watching) {console.log("moving to source");}
+            }
+            else {
+                if (creep.memory.watching) {console.log("harvesting from source");}
             }
         }
 		else {
 		    var target = constants.targetFinders[creep.memory.targetFinderId](creep);
             if(target) {
                 var result = creep.transfer(target, RESOURCE_ENERGY);
-                //console.log("miner transfer result " + result + " for " + roleBase.log(creep));
+                if (creep.memory.watching) {console.log("miner transfer result " + result + " for " + roleBase.log(creep));}
             }
             else {
-                //console.log("no target for miner " + roleBase.log(creep));
+                if (creep.memory.watching) {console.log("no target for miner " + roleBase.log(creep));}
             }
 		}	    
 	}

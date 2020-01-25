@@ -5,7 +5,7 @@ var roleBuilder = {
 
     /** @param {Creep} creep **/
     run: function(creep) {
-
+		
 	    if(creep.memory.building && creep.store[RESOURCE_ENERGY] == 0) {
 			roleBase.resetTempRole(creep);
             creep.memory.building = false;
@@ -22,18 +22,20 @@ var roleBuilder = {
             if(target) {
 				var result = creep.build(target);
                 if(result == ERR_NOT_IN_RANGE) {
-                    creep.moveTo(target, {visualizePathStyle: {stroke: '#ffffff'}});
+					creep.moveTo(target, {visualizePathStyle: {stroke: '#ffffff'}});
+					if (creep.memory.watching) {console.log("moving to build");}
 					return OK;
                 }
 				else if (result == OK) {
+					if (creep.memory.watching) {console.log("doing build");}
 					return OK;
 				}
 				else {
-					//console.log("builder build error " + result + " at " + Game.time + " for " + roleBase.log(creep));
+					if (creep.memory.watching) {console.log("builder build error " + result + " at " + Game.time + " for " + roleBase.log(creep));}
 				}
             }
 			else {
-				//console.log("builder no target at " + Game.time + " for " + roleBase.log(creep));
+				if (creep.memory.watching) {console.log("builder no target at " + Game.time + " for " + roleBase.log(creep));}
 			}
 	    }
 	    else {
@@ -45,17 +47,19 @@ var roleBuilder = {
                     var path = creep.pos.findPathTo(source, {visualizePathStyle: {stroke: '#ffaa00'}});
 					creep.moveByPath(path);
 					//TODO: sanity check on path
+					if (creep.memory.watching) {console.log("moving to reload");}
 					return OK;
                 }
 				else if (result == OK) {
+					if (creep.memory.watching) {console.log("reloading");}
 					return OK;
 				}
 				else {
-					//console.log("builder harvest error " + result + " at " + Game.time + " for " + roleBase.log(creep));
+					if (creep.memory.watching) {console.log("builder harvest error " + result + " at " + Game.time + " for " + roleBase.log(creep));}
 				}
 			} 
 			else {
-				//console.log("builder no source at " + Game.time + " for " + roleBase.log(creep));
+				if (creep.memory.watching) {console.log("builder no source at " + Game.time + " for " + roleBase.log(creep));}
 			}
 	    }
 				

@@ -21,7 +21,13 @@ var roleBase = {
 	    return creep.memory.origRole == -1 ? creep.memory.role : creep.memory.origRole;
 	},
 	log: function(creep) { 
-		return "creep " + creep.name + " role: " + creep.memory.role + " goal " + creep.memory.goal + " source " + creep.memory.sourceFinderId + " target " + creep.memory.targetFinderId;
+		return "creep " + creep.name + 
+		" role: " + creep.memory.role + 
+		" goal " + creep.memory.goal + 
+		" source " + creep.memory.sourceFinderId + 
+		" target " + creep.memory.targetFinderId +
+		" upgrading? " + creep.memory.upgrading + 
+		" building? " + creep.memory.building;
 	}
 };
 
