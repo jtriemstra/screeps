@@ -60,20 +60,16 @@ var goals = {
 	buildCoreExtensions: {
 		id:2,
 		isComplete: function(room){
-			//TODO: account for the fact that after the room levels up to 3, I can build extensions again
 			//TODO: there might be a way to do this to trade off CPU for memory/code. memoize?
-			//TODO: this is pretty narrowly defined with the range of 10
-			var extensions = room.find(FIND_MY_STRUCTURES, {	filter: (thisStructure) => {
-					return thisStructure.structureType == STRUCTURE_EXTENSION && thisStructure.pos.getRangeTo(Game.spawns['Spawn1']) < 10;
+			//TODO: account for the idea of splitting extensions to be closer to sources
+			//TODO (subpoint): this is pretty narrowly defined with the range of 10
+			//TODO: possibly use this for constructing towers and ramparts also
+
+			var extensionSites = room.find(FIND_MY_CONSTRUCTION_SITES, {	filter: (thisSite) => {
+					return thisSite.structureType == STRUCTURE_EXTENSION && thisSite.pos.getRangeTo(Game.spawns['Spawn1']) < 10;
 			}});
 			
-			//TODO: this setting of 3 only made sense when there was a "remote" source with extensions next to it
-			if (extensions.length >= 5){
-				return true;
-			}
-			else{
-				return false;
-			}
+			return (extensionSites == 0);
 		},
 		spawnRule: function(room, roleCounts, creepCount){
 			if (goals.upgrade2.isComplete(room)) {
@@ -103,15 +99,31 @@ var goals = {
 			}
 
 			//TODO: some dynamic measure of congestion - this ends up being a ceiling for the entire if/else
+			var maxNumberOfBuilders = 9;
 			var numberOfBuilders = roleBase.countByRole(constants.ROLE_BUILDER);
-			if (numberOfBuilders < 9 ) {
+			if (numberOfBuilders < maxNumberOfBuilders ) {
 				var newName = 'Builder' + Game.time;
 				
 				if (OK == Game.spawns['Spawn1'].spawnCreep(bodyParts, newName, 
 					{memory: {goal: this.id, role: constants.ROLE_BUILDER, origRole: -1, sourceFinderId: constants.SOURCE_S0_M, targetFinderId: constants.TARGET_CORE_EXT}})){
 						console.log("created upgrader/builder  " + Game.time);
 					}
-			
+				else if (roleBase.countByRole(constants.ROLE_UPGRADER) > 0){
+					var numberConverted = 0;
+					for(var name in Game.creeps) {
+						var creep = Game.creeps[name];
+						if (creep.memory.role == constants.ROLE_UPGRADER){
+							creep.memory.role = constants.ROLE_BUILDER;
+							creep.memory.goal = 2;
+							creep.memory.sourceFinderId = constants.SOURCE_S0_M;
+							creep.memory.targetFinderId = constants.TARGET_CORE_EXT;
+							numberConverted++;
+							if (numberConverted >= maxNumberOfBuilders - numberOfBuilders){
+								break;
+							}
+						}
+					}
+				}
 				return true;
 			}
 			//TODO: try changing this. if there is 1 more upgrader/builder than miners, this will convert to have more miners than builders. not sure that's good.
@@ -233,7 +245,7 @@ var goals = {
 	},
 	upgrade3:{
 		id:5,
-		isComplete: function(room){return room.controller.level >= 3;},
+		isComplete: function(room){return false;},
 		spawnRule: function(room, roleCounts, creepCount){
 			//TODO: very duplicative of code in previous build spawnRule
 			
