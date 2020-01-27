@@ -1,3 +1,5 @@
+var memoryWrapper = require('./memorywrapper');
+
 var constants = {
     ROLE_HARVESTER: 0,
 	ROLE_UPGRADER: 1,
@@ -6,12 +8,14 @@ var constants = {
 	ROLE_COURIER: 4,
 	ROLE_REMOTE_ROAD_BUILDER: 5,
 	ROLE_REMOTE_BUILDER: 6,
+	ROLE_EXPLORER: 7,
 	UPGRADING: 0,
 	BUILDING: 1,
 	
 	SOURCE_S0_M: 0,
 	SOURCE_S0: 1,
 	SOURCE_S1: 2,
+	SOURCE_EXTERNAL: 3,
 	
 	TARGET_SPAWN_EXT: 0,
 	TARGET_CONTROLLER: 1,
@@ -69,6 +73,21 @@ var constants = {
 			return null;
 		}
 	},
+
+	sourceExternal: function(creep) {
+		var sources = [];
+		var sourceIds = memoryWrapper.externalSources.getList();
+
+		for (var i=0; i<sourceIds.length; i++){
+			sources.push(Game.getObjectById(sourceIds[i]));
+		}
+
+		//TODO: figure out which one is closest, may need to be done by the explorer role
+		if (sources.length > 0) {
+			return sources[0];
+		}
+		return null;
+	},
 	
 	sourceFinders: [],
 	
@@ -96,7 +115,8 @@ var constants = {
 	},
 	
 	targetController: function(creep){
-		return null;
+		//TODO: make this dynamic, and support cross-room controllers
+		return Game.getObjectById("1bc30772347c388");
 	},
 	
 	targetCoreExt: function(creep){
@@ -149,6 +169,7 @@ var constants = {
 constants.sourceFinders.push(constants.sourceS0_M);
 constants.sourceFinders.push(constants.sourceS0);
 constants.sourceFinders.push(constants.sourceS1);
+constants.sourceFinders.push(constants.sourceExternal);
 
 constants.targetFinders.push(constants.targetSpawnExt);
 constants.targetFinders.push(constants.targetController);

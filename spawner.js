@@ -1,6 +1,7 @@
 var constants = require('./constants');
 var roleBase = require('./role.base');
 var sourceFinder = require('./sourcefinder');
+var memoryWrapper = require('./memorywrapper');
 
 var goals = {
 	list: function() {
@@ -282,9 +283,16 @@ var goals = {
 			}
 			else { //} if (roleCounts[constants.ROLE_UPGRADER] + roleCounts[constants.ROLE_BUILDER] < roleCounts[constants.ROLE_MINER] + 2) {
 				var newName = 'Builder' + Game.time;
+				var newSourceFinderId = constants.SOURCE_S0_M;
+
+				//TODO: add a condition to check how fast we're draining the original sources
+				if (memoryWrapper.externalSources.getList() && memoryWrapper.externalSources.getList().length > 0) {
+					newSourceFinderId = constants.SOURCE_EXTERNAL;
+				}
+
 					
 				if (OK == Game.spawns['Spawn1'].spawnCreep(bodyParts, newName, 
-					{memory: {goal: this.id, role: constants.ROLE_UPGRADER, origRole: -1, sourceFinderId: constants.SOURCE_S0_M, targetFinderId: constants.TARGET_CONTROLLER}})){
+					{memory: {goal: this.id, role: constants.ROLE_UPGRADER, origRole: -1, sourceFinderId: newSourceFinderId, targetFinderId: constants.TARGET_CONTROLLER}})){
 						console.log("created bigger builder  " + Game.time);
 					}
 				return true;
@@ -295,11 +303,24 @@ var goals = {
 		},
 		
 	},
-	mineRemote: {
+	findMoreEnergy: {
 		id: 6,
-		isComplete: function(room){ return false;},
+		isComplete: function(room){ 
+			return (roleBase.countByRole(constants.ROLE_EXPLORER) >= 1);
+		},
 		spawnRule: function(room, roleCounts, creepCount){
+			if (room.controller.level < 3) {
+				return false;
+			}
+
+			var newName = 'Explorer' + Game.time;
 			
+			if(OK == Game.spawns['Spawn1'].spawnCreep([WORK,CARRY,MOVE,MOVE], newName, 
+				{memory: {goal: this.id, role: constants.ROLE_EXPLORER, origRole: -1, sourceFinderId: null, targetFinderId: null, originalRoomName: room.name}})){
+					console.log("created explorer at " + Game.time);
+				}
+			return true;
+		
 		}
 	},
 };
@@ -310,7 +331,9 @@ goalList.push(goals.upgrade2);
 goalList.push(goals.buildCoreExtensions);
 goalList.push(goals.buildRemoteExtensions);
 goalList.push(goals.energizeRemoteExtensions);
+goalList.push(goals.findMoreEnergy);
 goalList.push(goals.upgrade3);
+
 
 var spawner = {
 	

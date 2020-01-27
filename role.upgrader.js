@@ -18,22 +18,34 @@ var roleUpgrader = {
 			//TODO: possibly pull this from somewhere else - for now, upgrader always has the same target
             var result = creep.upgradeController(creep.room.controller);
             if(result == ERR_NOT_IN_RANGE) {
-                creep.moveTo(creep.room.controller);
+				if (creep.memory.watching) {console.log("moving to controller");}
+                creep.moveTo(constants.targetFinders[creep.memory.targetFinderId](creep));
             }
 			else if (result == OK) {
-				
+				if (creep.memory.watching) {console.log("upgrading controller");}
 			}
         }
         else {
 			var source = constants.sourceFinders[creep.memory.sourceFinderId](creep);
 			
 			if (source) {
-				if(source.name || creep.harvest(source) == ERR_NOT_IN_RANGE) {
+				var result = creep.harvest(source);
+				if(source.name || result == ERR_NOT_IN_RANGE) {
+					if (creep.memory.watching) {console.log("moving to source");}
                     var path = creep.pos.findPathTo(source, {visualizePathStyle: {stroke: '#ffaa00'}});
 					creep.moveByPath(path);
 					//TODO: sanity check on path
-                }
+				}
+				else if (result == OK){
+					if (creep.memory.watching) {console.log("harvesting");}
+				}
+				else {
+					if (creep.memory.watching) {console.log("uprader harvest error " + result + " at " + Game.time + " for " + roleBase.log(creep));}
+				}
 			}  
+			else {
+				if (creep.memory.watching) {console.log("no source exists");}
+			}
         }
 		
 	    if (creep.room.energyAvailable < creep.room.energyCapacityAvailable) {

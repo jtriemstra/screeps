@@ -6,17 +6,19 @@ var constants = require('constants');
 var sitecreator = require('sitecreator');
 var roleMiner = require('role.miner');
 var roleBase = require('role.base');
+var roleExplorer = require('role.explorer');
 
 
 module.exports.loop = function () {
 
-	var room;
+    //TODO: make this dynamic again, but need to make sure having creeps in two rooms doesn't confuse things
+	var room = Game.rooms["W8N3"];
 	var creepCount=0;
 	var roleCounts = [0,0,0,0,0,0,0];
 	
 	for(var name in Game.creeps) {
         var creep = Game.creeps[name];
-        room = creep.room;
+        
 		if(creep.memory.role == constants.ROLE_HARVESTER) {
             var result = roleHarvester.run(creep);
 			
@@ -39,6 +41,9 @@ module.exports.loop = function () {
         }
         if(creep.memory.role == constants.ROLE_MINER) {
             roleMiner.run(creep);
+        }
+        if(creep.memory.role == constants.ROLE_EXPLORER){
+            roleExplorer.run(creep);
         }
         creepCount++;
 		roleCounts[roleBase.getOrigRole(creep)]++;
@@ -64,4 +69,11 @@ watch = function(creepName) {
     var creep = Game.creeps[creepName];
     creep.memory.watching = !(creep.memory.watching);
     return creep.memory.watching;
+}
+
+exits = function(){
+    var exits = Game.rooms["W8N3"].find(FIND_EXIT);
+    for(var i=0; i<exits.length; i++){
+        console.log(exits[i]);
+    }
 }
