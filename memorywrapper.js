@@ -11,6 +11,18 @@ var memoryWrapper = {
         getList: function(){
             return Memory.externalSources;
         }
+    },
+    sourceDrained: {
+        //TODO: make this less binary and more of a range from underutilized to overutilized
+        set: function(){
+            Memory.sourceDrained = true;
+        },
+        get: function(){
+            if (Memory.sourceDrained == undefined || Memory.sourceDrained == null) {
+                return false;
+            }
+            return Memory.sourceDrained;
+        }
     }
 };
 

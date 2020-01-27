@@ -286,6 +286,7 @@ var goals = {
 				var newSourceFinderId = constants.SOURCE_S0_M;
 
 				//TODO: add a condition to check how fast we're draining the original sources
+				//TODO: this locks usage of the remote source to upgrading, but in other rooms it might be useful for other things
 				if (memoryWrapper.externalSources.getList() && memoryWrapper.externalSources.getList().length > 0) {
 					newSourceFinderId = constants.SOURCE_EXTERNAL;
 				}
@@ -309,7 +310,11 @@ var goals = {
 			return (roleBase.countByRole(constants.ROLE_EXPLORER) >= 1);
 		},
 		spawnRule: function(room, roleCounts, creepCount){
-			if (room.controller.level < 3) {
+			if (room.controller.level < 2) {
+				return false;
+			}
+
+			if (!memoryWrapper.sourceDrained.get()){
 				return false;
 			}
 

@@ -1,5 +1,6 @@
 var constants = require('constants');
 var roleBase = require('role.base');
+var memoryWrapper = require('memorywrapper');
 
 var roleMiner = {
 
@@ -8,10 +9,14 @@ var roleMiner = {
         
 		if(creep.store.getFreeCapacity() > 0) {
             var source = constants.sourceFinders[creep.memory.sourceFinderId](creep);
-			
-            if(creep.harvest(source) == ERR_NOT_IN_RANGE) {
+			var result = creep.harvest(source);
+            if(result == ERR_NOT_IN_RANGE) {
                 creep.moveTo(source, {visualizePathStyle: {stroke: '#ffaa00'}});
                 if (creep.memory.watching) {console.log("moving to source");}
+            }
+            else if (result == ERR_NOT_ENOUGH_RESOURCES){
+                memoryWrapper.sourceDrained.set();
+                if (creep.memory.watching) {console.log("source has no energy");}
             }
             else {
                 if (creep.memory.watching) {console.log("harvesting from source");}

@@ -7,12 +7,13 @@ var sitecreator = require('sitecreator');
 var roleMiner = require('role.miner');
 var roleBase = require('role.base');
 var roleExplorer = require('role.explorer');
+var utility = require('utility');
 
 
 module.exports.loop = function () {
 
-    //TODO: make this dynamic again, but need to make sure having creeps in two rooms doesn't confuse things
-	var room = Game.rooms["W8N3"];
+    //TODO: eventually this needs to do more than just care about the "main" room
+	var room = utility.getMainRoom();
 	var creepCount=0;
 	var roleCounts = [0,0,0,0,0,0,0];
 	

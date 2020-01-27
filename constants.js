@@ -82,7 +82,7 @@ var constants = {
 			sources.push(Game.getObjectById(sourceIds[i]));
 		}
 
-		//TODO: figure out which one is closest, may need to be done by the explorer role
+		//TODO: explorer currently only pushes a single source, but eventually need multiple, and need to sort by closest
 		if (sources.length > 0) {
 			return sources[0];
 		}
@@ -115,8 +115,8 @@ var constants = {
 	},
 	
 	targetController: function(creep){
-		//TODO: make this dynamic, and support cross-room controllers
-		return Game.getObjectById("1bc30772347c388");
+		//TODO: support multiple room controllers
+		return Game.spawns["Spawn1"].room.controller;
 	},
 	
 	targetCoreExt: function(creep){
