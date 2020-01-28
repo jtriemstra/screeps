@@ -129,7 +129,7 @@ var goals = {
 				return true;
 			}
 			//TODO: try changing this. if there is 1 more upgrader/builder than miners, this will convert to have more miners than builders. not sure that's good.
-			else if (roleCounts[constants.ROLE_MINER] < 4 && (roleCounts[constants.ROLE_UPGRADER] + roleCounts[constants.ROLE_BUILDER]) > roleCounts[constants.ROLE_MINER]){
+			else if (roleCounts[constants.ROLE_MINER] < 3 && (roleCounts[constants.ROLE_UPGRADER] + roleCounts[constants.ROLE_BUILDER]) > roleCounts[constants.ROLE_MINER]){
 				
 				for(var name in Game.creeps) {
 					var creep = Game.creeps[name];
@@ -289,7 +289,9 @@ var goals = {
 				//TODO: add a condition to check how fast we're draining the original sources
 				//TODO: this locks usage of the remote source to upgrading, but in other rooms it might be useful for other things
 				if (memoryWrapper.externalSources.getList() && memoryWrapper.externalSources.getList().length > 0) {
-					newSourceFinderId = constants.SOURCE_EXTERNAL;
+					if (Game.time % 3 == 0) {
+						newSourceFinderId = constants.SOURCE_EXTERNAL;
+					}
 				}
 
 					
