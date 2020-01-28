@@ -3,6 +3,35 @@ var roleBase = require('./role.base');
 var sourceFinder = require('./sourcefinder');
 var memoryWrapper = require('./memorywrapper');
 
+var getWorkerParts = function(room){
+	//TODO: make parts flexible based on the room  map
+	//TODO: this might be too aggressive in creating bigger creeps
+	
+	var tempEnergy = room.energyCapacityAvailable - 300;
+	var parts = [WORK,WORK,CARRY,MOVE];
+	if (tempEnergy >= 100) {
+		tempEnergy -= 100;
+		parts.push(WORK);
+	}
+	if (tempEnergy >= 50) {
+		tempEnergy -= 50;
+		parts.push(MOVE);
+	}
+	var flipFlopBool = true;
+	while (tempEnergy >= 100){
+		if (flipFlopBool){
+			parts.push(CARRY);
+			parts.push(MOVE);
+		}
+		else {
+			parts.push(WORK);
+		}
+		tempEnergy -= 100;
+		flipFlopBool = !flipFlopBool;
+	}
+	return parts;
+};
+
 var goals = {
 	list: function() {
 	},	
@@ -87,19 +116,9 @@ var goals = {
 				}
 			}
 
-			//TODO: set this up to loop and push parts
-			//TODO: make parts flexible based on the room  map
-			var bodyParts; 
-			if ( room.energyCapacityAvailable < 400) {
-				bodyParts = [WORK,WORK,CARRY,MOVE];
-			}
-			else if (room.energyCapacityAvailable < 450) {
-				bodyParts = [WORK,WORK,WORK,CARRY,MOVE];
-			}
-			else {
-				bodyParts = [WORK,WORK,WORK,CARRY,MOVE,MOVE];				
-			}
-
+			
+			var bodyParts = getWorkerParts(room);
+			
 			//TODO: some dynamic measure of congestion - this ends up being a ceiling for the entire if/else
 			var maxNumberOfBuilders = 9;
 			var numberOfBuilders = roleBase.countByRole(constants.ROLE_BUILDER);
@@ -264,14 +283,8 @@ var goals = {
 				}
 			}						
 			
-			var bodyParts;
-			if (room.energyCapacityAvailable < 550){
-				bodyParts = [WORK,WORK,CARRY,CARRY,MOVE,MOVE,MOVE];
-			} 
-			else {
-				bodyParts = [WORK,WORK,WORK,CARRY,CARRY,MOVE,MOVE,MOVE];
-			}
-
+			var bodyParts = getWorkerParts(room);;
+			
 			if (roleCounts[constants.ROLE_MINER] < 4) {
 				var newName = 'Miner' + Game.time;
 				

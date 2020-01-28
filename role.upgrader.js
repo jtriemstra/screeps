@@ -1,6 +1,7 @@
 var constants = require('constants');
 var sourceFinder = require('./sourcefinder');
 var targetFinder = require('./targetfinder');
+var roleBase = require('./role.base');
 
 var roleUpgrader = {
 
