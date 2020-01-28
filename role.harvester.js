@@ -1,9 +1,11 @@
 var constants = require('./constants');
 var roleBase = require('./role.base');
+var sourceFinder = require('./sourcefinder');
+var targetFinder = require('./targetfinder');
 
 var roleHarvester = {
 	isSanePath: function(path, creep) {
-		//TODO: this is a little clunky
+		//TODO: this is not going to make sense in all rooms
 		return creep.memory.goal == 3 || creep.memory.goal == 4 ? true : path.length < 16;
 	},
 	
@@ -13,7 +15,7 @@ var roleHarvester = {
 		//TODO: this results in harvesters that have partial capacity always going back to the source, even if it might be nice to find another target
 	    if(creep.store.getFreeCapacity() > 0) {
 	        
-            var source = constants.sourceFinders[creep.memory.sourceFinderId](creep);
+            var source = sourceFinder.sourceFinders[creep.memory.sourceFinderId](creep);
 			
 			if (source) {
 			    
@@ -43,7 +45,7 @@ var roleHarvester = {
 			}			
         }
         else {
-            var target = constants.targetFinders[creep.memory.targetFinderId](creep);
+            var target = targetFinder.targetFinders[creep.memory.targetFinderId](creep);
 			
             if(target) {
 				var result = creep.transfer(target, RESOURCE_ENERGY);

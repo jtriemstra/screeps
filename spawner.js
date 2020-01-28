@@ -20,7 +20,8 @@ var goals = {
 			
 			//TODO: make this dynamic somehow
 			//TODO: possibly allow for bigger creations here, but probably need to solve energy source issues first
-			if(harvesterCount < (tempCapacityAvailable > 400 ? 3 : 2)) {
+			var maxHarvesterCount = (tempCapacityAvailable > 650 ? 4 : (tempCapacityAvailable > 400 ? 3 : 2));
+			if(harvesterCount < maxHarvesterCount) {
 				var newName = 'Harvester' + Game.time;
 				
 				if(OK == Game.spawns['Spawn1'].spawnCreep([WORK,CARRY,MOVE,MOVE], newName, 

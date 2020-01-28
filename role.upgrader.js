@@ -1,5 +1,6 @@
 var constants = require('constants');
-
+var sourceFinder = require('./sourcefinder');
+var targetFinder = require('./targetfinder');
 
 var roleUpgrader = {
 
@@ -19,14 +20,14 @@ var roleUpgrader = {
             var result = creep.upgradeController(creep.room.controller);
             if(result == ERR_NOT_IN_RANGE) {
 				if (creep.memory.watching) {console.log("moving to controller");}
-                creep.moveTo(constants.targetFinders[creep.memory.targetFinderId](creep));
+                creep.moveTo(targetFinder.targetFinders[creep.memory.targetFinderId](creep));
             }
 			else if (result == OK) {
 				if (creep.memory.watching) {console.log("upgrading controller");}
 			}
         }
         else {
-			var source = constants.sourceFinders[creep.memory.sourceFinderId](creep);
+			var source = sourceFinder.sourceFinders[creep.memory.sourceFinderId](creep);
 			
 			if (source) {
 				var result = creep.harvest(source);
