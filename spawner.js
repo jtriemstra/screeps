@@ -129,7 +129,7 @@ var goals = {
 				return true;
 			}
 			//TODO: try changing this. if there is 1 more upgrader/builder than miners, this will convert to have more miners than builders. not sure that's good.
-			else if (roleCounts[constants.ROLE_MINER] < 3 && (roleCounts[constants.ROLE_UPGRADER] + roleCounts[constants.ROLE_BUILDER]) > roleCounts[constants.ROLE_MINER]){
+			else if (roleCounts[constants.ROLE_MINER] < 4 && (roleCounts[constants.ROLE_UPGRADER] + roleCounts[constants.ROLE_BUILDER]) > roleCounts[constants.ROLE_MINER]){
 				
 				for(var name in Game.creeps) {
 					var creep = Game.creeps[name];
@@ -147,7 +147,7 @@ var goals = {
 				return true;
 
 			}
-			else if (roleCounts[constants.ROLE_MINER] < 3) {
+			else if (roleCounts[constants.ROLE_MINER] < 4) {
 				var newName = 'Miner' + Game.time;
 				
 				if (OK == Game.spawns['Spawn1'].spawnCreep(bodyParts, newName, 
@@ -272,7 +272,7 @@ var goals = {
 				bodyParts = [WORK,WORK,WORK,CARRY,CARRY,MOVE,MOVE,MOVE];
 			}
 
-			if (roleCounts[constants.ROLE_MINER] < 3) {
+			if (roleCounts[constants.ROLE_MINER] < 4) {
 				var newName = 'Miner' + Game.time;
 				
 				if (OK == Game.spawns['Spawn1'].spawnCreep(bodyParts, newName, 
