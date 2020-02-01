@@ -31,19 +31,16 @@ var roleExplorer = {
 		}
 		else {
 			if (creep.memory.watching) {console.log("out of original room");}
-			var sources = creep.room.find(FIND_SOURCES);
+			if (!memoryWrapper.externalSources.roomIsSaved(creep.room.name)){
+				var sources = creep.room.find(FIND_SOURCES);
 			
-			var closestSource = creep.pos.findClosestByPath(sources);
-			if (closestSource != null){				
-				if (creep.memory.watching) {console.log("found a source");}
-				memoryWrapper.externalSources.add(closestSource.id);
-				//TODO: this can block access to the source at some point
-				creep.moveTo(closestSource);
+				for(const source of sources){
+					var path = creep.pos.findPathTo(source);
+					memoryWrapper.externalSources.add(source.id, path.length, creep.room.name);
+				}
+					
+				creep.moveTo(sources[0]);
 			}			
-			else {
-				if (creep.memory.watching) {console.log("no source found");}
-				//TODO: solve for cases where there is no path to any source (fully blocked)
-			}
 		}
 	},
 	hasTargetExit: function(creep){

@@ -1,11 +1,11 @@
 var memoryWrapper = {
     externalSources : {
-        add: function(id){
+        add: function(id, distance, roomName){
             if (Memory.externalSources == undefined || Memory.externalSources == null) {
                 Memory.externalSources = [];
             }
             if (!Memory.externalSources.includes(id)){
-                Memory.externalSources.push(id);
+                Memory.externalSources.push({"id":id, "distance":distance, "roomName": roomName});
             }
         },
         getList: function(){
@@ -13,6 +13,13 @@ var memoryWrapper = {
                 return [];
             }
             return Memory.externalSources;
+        },
+        roomIsSaved: function(roomName){
+            if (Memory.externalSources == undefined || Memory.externalSources == null){
+                return false;
+            }
+
+            return Memory.externalSources.filter(s => s.roomName == roomName).length > 0;
         }
     },
     sourceDrained: {

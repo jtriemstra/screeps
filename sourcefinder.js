@@ -1,5 +1,6 @@
 var constants = require('./constants');
 var memoryWrapper = require('./memorywrapper');
+var targetFinder = require('./targetfinder');
 
 var sourceFinder = {
     find: function(creep){
@@ -14,7 +15,7 @@ var sourceFinder = {
             return true;
         }
     },
-    sourceS0_M: function(creep){
+    sourceS0_M: function(creep){        
         //TODO: when miners are spread apart, always preferring the miners causes creeps to bounce from one miner to another when they could harvest themselves temporarily
 		var sources = creep.room.find(FIND_MY_CREEPS, {
 				filter: (minerCreep) => {
@@ -39,6 +40,7 @@ var sourceFinder = {
 	},
 	
 	sourceS0: function(creep) {
+        //TODO: ensure miners are spread evenly on sources
 		var sources = creep.room.find(FIND_SOURCES);
 		
 		if (sources.length == 1) {
@@ -64,16 +66,32 @@ var sourceFinder = {
 	},
 
 	sourceExternal: function(creep) {
+        //TODO: save the external source instead of recalculating every time
 		var sources = [];
-		var sourceIds = memoryWrapper.externalSources.getList();
+		var savedSources = memoryWrapper.externalSources.getList();
 
-		for (var i=0; i<sourceIds.length; i++){
-			sources.push(Game.getObjectById(sourceIds[i]));
+		for (var i=0; i<savedSources.length; i++){
+			sources.push(Game.getObjectById(savedSources[i].id));
 		}
 
-		//TODO: explorer currently only pushes a single source, but eventually need multiple, and need to sort by closest
-		if (sources.length > 0) {
-			return sources[0];
+        if (sources.length == 1){
+            return sources[0];
+        }
+		else if (sources.length > 1) {
+            //TODO: there's a chance that the targetfinder function expects the creep to be in a certain room when it executes. not true for upgraders right now.
+            var minPath = 300;
+            var target = targetFinder.targetFinders[creep.memory.targetFinderId](creep);
+            var chosenSource;
+            for(const source of sources){
+                //TODO: not sure this captures the path length from both rooms - add in the saved distance
+                var path = target.pos.findPathTo(source);
+                
+                if (path.length < minPath){
+                    minPath = path.length;
+                    chosenSource = source;
+                }
+            }
+            return chosenSource;
 		}
 		return null;
     },

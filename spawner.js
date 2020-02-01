@@ -324,7 +324,8 @@ var goals = {
 	findMoreEnergy: {
 		id: 6,
 		isComplete: function(room){ 
-			return (roleBase.countByRole(constants.ROLE_EXPLORER) >= roleExplorer.getExits(room).length);
+			//TODO: if explorers die, but we're still using the source in their room, creating a new one is not necessary
+			return roleBase.countByRole(constants.ROLE_EXPLORER) >= roleExplorer.getExits(room).length;
 		},
 		spawnRule: function(room, roleCounts, creepCount){
 			if (room.controller.level < 2) {
