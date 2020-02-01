@@ -37,9 +37,9 @@ var functions = {
 			return thisSite.structureType == STRUCTURE_EXTENSION;
 		}});
         
-        //TODO: order is not guaranteed, so always returning [0] will spread building efforts out, which slows completion of any given site
-		if (targets.length > 0) return targets[0];
-		
+        if (targets.length > 0){
+            return creep.pos.findClosestByPath(targets);
+        }
 		return null;
 	},
 	
