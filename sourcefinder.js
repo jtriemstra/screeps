@@ -67,11 +67,13 @@ var functions = {
 
 	sourceExternal: function(creep) {
         //TODO: save the external source instead of recalculating every time
-		var sources = [];
+        var sources = [];
+        var distances = [];
 		var savedSources = memoryWrapper.externalSources.getList();
 
 		for (var i=0; i<savedSources.length; i++){
-			sources.push(Game.getObjectById(savedSources[i].id));
+            sources.push(Game.getObjectById(savedSources[i].id));
+            distances.push(savedSources[i].distance);
 		}
 
         if (sources.length == 1){
@@ -82,12 +84,12 @@ var functions = {
             var minPath = 300;
             var target = targetFinder[creep.memory.targetFinderId](creep);
             var chosenSource;
-            for(const source of sources){
-                //TODO: not sure this captures the path length from both rooms - add in the saved distance
+            for(var i=0; i<sources.length; i++){
+                var source = sources[i];
                 var path = target.pos.findPathTo(source);
-                
-                if (path.length < minPath){
-                    minPath = path.length;
+
+                if (path.length + distances[i] < minPath){
+                    minPath = path.length + distances[i];
                     chosenSource = source;
                 }
             }
