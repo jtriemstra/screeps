@@ -19,7 +19,7 @@ var roleBuilder = {
 	    }
 
 	    if(creep.memory.building) {
-	        var target = targetFinder.targetFinders[creep.memory.targetFinderId](creep);
+	        var target = targetFinder[creep.memory.targetFinderId](creep);
 	        
             if(target) {
 				var result = creep.build(target);
@@ -41,7 +41,7 @@ var roleBuilder = {
 			}
 	    }
 	    else {
-	        var source = sourceFinder.sourceFinders[creep.memory.sourceFinderId](creep);
+	        var source = sourceFinder[creep.memory.sourceFinderId](creep);
 			
 			if (source) {
 				var result = creep.harvest(source);

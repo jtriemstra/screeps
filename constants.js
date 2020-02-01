@@ -12,7 +12,7 @@ var constants = {
 	UPGRADING: 0,
 	BUILDING: 1,
 	
-	//TODO: get rid of these constants so I don't have to remember to create new ones when I add new methods
+	//TODO: get rid of these constants so I don't have to remember to create new ones when I add new methods. Need to retain the ability to save a simple piece of info like an index in memory however
 	SOURCE_S0_M: 0,
 	SOURCE_S0: 1,
 	SOURCE_S1: 2,

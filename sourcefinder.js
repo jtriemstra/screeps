@@ -2,7 +2,7 @@ var constants = require('./constants');
 var memoryWrapper = require('./memorywrapper');
 var targetFinder = require('./targetfinder');
 
-var sourceFinder = {
+var functions = {
     find: function(creep){
 
     },
@@ -80,7 +80,7 @@ var sourceFinder = {
 		else if (sources.length > 1) {
             //TODO: there's a chance that the targetfinder function expects the creep to be in a certain room when it executes. not true for upgraders right now.
             var minPath = 300;
-            var target = targetFinder.targetFinders[creep.memory.targetFinderId](creep);
+            var target = targetFinder[creep.memory.targetFinderId](creep);
             var chosenSource;
             for(const source of sources){
                 //TODO: not sure this captures the path length from both rooms - add in the saved distance
@@ -96,12 +96,13 @@ var sourceFinder = {
 		return null;
     },
     
-	sourceFinders: [],
 };
 
-sourceFinder.sourceFinders.push(sourceFinder.sourceS0_M);
-sourceFinder.sourceFinders.push(sourceFinder.sourceS0);
-sourceFinder.sourceFinders.push(sourceFinder.sourceS1);
-sourceFinder.sourceFinders.push(sourceFinder.sourceExternal);
+var sourceFinder = [
+        functions.sourceS0_M,
+        functions.sourceS0,
+        functions.sourceS1,
+        functions.sourceExternal
+    ];
 
 module.exports = sourceFinder;

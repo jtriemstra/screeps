@@ -15,7 +15,7 @@ var roleHarvester = {
 		//TODO: this results in harvesters that have partial capacity always going back to the source, even if it might be nice to find another target
 	    if(creep.store.getFreeCapacity() > 0) {
 	        
-            var source = sourceFinder.sourceFinders[creep.memory.sourceFinderId](creep);
+            var source = sourceFinder[creep.memory.sourceFinderId](creep);
 			
 			if (source) {
 			    
@@ -45,7 +45,7 @@ var roleHarvester = {
 			}			
         }
         else {
-            var target = targetFinder.targetFinders[creep.memory.targetFinderId](creep);
+            var target = targetFinder[creep.memory.targetFinderId](creep);
 			
             if(target) {
 				var result = creep.transfer(target, RESOURCE_ENERGY);

@@ -10,7 +10,7 @@ var roleMiner = {
     run: function(creep) {
         
 		if(creep.store.getFreeCapacity() > 0) {
-            var source = sourceFinder.sourceFinders[creep.memory.sourceFinderId](creep);
+            var source = sourceFinder[creep.memory.sourceFinderId](creep);
 			var result = creep.harvest(source);
             if(result == ERR_NOT_IN_RANGE) {
                 creep.moveTo(source, {visualizePathStyle: {stroke: '#ffaa00'}});
@@ -25,7 +25,7 @@ var roleMiner = {
             }
         }
 		else {
-		    var target = targetFinder.targetFinders[creep.memory.targetFinderId](creep);
+		    var target = targetFinder[creep.memory.targetFinderId](creep);
             if(target) {
                 var result = creep.transfer(target, RESOURCE_ENERGY);
                 if (creep.memory.watching) {console.log("miner transfer result " + result + " for " + roleBase.log(creep));}

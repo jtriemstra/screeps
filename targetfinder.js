@@ -1,7 +1,7 @@
 var constants = require('./constants');
 var memoryWrapper = require('./memorywrapper');
 
-var targetFinder = {
+var functions = {
     targetSpawnExt: function(creep) {
 		//TODO: make this range more dynamic
 		 var targets = creep.room.find(FIND_STRUCTURES, {
@@ -75,14 +75,14 @@ var targetFinder = {
 		return null;
 	},
 	
-	targetFinders: [],
 }
 
-
-targetFinder.targetFinders.push(targetFinder.targetSpawnExt);
-targetFinder.targetFinders.push(targetFinder.targetController);
-targetFinder.targetFinders.push(targetFinder.targetCoreExt);
-targetFinder.targetFinders.push(targetFinder.targetCreep);
-targetFinder.targetFinders.push(targetFinder.targetRemoteExt);
+var targetFinder = [
+    functions.targetSpawnExt,
+    functions.targetController,
+    functions.targetCoreExt,
+    functions.targetCreep,
+    functions.targetRemoteExt
+];
 
 module.exports = targetFinder;
