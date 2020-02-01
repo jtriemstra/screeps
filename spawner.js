@@ -185,9 +185,9 @@ var goals = {
 	buildRemoteExtensions: {
 		id:3,
 		isComplete: function(room){
-			if (!sourceFinder.shouldPrioritizeOneSource(room)){
+			//if (!sourceFinder.shouldPrioritizeOneSource(room)){
 				return true;
-			}
+			//}
 			//TODO: there might be a way to do this to trade off CPU for memory/code
 			//TODO: make this range of 10 more dynamic
 			var extensions = room.find(FIND_MY_STRUCTURES, {	filter: (thisStructure) => {
@@ -238,9 +238,9 @@ var goals = {
 		id:4,
 		isComplete: function(room){	
 			
-			if (!sourceFinder.shouldPrioritizeOneSource(room)){
+			//if (!sourceFinder.shouldPrioritizeOneSource(room)){
 				return true;
-			}
+			//}
 
 			return false; 
 		},
