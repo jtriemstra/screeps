@@ -36,7 +36,8 @@ var targetFinder = {
 			//return creep.pos.inRangeTo(thisSite.pos, 13) && thisSite.structureType == STRUCTURE_EXTENSION;
 			return thisSite.structureType == STRUCTURE_EXTENSION;
 		}});
-		
+        
+        //TODO: order is not guaranteed, so always returning [0] will spread building efforts out, which slows completion of any given site
 		if (targets.length > 0) return targets[0];
 		
 		return null;

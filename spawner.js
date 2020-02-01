@@ -2,6 +2,7 @@ var constants = require('./constants');
 var roleBase = require('./role.base');
 var sourceFinder = require('./sourcefinder');
 var memoryWrapper = require('./memorywrapper');
+var roleExplorer = require('./role.explorer');
 
 var getWorkerParts = function(room){
 	//TODO: make parts flexible based on the room  map
@@ -299,7 +300,7 @@ var goals = {
 				var newName = 'Builder' + Game.time;
 				var newSourceFinderId = constants.SOURCE_S0_M;
 
-				//TODO: add a condition to check how fast we're draining the original sources
+				//TODO: add a condition to check how fast we're draining the original sources, instead of the arbitrary 33% external assumption
 				//TODO: this locks usage of the remote source to upgrading, but in other rooms it might be useful for other things
 				if (memoryWrapper.externalSources.getList() && memoryWrapper.externalSources.getList().length > 0) {
 					if (Game.time % 3 == 0) {
@@ -310,7 +311,7 @@ var goals = {
 					
 				if (OK == Game.spawns['Spawn1'].spawnCreep(bodyParts, newName, 
 					{memory: {goal: this.id, role: constants.ROLE_UPGRADER, origRole: -1, sourceFinderId: newSourceFinderId, targetFinderId: constants.TARGET_CONTROLLER}})){
-						console.log("created bigger builder  " + Game.time);
+						console.log("created bigger builder  " + Game.time + " with external?" + (newSourceFinderId == constants.SOURCE_EXTERNAL));
 					}
 				return true;
 			}
@@ -323,13 +324,14 @@ var goals = {
 	findMoreEnergy: {
 		id: 6,
 		isComplete: function(room){ 
-			return (roleBase.countByRole(constants.ROLE_EXPLORER) >= 1);
+			return (roleBase.countByRole(constants.ROLE_EXPLORER) >= roleExplorer.getExits(room).length);
 		},
 		spawnRule: function(room, roleCounts, creepCount){
 			if (room.controller.level < 2) {
 				return false;
 			}
 
+			//TODO: make this less binary and more of a range from underutilized to overutilized
 			if (!memoryWrapper.sourceDrained.get()){
 				return false;
 			}

@@ -9,6 +9,9 @@ var memoryWrapper = {
             }
         },
         getList: function(){
+            if (Memory.externalSources == undefined || Memory.externalSources == null){
+                return [];
+            }
             return Memory.externalSources;
         }
     },
@@ -22,6 +25,20 @@ var memoryWrapper = {
                 return false;
             }
             return Memory.sourceDrained;
+        }
+    },
+    exitsExploring: {
+        add: function(pos){
+            if (Memory.exitsExploring == undefined || Memory.exitsExploring == null){
+                Memory.exitsExploring = [];
+            }
+            Memory.exitsExploring.push(pos);
+        },
+        getList: function(){
+            if (Memory.exitsExploring == undefined || Memory.exitsExploring == null){
+                return [];
+            }
+            return Memory.exitsExploring.map(e => new RoomPosition(e.x, e.y, e.roomName));
         }
     }
 };
