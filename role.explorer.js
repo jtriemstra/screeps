@@ -38,7 +38,8 @@ var roleExplorer = {
 					var path = creep.pos.findPathTo(source);
 					memoryWrapper.externalSources.add(source.id, path.length, creep.room.name);
 				}
-					
+				
+				memoryWrapper.exitsExploring.remove(creep.name);
 				creep.moveTo(sources[0]);
 			}			
 		}

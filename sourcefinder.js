@@ -16,23 +16,20 @@ var functions = {
         }
     },
     sourceS0_M: function(creep){        
-        //TODO: when miners are spread apart, always preferring the miners causes creeps to bounce from one miner to another when they could harvest themselves temporarily
-		var sources = creep.room.find(FIND_MY_CREEPS, {
+        //TODO: if sources are spread out, need to be able to choose miners attached to a given source
+		var miners = creep.room.find(FIND_MY_CREEPS, {
 				filter: (minerCreep) => {
 					return minerCreep.memory.role == constants.ROLE_MINER && minerCreep.store.getFreeCapacity() == 0;
 				}
-		});
+        });
+        
+        var sources = creep.room.find(FIND_SOURCES);
 		
-		if (sources.length == 0) {
-			sources = creep.room.find(FIND_SOURCES);
-		}
-		
-		//TODO: consider how this algorithm changes if miners come back into play
 		if (sources.length == 1) {
 			return sources[0];			
 		}
 		else if (sources.length > 1){
-			return creep.pos.findClosestByPath(sources);
+			return creep.pos.findClosestByPath(sources.concat(miners));
 		}
 		else {
 			return null;

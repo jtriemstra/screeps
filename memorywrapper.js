@@ -4,7 +4,9 @@ var memoryWrapper = {
             if (Memory.externalSources == undefined || Memory.externalSources == null) {
                 Memory.externalSources = [];
             }
-            if (!Memory.externalSources.includes(id)){
+
+            var thisRoom = Memory.externalSources.filter(s => s.id == id);
+            if (thisRoom.length == 0){
                 Memory.externalSources.push({"id":id, "distance":distance, "roomName": roomName});
             }
         },
@@ -19,7 +21,7 @@ var memoryWrapper = {
                 return false;
             }
 
-            return Memory.externalSources.filter(s => s.roomName == roomName).length > 0;
+            return (Memory.externalSources.filter(s => s.roomName == roomName).length > 0) && Game.rooms[roomName];
         }
     },
     sourceDrained: {
@@ -35,17 +37,30 @@ var memoryWrapper = {
         }
     },
     exitsExploring: {
-        add: function(pos){
+        add: function(pos, creepName){
             if (Memory.exitsExploring == undefined || Memory.exitsExploring == null){
-                Memory.exitsExploring = [];
+                Memory.exitsExploring = {};
             }
-            Memory.exitsExploring.push(pos);
+            Memory.exitsExploring[creepName] = pos;
         },
         getList: function(){
             if (Memory.exitsExploring == undefined || Memory.exitsExploring == null){
                 return [];
             }
-            return Memory.exitsExploring.map(e => new RoomPosition(e.x, e.y, e.roomName));
+
+            var exits = [];
+            for (var creepName in Memory.exitsExploring){
+                var e = Memory.exitsExploring[creepName];
+                exits.push(new RoomPosition(e.x, e.y, e.roomName));
+            }
+            return exits;
+        },
+        remove: function(creepName){
+            if (Memory.exitsExploring == undefined || Memory.exitsExploring == null){
+                return;
+            }
+
+            delete Memory.exitsExploring[creepName];
         }
     }
 };
