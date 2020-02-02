@@ -17,7 +17,6 @@ var roleUpgrader = {
 	    }
 
 	    if(creep.memory.upgrading) {
-			//TODO: possibly pull this from somewhere else - for now, upgrader always has the same target
             var result = creep.upgradeController(creep.room.controller);
             if(result == ERR_NOT_IN_RANGE) {
 				if (creep.memory.watching) {console.log("moving to controller");}
@@ -48,11 +47,7 @@ var roleUpgrader = {
 			else {
 				if (creep.memory.watching) {console.log("no source exists");}
 			}
-        }
-		
-	    if (creep.room.energyAvailable < creep.room.energyCapacityAvailable) {
-			//creep.memory.role = constants.ROLE_HARVESTER;
-		}
+        }		
 	}
 };
 

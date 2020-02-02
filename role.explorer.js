@@ -40,8 +40,19 @@ var roleExplorer = {
 				}
 				
 				memoryWrapper.exitsExploring.remove(creep.name);
-				creep.moveTo(sources[0]);
+			}
+			if (creep.pos.x == 0){
+				creep.move(RIGHT);
 			}			
+			if (creep.pos.x == 49){
+				creep.move(LEFT);
+			}
+			if (creep.pos.y == 0){
+				creep.move(BOTTOM);
+			}
+			if (creep.pos.y == 49){
+				creep.move(TOP);
+			}
 		}
 	},
 	hasTargetExit: function(creep){
