@@ -7,6 +7,7 @@ var roleExplorer = require('./role.explorer');
 var getWorkerParts = function(room){
 	//TODO: make parts flexible based on the room  map
 	//TODO: this might be too aggressive in creating bigger creeps
+	//TODO: miners have less need for move parts
 	
 	var tempEnergy = room.energyCapacityAvailable - 300;
 	var parts = [WORK,WORK,CARRY,MOVE];
@@ -284,7 +285,7 @@ var goals = {
 				}
 			}						
 			
-			var bodyParts = getWorkerParts(room);;
+			var bodyParts = getWorkerParts(room);
 			
 			if (roleCounts[constants.ROLE_MINER] < 4) {
 				var newName = 'Miner' + Game.time;
